@@ -9,7 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.plutusecurus.R;
@@ -19,13 +20,16 @@ import java.lang.String;
 
 public final class FragmentWalletBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final TextView balance;
 
   @NonNull
   public final CardView balanceCard;
+
+  @NonNull
+  public final RecyclerView historyRecyclerView;
 
   @NonNull
   public final TextView historyTxt;
@@ -51,13 +55,15 @@ public final class FragmentWalletBinding implements ViewBinding {
   @NonNull
   public final TextView userid;
 
-  private FragmentWalletBinding(@NonNull ConstraintLayout rootView, @NonNull TextView balance,
-      @NonNull CardView balanceCard, @NonNull TextView historyTxt, @NonNull TextView pay,
-      @NonNull CardView payButton, @NonNull TextView profileName, @NonNull CardView profilePicCard,
+  private FragmentWalletBinding(@NonNull NestedScrollView rootView, @NonNull TextView balance,
+      @NonNull CardView balanceCard, @NonNull RecyclerView historyRecyclerView,
+      @NonNull TextView historyTxt, @NonNull TextView pay, @NonNull CardView payButton,
+      @NonNull TextView profileName, @NonNull CardView profilePicCard,
       @NonNull ImageView profilePicture, @NonNull ImageView qrButton, @NonNull TextView userid) {
     this.rootView = rootView;
     this.balance = balance;
     this.balanceCard = balanceCard;
+    this.historyRecyclerView = historyRecyclerView;
     this.historyTxt = historyTxt;
     this.pay = pay;
     this.payButton = payButton;
@@ -70,7 +76,7 @@ public final class FragmentWalletBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -104,6 +110,12 @@ public final class FragmentWalletBinding implements ViewBinding {
       id = R.id.balance_card;
       CardView balanceCard = ViewBindings.findChildViewById(rootView, id);
       if (balanceCard == null) {
+        break missingId;
+      }
+
+      id = R.id.historyRecyclerView;
+      RecyclerView historyRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (historyRecyclerView == null) {
         break missingId;
       }
 
@@ -155,9 +167,9 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentWalletBinding((ConstraintLayout) rootView, balance, balanceCard,
-          historyTxt, pay, payButton, profileName, profilePicCard, profilePicture, qrButton,
-          userid);
+      return new FragmentWalletBinding((NestedScrollView) rootView, balance, balanceCard,
+          historyRecyclerView, historyTxt, pay, payButton, profileName, profilePicCard,
+          profilePicture, qrButton, userid);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3049,6 +3049,7 @@ int id aligned 0x7f0a0050
 int id all 0x7f0a0051
 int id allStates 0x7f0a0052
 int id always 0x7f0a0053
+int id amount 0x7f0a0288
 int id amount_card 0x7f0a0054
 int id androidx_window_activity_scope 0x7f0a0055
 int id animateToEnd 0x7f0a0056
@@ -3129,6 +3130,7 @@ int id custom 0x7f0a00a0
 int id customPanel 0x7f0a00a1
 int id cut 0x7f0a00a2
 int id dashboard 0x7f0a00a3
+int id date 0x7f0a0289
 int id date_picker_actions 0x7f0a00a4
 int id decelerate 0x7f0a00a5
 int id decelerateAndComplete 0x7f0a00a6
@@ -3186,7 +3188,6 @@ int id essentials_button 0x7f0a00d9
 int id essentials_card 0x7f0a00da
 int id essentials_percentage 0x7f0a0283
 int id essentials_text 0x7f0a00db
-int id eth_qr_selector 0x7f0a00dc
 int id eth_radio 0x7f0a00dd
 int id exitUntilCollapsed 0x7f0a00de
 int id expand_activities_button 0x7f0a00df
@@ -3238,6 +3239,7 @@ int id groups 0x7f0a010b
 int id guideline 0x7f0a010c
 int id header_title 0x7f0a010d
 int id hideable 0x7f0a010e
+int id historyRecyclerView 0x7f0a028a
 int id history_txt 0x7f0a010f
 int id home 0x7f0a0110
 int id homeAsUp 0x7f0a0111
@@ -3259,7 +3261,6 @@ int id image 0x7f0a0120
 int id immediateStop 0x7f0a0121
 int id included 0x7f0a0122
 int id info 0x7f0a0123
-int id inr_qr_selector 0x7f0a0124
 int id inr_radio 0x7f0a0125
 int id invisible 0x7f0a0126
 int id inward 0x7f0a0127
@@ -3575,6 +3576,7 @@ int id transport_button 0x7f0a0259
 int id transport_card 0x7f0a025a
 int id transport_text 0x7f0a025b
 int id triangle 0x7f0a025c
+int id tv_transaction_from 0x7f0a028b
 int id unchecked 0x7f0a025d
 int id uniform 0x7f0a025e
 int id unlabeled 0x7f0a025f
@@ -3734,6 +3736,7 @@ int layout design_text_input_start_icon 0x7f0d0032
 int layout fragment_dashboard 0x7f0d0033
 int layout fragment_nft 0x7f0d0034
 int layout fragment_wallet 0x7f0d0035
+int layout item_history 0x7f0d008c
 int layout m3_alert_dialog 0x7f0d0036
 int layout m3_alert_dialog_actions 0x7f0d0037
 int layout m3_alert_dialog_title 0x7f0d0038

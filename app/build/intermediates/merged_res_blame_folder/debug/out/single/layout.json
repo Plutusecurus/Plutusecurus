@@ -4,12 +4,16 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\fragment_dashboard.xml"
     },
     {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\activity_qr.xml",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_qr.xml"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\fragment_nft.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\fragment_nft.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\activity_qr.xml",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_qr.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/fragment_wallet.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_wallet.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\activity_payment.xml",
@@ -24,12 +28,12 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\minus_dialog_layout.xml"
     },
     {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/minus_dialog_layout.xml",
-        "source": "com.example.plutusecurus.app-main-50:/layout/minus_dialog_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\add_dialog_layout.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\add_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\item_history.xml",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\item_history.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\activity_planner.xml",
@@ -42,10 +46,6 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\activity_profile.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_profile.xml"
-    },
-    {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_planner.xml",
-        "source": "com.example.plutusecurus.app-main-50:/layout/activity_planner.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-47:\\layout\\fragment_wallet.xml",

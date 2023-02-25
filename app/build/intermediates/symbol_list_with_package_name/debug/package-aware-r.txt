@@ -3050,6 +3050,7 @@ id aligned
 id all
 id allStates
 id always
+id amount
 id amount_card
 id androidx_window_activity_scope
 id animateToEnd
@@ -3130,6 +3131,7 @@ id custom
 id customPanel
 id cut
 id dashboard
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3187,7 +3189,6 @@ id essentials_button
 id essentials_card
 id essentials_percentage
 id essentials_text
-id eth_qr_selector
 id eth_radio
 id exitUntilCollapsed
 id expand_activities_button
@@ -3239,6 +3240,7 @@ id groups
 id guideline
 id header_title
 id hideable
+id historyRecyclerView
 id history_txt
 id home
 id homeAsUp
@@ -3260,7 +3262,6 @@ id image
 id immediateStop
 id included
 id info
-id inr_qr_selector
 id inr_radio
 id invisible
 id inward
@@ -3576,6 +3577,7 @@ id transport_button
 id transport_card
 id transport_text
 id triangle
+id tv_transaction_from
 id unchecked
 id uniform
 id unlabeled
@@ -3735,6 +3737,7 @@ layout design_text_input_start_icon
 layout fragment_dashboard
 layout fragment_nft
 layout fragment_wallet
+layout item_history
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
