@@ -10,14 +10,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.SwitchCompat;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
@@ -28,6 +27,8 @@ public class DashboardFragment extends Fragment {
 
     ImageView pie_chart_button;
     ImageView plus,minus;
+    String exp="0",earn="0",tot="0";
+    float expenditure_int, earnings_int,total_int;
     TextView expenditure, earnings,total;
 
     @SuppressLint("SetTextI18n")
@@ -45,12 +46,12 @@ public class DashboardFragment extends Fragment {
         earnings =view.findViewById(R.id.credit_val);
         total=view.findViewById(R.id.total_val);
         /*______________________________TEXT CONFIG___________________________*/
-        final int[] selected = {0};
-        expenditure.setText("2500");
-        earnings.setText("3000");
-        total.setText("500");
-        float expenditure_int, earnings_int,total_int;
-
+        expenditure.setText(exp);
+        earnings.setText(earn);
+        total.setText(tot);
+        expenditure_int=Float.parseFloat(exp);
+        earnings_int=Float.parseFloat(earn);
+        total_int=Float.parseFloat(tot);
         /*_______________________________BUTTONS CONFIGS_________________________________________*/
 
 
@@ -64,6 +65,7 @@ public class DashboardFragment extends Fragment {
         minus.setOnClickListener(view1 -> showMinusDialog());
         return view;
     }
+    @SuppressLint("SetTextI18n")
     private void showAddDialog(){
 
         Dialog add_dialog=new Dialog(getActivity());
@@ -74,7 +76,6 @@ public class DashboardFragment extends Fragment {
         CardView standardIncome=add_dialog.findViewById(R.id.standard_income);
         CardView deposits=add_dialog.findViewById(R.id.deposits);
         EditText addVal=add_dialog.findViewById(R.id.money_added);
-
 
         final int[] flag_1 = {0};
         final int[] flag_2 = {0};
@@ -105,13 +106,26 @@ public class DashboardFragment extends Fragment {
 
         ok_button.setOnClickListener(view -> {
             //add data to file
-            add_dialog.dismiss();
+            String val=addVal.getText().toString();
+            if(!val.isEmpty()){
+                float value=Float.parseFloat(val);
+                earnings_int=earnings_int+value;
+                total_int=total_int+value;
+                earnings.setText(Float.toString(earnings_int));
+                total.setText(Float.toString(total_int));
+                add_dialog.dismiss();
+            }
+            else{
+                Toast.makeText(getContext(), "Please enter a value", Toast.LENGTH_SHORT).show();
+            }
+
         });
         cancel_button.setOnClickListener(view -> add_dialog.dismiss());
         add_dialog.show();
 
     }
 
+    @SuppressLint("SetTextI18n")
     private void showMinusDialog(){
         Dialog minus_dialog=new Dialog(getActivity());
         minus_dialog.setContentView(R.layout.minus_dialog_layout);
@@ -142,7 +156,20 @@ public class DashboardFragment extends Fragment {
 
         ok_button.setOnClickListener(view -> {
             //add data to file
-            minus_dialog.dismiss();
+            String val=minusVal.getText().toString();
+            float value=Float.parseFloat(val);
+
+            if(!val.isEmpty()){
+                expenditure_int=expenditure_int+value;
+                total_int=total_int-value;
+                expenditure.setText(Float.toString(expenditure_int));
+                total.setText(Float.toString(total_int));
+
+                minus_dialog.dismiss();
+            }
+            else{
+                Toast.makeText(getContext(), "Please enter a value", Toast.LENGTH_SHORT).show();
+            }
         });
         houseButton.setOnClickListener(view -> {
             foodButton.getBackground().setTint(Color.parseColor("#FFFFFFFF"));

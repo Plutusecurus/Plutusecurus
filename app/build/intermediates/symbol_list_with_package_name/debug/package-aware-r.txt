@@ -3180,10 +3180,12 @@ id enterAlways
 id enterAlwaysCollapsed
 id entertainment
 id entertainment_button
+id entertainment_text
 id essentials
 id essentials_amt
 id essentials_button
 id essentials_card
+id essentials_percentage
 id essentials_text
 id eth_qr_selector
 id eth_radio
@@ -3224,6 +3226,7 @@ id gift
 id gift_amt
 id gift_button
 id gift_card
+id gift_percentage
 id gift_text
 id glide_custom_view_target_tag
 id go_to_login_btn
@@ -3283,6 +3286,7 @@ id logout
 id ltr
 id luxury_amt
 id luxury_card
+id luxury_percentage
 id luxury_text
 id main_page_pie
 id masked
@@ -3321,9 +3325,11 @@ id mini
 id minus_button
 id misc_amt
 id misc_card
+id misc_percentage
 id misc_text
 id miscellaneous
 id miscellaneous_button
+id miscellaneous_text
 id money_added
 id money_spend
 id month_grid
@@ -3373,7 +3379,6 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
-id nft
 id noScroll
 id noState
 id none
@@ -3561,6 +3566,7 @@ id transitionToEnd
 id transitionToStart
 id transition_current_scene
 id transition_layout_save
+id transition_percentage
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform

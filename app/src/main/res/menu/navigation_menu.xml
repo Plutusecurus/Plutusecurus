@@ -12,9 +12,9 @@
         android:enabled="true"
         android:icon="@drawable/ic_funnel_dollar"
         android:title="Wallet" />
-    <item
-        android:id="@+id/nft"
-        android:enabled="true"
-        android:icon="@drawable/ic_learn"
-        android:title="NFT" />
+<!--    <item-->
+<!--        android:id="@+id/nft"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_learn"-->
+<!--        android:title="NFT" />-->
 </menu>

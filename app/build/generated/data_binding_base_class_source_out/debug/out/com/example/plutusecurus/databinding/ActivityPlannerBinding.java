@@ -32,6 +32,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
   public final CardView essentialsCard;
 
   @NonNull
+  public final TextView essentialsPercentage;
+
+  @NonNull
   public final CardView essentialsText;
 
   @NonNull
@@ -39,6 +42,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
 
   @NonNull
   public final CardView foodCard;
+
+  @NonNull
+  public final TextView foodPercentage;
 
   @NonNull
   public final CardView foodText;
@@ -50,10 +56,16 @@ public final class ActivityPlannerBinding implements ViewBinding {
   public final CardView giftCard;
 
   @NonNull
+  public final TextView giftPercentage;
+
+  @NonNull
   public final CardView giftText;
 
   @NonNull
   public final TextView houseAmt;
+
+  @NonNull
+  public final TextView housePercentage;
 
   @NonNull
   public final CardView housingCard;
@@ -68,6 +80,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
   public final CardView luxuryCard;
 
   @NonNull
+  public final TextView luxuryPercentage;
+
+  @NonNull
   public final CardView luxuryText;
 
   @NonNull
@@ -77,6 +92,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
   public final CardView medicineCard;
 
   @NonNull
+  public final TextView medicinePercentage;
+
+  @NonNull
   public final CardView medicineText;
 
   @NonNull
@@ -84,6 +102,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
 
   @NonNull
   public final CardView miscCard;
+
+  @NonNull
+  public final TextView miscPercentage;
 
   @NonNull
   public final CardView miscText;
@@ -98,6 +119,9 @@ public final class ActivityPlannerBinding implements ViewBinding {
   public final TextView statsText;
 
   @NonNull
+  public final TextView transitionPercentage;
+
+  @NonNull
   public final TextView transportAmt;
 
   @NonNull
@@ -108,41 +132,54 @@ public final class ActivityPlannerBinding implements ViewBinding {
 
   private ActivityPlannerBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView backButtonPlanner, @NonNull TextView essentialsAmt,
-      @NonNull CardView essentialsCard, @NonNull CardView essentialsText, @NonNull TextView foodAmt,
-      @NonNull CardView foodCard, @NonNull CardView foodText, @NonNull TextView giftAmt,
-      @NonNull CardView giftCard, @NonNull CardView giftText, @NonNull TextView houseAmt,
-      @NonNull CardView housingCard, @NonNull CardView housingText, @NonNull TextView luxuryAmt,
-      @NonNull CardView luxuryCard, @NonNull CardView luxuryText, @NonNull TextView medicalAmt,
-      @NonNull CardView medicineCard, @NonNull CardView medicineText, @NonNull TextView miscAmt,
-      @NonNull CardView miscCard, @NonNull CardView miscText, @NonNull CardView pie1,
-      @NonNull PieChart pieChart1, @NonNull TextView statsText, @NonNull TextView transportAmt,
-      @NonNull CardView transportCard, @NonNull CardView transportText) {
+      @NonNull CardView essentialsCard, @NonNull TextView essentialsPercentage,
+      @NonNull CardView essentialsText, @NonNull TextView foodAmt, @NonNull CardView foodCard,
+      @NonNull TextView foodPercentage, @NonNull CardView foodText, @NonNull TextView giftAmt,
+      @NonNull CardView giftCard, @NonNull TextView giftPercentage, @NonNull CardView giftText,
+      @NonNull TextView houseAmt, @NonNull TextView housePercentage, @NonNull CardView housingCard,
+      @NonNull CardView housingText, @NonNull TextView luxuryAmt, @NonNull CardView luxuryCard,
+      @NonNull TextView luxuryPercentage, @NonNull CardView luxuryText,
+      @NonNull TextView medicalAmt, @NonNull CardView medicineCard,
+      @NonNull TextView medicinePercentage, @NonNull CardView medicineText,
+      @NonNull TextView miscAmt, @NonNull CardView miscCard, @NonNull TextView miscPercentage,
+      @NonNull CardView miscText, @NonNull CardView pie1, @NonNull PieChart pieChart1,
+      @NonNull TextView statsText, @NonNull TextView transitionPercentage,
+      @NonNull TextView transportAmt, @NonNull CardView transportCard,
+      @NonNull CardView transportText) {
     this.rootView = rootView;
     this.backButtonPlanner = backButtonPlanner;
     this.essentialsAmt = essentialsAmt;
     this.essentialsCard = essentialsCard;
+    this.essentialsPercentage = essentialsPercentage;
     this.essentialsText = essentialsText;
     this.foodAmt = foodAmt;
     this.foodCard = foodCard;
+    this.foodPercentage = foodPercentage;
     this.foodText = foodText;
     this.giftAmt = giftAmt;
     this.giftCard = giftCard;
+    this.giftPercentage = giftPercentage;
     this.giftText = giftText;
     this.houseAmt = houseAmt;
+    this.housePercentage = housePercentage;
     this.housingCard = housingCard;
     this.housingText = housingText;
     this.luxuryAmt = luxuryAmt;
     this.luxuryCard = luxuryCard;
+    this.luxuryPercentage = luxuryPercentage;
     this.luxuryText = luxuryText;
     this.medicalAmt = medicalAmt;
     this.medicineCard = medicineCard;
+    this.medicinePercentage = medicinePercentage;
     this.medicineText = medicineText;
     this.miscAmt = miscAmt;
     this.miscCard = miscCard;
+    this.miscPercentage = miscPercentage;
     this.miscText = miscText;
     this.pie1 = pie1;
     this.pieChart1 = pieChart1;
     this.statsText = statsText;
+    this.transitionPercentage = transitionPercentage;
     this.transportAmt = transportAmt;
     this.transportCard = transportCard;
     this.transportText = transportText;
@@ -193,6 +230,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.essentials_percentage;
+      TextView essentialsPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (essentialsPercentage == null) {
+        break missingId;
+      }
+
       id = R.id.essentials_text;
       CardView essentialsText = ViewBindings.findChildViewById(rootView, id);
       if (essentialsText == null) {
@@ -208,6 +251,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
       id = R.id.food_card;
       CardView foodCard = ViewBindings.findChildViewById(rootView, id);
       if (foodCard == null) {
+        break missingId;
+      }
+
+      id = R.id.food_percentage;
+      TextView foodPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (foodPercentage == null) {
         break missingId;
       }
 
@@ -229,6 +278,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.gift_percentage;
+      TextView giftPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (giftPercentage == null) {
+        break missingId;
+      }
+
       id = R.id.gift_text;
       CardView giftText = ViewBindings.findChildViewById(rootView, id);
       if (giftText == null) {
@@ -238,6 +293,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
       id = R.id.house_amt;
       TextView houseAmt = ViewBindings.findChildViewById(rootView, id);
       if (houseAmt == null) {
+        break missingId;
+      }
+
+      id = R.id.house_percentage;
+      TextView housePercentage = ViewBindings.findChildViewById(rootView, id);
+      if (housePercentage == null) {
         break missingId;
       }
 
@@ -265,6 +326,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.luxury_percentage;
+      TextView luxuryPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (luxuryPercentage == null) {
+        break missingId;
+      }
+
       id = R.id.luxury_text;
       CardView luxuryText = ViewBindings.findChildViewById(rootView, id);
       if (luxuryText == null) {
@@ -283,6 +350,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.medicine_percentage;
+      TextView medicinePercentage = ViewBindings.findChildViewById(rootView, id);
+      if (medicinePercentage == null) {
+        break missingId;
+      }
+
       id = R.id.medicine_text;
       CardView medicineText = ViewBindings.findChildViewById(rootView, id);
       if (medicineText == null) {
@@ -298,6 +371,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
       id = R.id.misc_card;
       CardView miscCard = ViewBindings.findChildViewById(rootView, id);
       if (miscCard == null) {
+        break missingId;
+      }
+
+      id = R.id.misc_percentage;
+      TextView miscPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (miscPercentage == null) {
         break missingId;
       }
 
@@ -325,6 +404,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.transition_percentage;
+      TextView transitionPercentage = ViewBindings.findChildViewById(rootView, id);
+      if (transitionPercentage == null) {
+        break missingId;
+      }
+
       id = R.id.transport_amt;
       TextView transportAmt = ViewBindings.findChildViewById(rootView, id);
       if (transportAmt == null) {
@@ -344,10 +429,12 @@ public final class ActivityPlannerBinding implements ViewBinding {
       }
 
       return new ActivityPlannerBinding((ConstraintLayout) rootView, backButtonPlanner,
-          essentialsAmt, essentialsCard, essentialsText, foodAmt, foodCard, foodText, giftAmt,
-          giftCard, giftText, houseAmt, housingCard, housingText, luxuryAmt, luxuryCard, luxuryText,
-          medicalAmt, medicineCard, medicineText, miscAmt, miscCard, miscText, pie1, pieChart1,
-          statsText, transportAmt, transportCard, transportText);
+          essentialsAmt, essentialsCard, essentialsPercentage, essentialsText, foodAmt, foodCard,
+          foodPercentage, foodText, giftAmt, giftCard, giftPercentage, giftText, houseAmt,
+          housePercentage, housingCard, housingText, luxuryAmt, luxuryCard, luxuryPercentage,
+          luxuryText, medicalAmt, medicineCard, medicinePercentage, medicineText, miscAmt, miscCard,
+          miscPercentage, miscText, pie1, pieChart1, statsText, transitionPercentage, transportAmt,
+          transportCard, transportText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

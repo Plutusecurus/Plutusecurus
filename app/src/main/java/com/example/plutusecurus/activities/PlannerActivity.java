@@ -25,7 +25,7 @@ public class PlannerActivity extends AppCompatActivity {
     private PieChart pie1;
     String house,food,transport,essential,misc,gift,luxury,medical,total;
     float h,f,t,e,m,g,lu,mis,tot;
-    TextView House,Food,Transport,Essential,Misc,Gift,Luxury,Medical;
+    TextView House,Food,Transport,Essential,Misc,Gift,Luxury,Medical,ph,pf,pt,pe,pm,pg,plu,pmis;
     ImageView backButton;
     //ghjghgh
 
@@ -43,6 +43,14 @@ public class PlannerActivity extends AppCompatActivity {
         Gift=findViewById(R.id.gift_amt);
         Luxury=findViewById(R.id.luxury_amt);
         Medical=findViewById(R.id.medical_amt);
+        ph=findViewById(R.id.house_percentage);
+        pf=findViewById(R.id.food_percentage);
+        pt=findViewById(R.id.transition_percentage);
+        pe=findViewById(R.id.essentials_percentage);
+        pmis=findViewById(R.id.misc_percentage);
+        pg=findViewById(R.id.gift_percentage);
+        plu=findViewById(R.id.luxury_amt);
+        pm=findViewById(R.id.medicine_percentage);
 
         house="10";food="10";transport="10";essential="10";misc="10";gift="10";luxury="10";medical="10";total="0";
         h = Float.parseFloat(house);
@@ -54,6 +62,16 @@ public class PlannerActivity extends AppCompatActivity {
         lu = Float.parseFloat(luxury);
         m = Float.parseFloat(medical);
         tot=h+f+t+e+mis+g+lu+m;
+
+        ph.setText(Float.toString(100*h/tot)+"%");
+        pf.setText(Float.toString(100*f/tot)+"%");
+        pe.setText(Float.toString(100*e/tot)+"%");
+        pg.setText(Float.toString(100*g/tot)+"%");
+        pt.setText(Float.toString(100*t/tot)+"%");
+        pmis.setText(Float.toString(100*mis/tot)+"%");
+        plu.setText(Float.toString(100*lu/tot)+"%");
+        pm.setText(Float.toString(100*h/tot)+"%");
+
 
         House.setText("Rs. "+house);
         Food.setText("Rs. "+food);

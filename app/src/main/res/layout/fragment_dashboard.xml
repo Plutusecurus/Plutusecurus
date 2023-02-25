@@ -218,6 +218,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:clickable="true"
         android:focusable="true"
-        android:src="@drawable/ic_minus"/>
+        android:src="@drawable/ic_minus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

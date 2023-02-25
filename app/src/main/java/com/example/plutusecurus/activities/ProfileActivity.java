@@ -53,6 +53,12 @@ public class ProfileActivity extends AppCompatActivity {
             startActivityForResult(intent, GET_FROM_GALLERY1);
         });
         backButton.setOnClickListener(v -> finish());
+        try {
+            Bitmap bitmap = generateQrCodeBitmap("Hello, HUMANS!", 512, 512);
+            myQR.setImageBitmap(bitmap);
+        } catch (WriterException e) {
+            e.printStackTrace();
+        }
         payInINR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

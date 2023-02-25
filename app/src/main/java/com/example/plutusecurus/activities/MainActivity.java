@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
 // Create a WalletConnect session
         /*Session session = new Session(sessionRequest);*/
 
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(metamaskScheme));
-        intent.setPackage("io.metamask");
-        startActivityForResult(intent, requestCode);
+//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(metamaskScheme));
+//        intent.setPackage("io.metamask");
+//        startActivityForResult(intent, requestCode);
 
         bottom_navigation.setOnNavigationItemSelectedListener(item -> {
             Fragment selectedFragment =null;
@@ -79,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment=new WalletFragment();
                     break;
 
-                case R.id.nft:
-                    selectedFragment=new NftFragment();
-                    break;
+//                case R.id.nft:
+//                    selectedFragment=new NftFragment();
+//                    break;
 
 
             }
