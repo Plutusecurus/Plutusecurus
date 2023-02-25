@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef18918-06b5-4484-8725-3f93b3c5e364" name="Changes" comment="" />
+    <list default="true" id="1ef18918-06b5-4484-8725-3f93b3c5e364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonbackground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +77,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Plutusecurus\app\src\main\res" />
       <recent name="F:\Plutusecurus\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.1880452935">
+      <recent name="com.example.plutusecurus.activities" />
     </key>
   </component>
   <component name="RunManager">
