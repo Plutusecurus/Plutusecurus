@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#393939"
+    android:background="#072b65"
     tools:context=".activities.PlannerActivity">
     <ImageView
         android:layout_width="30dp"

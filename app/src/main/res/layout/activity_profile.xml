@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.ProfileActivity"
-    android:background="#393939">
+    android:background="#072b65">
     <ImageView
         android:layout_width="35dp"
         android:layout_height="35dp"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@id/userid"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@id/eth_qr_selector"
-        android:backgroundTint="@color/lgreen"
+        android:backgroundTint="#FBDFB0"
         app:cardCornerRadius="20dp"
         android:clickable="true"
         android:focusable="true">
@@ -105,7 +105,7 @@
         app:layout_constraintTop_toBottomOf="@id/userid"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/lgreen"
+        android:backgroundTint="#FBDFB0"
         app:cardCornerRadius="20dp"
         android:clickable="true"
         android:focusable="true">

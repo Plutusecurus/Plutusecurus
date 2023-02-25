@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="270dp"
+        android:layout_height="300dp"
         app:cardCornerRadius="30dp"
         android:backgroundTint="#F69E9E">
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -55,7 +55,8 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/essentials_button"
-                app:layout_constraintTop_toBottomOf="@id/food_button"
+                app:layout_constraintTop_toBottomOf="@id/housing_text"
+
                 android:layout_marginTop="10dp"
                 app:layout_constraintEnd_toStartOf="@id/entertainment_button"
                 app:layout_constraintStart_toStartOf="parent"
@@ -71,6 +72,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/essentials_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Essentials"
+                app:layout_constraintTop_toBottomOf="@id/essentials_button"
+                app:layout_constraintStart_toStartOf="@id/essentials_button"
+                app:layout_constraintEnd_toEndOf="@id/essentials_button"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -90,6 +101,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/entertainment_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Entertainment"
+                app:layout_constraintTop_toBottomOf="@id/entertainment_button"
+                app:layout_constraintStart_toStartOf="@id/entertainment_button"
+                app:layout_constraintEnd_toEndOf="@id/entertainment_button"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -109,6 +130,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gift_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Gift"
+                app:layout_constraintTop_toBottomOf="@id/gift_button"
+                app:layout_constraintStart_toStartOf="@id/gift_button"
+                app:layout_constraintEnd_toEndOf="@id/gift_button"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -128,6 +159,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/miscellaneous_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Miscellaneous"
+                app:layout_constraintTop_toBottomOf="@id/miscellaneous_button"
+                app:layout_constraintStart_toStartOf="@id/miscellaneous_button"
+                app:layout_constraintEnd_toEndOf="@id/miscellaneous_button"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
@@ -149,6 +190,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E" />
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/housing_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Housing"
+                app:layout_constraintTop_toBottomOf="@id/house_button"
+                app:layout_constraintStart_toStartOf="@id/house_button"
+                app:layout_constraintEnd_toEndOf="@id/house_button"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -168,6 +219,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/food_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Food"
+                app:layout_constraintTop_toBottomOf="@id/food_button"
+                app:layout_constraintStart_toStartOf="@id/food_button"
+                app:layout_constraintEnd_toEndOf="@id/food_button"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -179,14 +240,26 @@
                 android:backgroundTint="@color/white"
                 android:clickable="true"
                 android:focusable="true">
+
                 <ImageView
                     android:id="@+id/medicine"
-                    android:layout_width="40dp"
+                    android:layout_width="46dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_briefcase_medical"
                     android:layout_gravity="center"
-                    app:tint="#F69E9E"/>
+                    android:src="@drawable/ic_briefcase_medical"
+                    app:tint="#F69E9E" />
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medicine_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Medicine"
+                app:layout_constraintTop_toBottomOf="@id/medicine_button"
+                app:layout_constraintStart_toStartOf="@id/medicine_button"
+                app:layout_constraintEnd_toEndOf="@id/medicine_button"/>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -206,6 +279,16 @@
                     android:layout_gravity="center"
                     app:tint="#F69E9E"/>
             </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/transport_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Transport"
+                app:layout_constraintTop_toBottomOf="@id/transport_button"
+                app:layout_constraintStart_toStartOf="@id/transport_button"
+                app:layout_constraintEnd_toEndOf="@id/transport_button"/>
 
 
             <TextView
