@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\5776647b33eaa1df80681d4f3507a112\transformed\jetified-viewbinding-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e72c97e1200dccfa881520ded1c8df38\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -71,22 +71,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Susw
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\1db748c5711ec71523d6fdd8c06e957b\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fa714198374fad697ff37c4d7555e1\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\00e203d6d8c9679b00b528e1a0e50863\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:2:11-69
@@ -113,7 +113,7 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswa
 	android:name
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:10:19-67
 application
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:12:5-58:19
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:12:5-48:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\728bc65372d46aef0e245074d736cc50\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
@@ -164,6 +164,26 @@ ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:20:9-32:20
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:21:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:26:27-74
+intent-filter#action:name:io.metamask.intent.action.SIGN_TX+category:name:android.intent.category.DEFAULT
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:28:13-31:29
+action#io.metamask.intent.action.SIGN_TX
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:29:17-75
+	android:name
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:29:25-73
+category#android.intent.category.DEFAULT
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:30:17-75
+	android:name
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:30:27-73
 activity#com.example.plutusecurus.activities.PaymentActivity
 ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
@@ -189,31 +209,11 @@ ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:name
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:43:13-55
 activity#com.example.plutusecurus.activities.MainActivity
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:45:9-57:23
+ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:45:9-47:39
 	android:exported
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:46:13-52
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:48:13-52:41
-action#android.intent.action.MAIN
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:49:29-81
-	android:name
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:49:37-78
-category#android.intent.category.LAUNCHER
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:51:29-89
-	android:name
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:51:39-86
-intent-filter#action:name:io.metamask.intent.action.SIGN_TX+category:name:android.intent.category.DEFAULT
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:53:25-56:41
-action#io.metamask.intent.action.SIGN_TX
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:54:29-87
-	android:name
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:54:37-85
-category#android.intent.category.DEFAULT
-ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:55:29-87
-	android:name
-		ADDED from D:\Plutusecurus\app\src\main\AndroidManifest.xml:55:39-85
 uses-sdk
 INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Plutusecurus\app\src\main\AndroidManifest.xml

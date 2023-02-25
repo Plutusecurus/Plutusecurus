@@ -3,7 +3,7 @@ package com.example.plutusecurus.dtos;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public abstract class RegisterResponse {
+public class RegisterResponse {
 
     @Expose
     @SerializedName("message")

@@ -135,7 +135,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         RequestBody requestBody = RequestBody.create(MediaType.parse("image/*"), file);
-        MultipartBody.Part profilePic = MultipartBody.Part.createFormData("image", file.getName(), requestBody);
+        MultipartBody.Part profilePic = MultipartBody.Part.createFormData("profilePic", file.getName(), requestBody);
 
         MultipartBody.Part name = MultipartBody.Part.createFormData("name", nameComm);
         MultipartBody.Part account = MultipartBody.Part.createFormData("account", accountComm);
@@ -153,18 +153,23 @@ public class LoginActivity extends AppCompatActivity {
                             sharedPreferencesConfig.writeName(nameComm);
                             sharedPreferencesConfig.writeImage(response.body().getUser().getProfilePic());
                             sharedPreferencesConfig.writePublicKey(accountComm);
+                            Log.d(TAG, "onResponse(): "+response.body().getMessage().toString());
                             Toast.makeText(LoginActivity.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
                         }
 
-                        binding.signUpBtn.setVisibility(View.GONE);
-                        binding.otpProgressBar.setVisibility(View.VISIBLE);
+                        Log.d(TAG, "onResponse(): "+response.toString());
+
+                        binding.signUpBtn.setVisibility(View.VISIBLE);
+                        binding.otpProgressBar.setVisibility(View.GONE);
                     }
 
                     @Override
                     public void onFailure(Call<RegisterResponse> call, Throwable t) {
                         Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
-                        binding.signUpBtn.setVisibility(View.GONE);
-                        binding.otpProgressBar.setVisibility(View.VISIBLE);
+                        binding.signUpBtn.setVisibility(View.VISIBLE);
+                        binding.otpProgressBar.setVisibility(View.GONE);
+                        Log.d(TAG, "onFailure(): "+t.getMessage());
+
                     }
                 });
     }

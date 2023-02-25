@@ -46,17 +46,16 @@
         <activity
             android:name="com.example.plutusecurus.activities.LoginActivity"
             android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="io.metamask.intent.action.SIGN_TX" />
 
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-            <!-- <intent-filter> -->
-            <!-- <action android:name="io.metamask.intent.action.SIGN_TX"/> -->
-            <!-- <category android:name="android.intent.category.DEFAULT"/> -->
-            <!-- </intent-filter> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.plutusecurus.activities.PaymentActivity"
@@ -72,18 +71,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.plutusecurus.activities.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="io.metamask.intent.action.SIGN_TX" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.karumi.dexter.DexterActivity"
             android:theme="@style/Dexter.Internal.Theme.Transparent" />
