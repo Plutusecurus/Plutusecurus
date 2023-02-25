@@ -7,8 +7,10 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
@@ -122,9 +124,11 @@ public class LoginActivity extends AppCompatActivity {
 
     private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey) throws IOException {
         File filesDir = getApplicationContext().getFilesDir();
-        File file = new File(filesDir, "hiveImage."+getFileExtension(imageUri));
+//        File file = new File(filesDir, "hiveImage."+getFileExtension(imageUri));
 
-        @SuppressLint("Recycle")
+        File file = uriToFile(imageUri);
+
+        /*@SuppressLint("Recycle")
         InputStream inputStream = getContentResolver().openInputStream(imageUri);
         OutputStream outputStream = new FileOutputStream(file);
 
@@ -132,9 +136,9 @@ public class LoginActivity extends AppCompatActivity {
         int bytesRead;
         while ((bytesRead = inputStream.read(buffer)) != -1) {
             outputStream.write(buffer, 0, bytesRead);
-        }
+        }*/
 
-        RequestBody requestBody = RequestBody.create(MediaType.parse("image/*"), file);
+        RequestBody requestBody = RequestBody.create(MediaType.parse("image/"+getFileExtension(imageUri)), file);
         MultipartBody.Part profilePic = MultipartBody.Part.createFormData("profilePic", file.getName(), requestBody);
 
         MultipartBody.Part name = MultipartBody.Part.createFormData("name", nameComm);
@@ -176,6 +180,17 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
+
+    private File uriToFile(Uri uri) {
+        String[] projection = { MediaStore.Images.Media.DATA };
+        Cursor cursor = getContentResolver().query(uri, projection, null, null, null);
+        int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+        cursor.moveToFirst();
+        String filePath = cursor.getString(column_index);
+        cursor.close();
+        return new File(filePath);
+    }
+
 
     private RequestBody createPartFromString(String stringData) {
         return RequestBody.create(MediaType.parse("text/plain"), stringData);
