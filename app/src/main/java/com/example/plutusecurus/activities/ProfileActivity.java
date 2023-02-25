@@ -22,7 +22,7 @@ import com.google.zxing.qrcode.QRCodeWriter;
 import com.example.plutusecurus.R;
 
 public class ProfileActivity extends AppCompatActivity {
-    CardView profilePicCard,addButton,changePassword,logout,payInINR,payInEth;
+    CardView profilePicCard,addButton,changePassword,logout;
     ImageView profilePic,myQR,backButton;
     TextView userName,userId;
     public static final int GET_FROM_GALLERY1 = 3,GET_FROM_GALLERY = 4;
@@ -39,8 +39,6 @@ public class ProfileActivity extends AppCompatActivity {
         userId=findViewById(R.id.userid);
         userName=findViewById(R.id.profile_name);
         backButton=findViewById(R.id.back_button);
-        payInEth=findViewById(R.id.eth_qr_selector);
-        payInINR=findViewById(R.id.inr_qr_selector);
 
         addButton.setOnClickListener(view -> {
             Intent intent=new Intent(Intent.ACTION_PICK);
@@ -59,29 +57,6 @@ public class ProfileActivity extends AppCompatActivity {
         } catch (WriterException e) {
             e.printStackTrace();
         }
-        payInINR.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bitmap bitmap = generateQrCodeBitmap("Hello, World!", 512, 512);
-                    myQR.setImageBitmap(bitmap);
-                } catch (WriterException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        payInEth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bitmap bitmap = generateQrCodeBitmap("Hello, HUMANS!", 512, 512);
-                    myQR.setImageBitmap(bitmap);
-                } catch (WriterException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-
     }
 
     private Bitmap generateQrCodeBitmap(String data, int width, int height) throws WriterException {

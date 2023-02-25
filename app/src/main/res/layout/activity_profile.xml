@@ -38,6 +38,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:id="@+id/add_image"
+        android:backgroundTint="#00FFFFFF"
         android:clickable="true"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/profile_pic_card"
@@ -73,58 +74,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="2dp"
         android:textSize="16sp" />
-    <androidx.cardview.widget.CardView
-        android:layout_marginStart="30dp"
-        android:id="@+id/inr_qr_selector"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/userid"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toStartOf="@id/eth_qr_selector"
-        android:backgroundTint="#FBDFB0"
-        app:cardCornerRadius="20dp"
-        android:clickable="true"
-        android:focusable="true">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingHorizontal="10dp"
-            android:text="PAY in INR"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:textColor="#EA0909"/>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:id="@+id/eth_qr_selector"
-        android:layout_marginEnd="30dp"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toEndOf="@id/inr_qr_selector"
-        app:layout_constraintTop_toBottomOf="@id/userid"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="#FBDFB0"
-        app:cardCornerRadius="20dp"
-        android:clickable="true"
-        android:focusable="true">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingHorizontal="10dp"
-            android:text="PAY in ETH"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:textColor="#EA0909"/>
-    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/my_qr"
-        app:layout_constraintTop_toBottomOf="@id/inr_qr_selector"
+        app:layout_constraintTop_toBottomOf="@id/userid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"
