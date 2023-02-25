@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.web3j:utils:5.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/utils/5.0.0/c94ac38fa6ac2c76973317c5235e99b461635704/utils-5.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/utils/5.0.0/685a29843053bec4c02a418c64dd1555ad78be/utils-5.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/utils/5.0.0/801291403e7244107308d66d727f0d9b347a3748/utils-5.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

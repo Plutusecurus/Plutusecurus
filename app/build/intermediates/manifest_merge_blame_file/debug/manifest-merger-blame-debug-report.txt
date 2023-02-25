@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.a7os"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->F:\Plutusecurus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\Plutusecurus\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:6:5-65
+11-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:7:5-67
+12-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:9:5-60
+14-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:9:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:10:5-70
+15-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:10:19-67
+16
+17    <application
+17-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:12:5-48:19
+18        android:allowBackup="true"
+18-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\shagi\.gradle\caches\transforms-3\9ff978fb4fa161c0e59ec0e7f3f0ce8f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Plutusecurus" >
+27-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:18:9-50
+28        <activity
+28-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:20:9-32:20
+29            android:name="com.example.plutusecurus.activities.LoginActivity"
+29-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:21:13-53
+30            android:exported="true" >
+30-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:24:17-69
+32-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:26:17-77
+34-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36            <intent-filter>
+36-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:28:13-31:29
+37                <action android:name="io.metamask.intent.action.SIGN_TX" />
+37-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:29:17-75
+37-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:29:25-73
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:30:17-75
+39-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:30:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:33:9-35:40
+43            android:name="com.example.plutusecurus.activities.PaymentActivity"
+43-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:34:13-55
+44            android:exported="false" />
+44-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:35:13-37
+45        <activity
+45-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:36:9-38:40
+46            android:name="com.example.plutusecurus.activities.QrActivity"
+46-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:37:13-50
+47            android:exported="false" />
+47-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:38:13-37
+48        <activity
+48-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:39:9-41:40
+49            android:name="com.example.plutusecurus.activities.PlannerActivity"
+49-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:40:13-55
+50            android:exported="false" />
+50-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:41:13-37
+51        <activity
+51-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:42:9-44:40
+52            android:name="com.example.plutusecurus.activities.ProfileActivity"
+52-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:43:13-55
+53            android:exported="false" />
+53-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:44:13-37
+54        <activity
+54-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:45:9-47:40
+55            android:name="com.example.plutusecurus.activities.MainActivity"
+55-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:46:13-52
+56            android:exported="false" />
+56-->F:\Plutusecurus\app\src\main\AndroidManifest.xml:47:13-37
+57        <activity
+57-->[com.karumi:dexter:6.2.2] C:\Users\shagi\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+58            android:name="com.karumi.dexter.DexterActivity"
+58-->[com.karumi:dexter:6.2.2] C:\Users\shagi\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+59            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+59-->[com.karumi:dexter:6.2.2] C:\Users\shagi\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+70            android:authorities="com.example.a7os.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shagi\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shagi\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shagi\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shagi\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>

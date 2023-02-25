@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:id="@+id/cash"
+        android:backgroundTint="#ee7d77"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="3dp"
+        android:layout_marginStart="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:layout_marginTop="5dp"
+            android:text="INR 10,000(-69)"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/cash_val"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="2dp"
+            android:text="EXPENDITURES"
+            android:textColor="#85e891"
+            android:textSize="18sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:id="@+id/credit"
+        android:backgroundTint="#85e891"
+        app:cardCornerRadius="30dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="@id/cash"
+        app:layout_constraintTop_toTopOf="@id/cash"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="3dp"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:layout_marginTop="8dp"
+            android:text="INR 10,000(-69)"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/credit_val"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="1dp"
+            android:text="EARNINGS"
+            android:textColor="#ee7d77"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/total"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        android:layout_marginHorizontal="35dp"
+        app:layout_constraintBottom_toTopOf="@id/house_card"
+        app:layout_constraintTop_toBottomOf="@id/credit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:layout_marginTop="8dp"
+            android:text="INR 10,000(-69)"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/total_val"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="1dp"
+            android:text="SAVINGS"
+            android:textColor="#DA9900"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/house_card"
+        app:layout_constraintEnd_toStartOf="@id/food_card"
+        android:backgroundTint="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toBottomOf="@id/total"
+        app:layout_constraintBottom_toTopOf="@id/main_page_pie"
+        >
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="107dp"
+            android:src="@drawable/ic_housing_circle" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/house_percentage"
+            android:text="10%" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintStart_toEndOf="@id/house_card"
+        app:layout_constraintEnd_toStartOf="@id/medicine_card"
+        android:id="@+id/food_card"
+        android:backgroundTint="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toTopOf="@id/house_card"
+        app:layout_constraintBottom_toBottomOf="@id/house_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_food_circle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/food_percentage"
+            android:text="10%" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toEndOf="@id/food_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/medicine_card"
+        android:backgroundTint="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toTopOf="@id/house_card"
+        app:layout_constraintBottom_toBottomOf="@id/house_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_medication_cicle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/medicine_percentage"
+            android:text="10%" />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@id/add_button"
+        app:layout_constraintTop_toBottomOf="@id/house_card"
+        android:src="@drawable/ic_piechart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/main_page_pie"
+        android:clickable="true"
+        android:focusable="true"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/add_button"
+        app:layout_constraintTop_toBottomOf="@id/main_page_pie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintEnd_toStartOf="@id/minus_button"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/minus_button"
+        app:layout_constraintTop_toBottomOf="@id/main_page_pie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/add_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_minus"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

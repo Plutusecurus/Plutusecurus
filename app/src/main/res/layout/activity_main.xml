@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3F618C"
+        android:id="@+id/nav_menu">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/logo"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="PLUTUSECURUS"/>]
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/profile"
+            android:src="@drawable/ic_bars"
+            app:tint="@color/white" />
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/profile"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/qr"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_qrcode"
+            app:tint="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav"
+        android:id="@+id/fragment_container"
+        android:layout_below="@+id/nav_menu"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/white"
+        android:background="#3F618C"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation_menu" />
+
+</RelativeLayout>

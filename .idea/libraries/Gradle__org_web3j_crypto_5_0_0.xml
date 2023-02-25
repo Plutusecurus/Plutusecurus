@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.web3j:crypto:5.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/crypto/5.0.0/4aa7a51e1834936c9e87d7f0308d2ba398fa5e9e/crypto-5.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/crypto/5.0.0/a0e1f8ecf5123b5f5240b5aedfcdf3022660ee9c/crypto-5.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/crypto/5.0.0/538c9a39d7e182780ec92219fab9991f3864b4b0/crypto-5.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
