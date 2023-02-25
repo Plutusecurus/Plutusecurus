@@ -7,12 +7,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="160dp"
+        android:layout_width="0dp"
         android:layout_height="64dp"
         android:id="@+id/cash"
         android:backgroundTint="#ee7d77"
         app:cardCornerRadius="30dp"
         android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toStartOf="@id/credit"
+        android:layout_marginEnd="15dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:elevation="3dp"
@@ -21,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center|top"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
             android:text="INR 10,000(-69)"
             android:layout_marginBottom="5dp"
             android:id="@+id/cash_val"
@@ -40,16 +42,18 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="160dp"
+        android:layout_width="0dp"
         android:layout_height="64dp"
         android:id="@+id/credit"
         android:backgroundTint="#85e891"
         app:cardCornerRadius="30dp"
         android:layout_marginEnd="40dp"
+        app:layout_constraintStart_toEndOf="@id/cash"
         app:layout_constraintBottom_toBottomOf="@id/cash"
         app:layout_constraintTop_toTopOf="@id/cash"
         app:layout_constraintEnd_toEndOf="parent"
         android:elevation="3dp"
+        android:layout_marginStart="15dp"
         android:layout_alignParentRight="true">
 
         <TextView
@@ -121,7 +125,7 @@
         >
 
         <ImageView
-            android:layout_width="91dp"
+            android:layout_width="match_parent"
             android:layout_height="107dp"
             android:src="@drawable/ic_housing_circle" />
         <TextView

@@ -155,12 +155,15 @@ public class LoginActivity extends AppCompatActivity {
                             sharedPreferencesConfig.writePublicKey(accountComm);
                             Log.d(TAG, "onResponse(): "+response.body().getMessage().toString());
                             Toast.makeText(LoginActivity.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
                         }
 
                         Log.d(TAG, "onResponse(): "+response.toString());
 
                         binding.signUpBtn.setVisibility(View.VISIBLE);
                         binding.otpProgressBar.setVisibility(View.GONE);
+
                     }
 
                     @Override
@@ -220,4 +223,6 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "address: "+address, Toast.LENGTH_SHORT).show();
         }
     }
+
+
 }

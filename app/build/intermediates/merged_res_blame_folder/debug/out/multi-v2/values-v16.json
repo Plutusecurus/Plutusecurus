@@ -4,17 +4,7 @@
             "outputFile": "com.example.plutusecurus.app-mergeDebugResources-46:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\a48c2ae7df52a7865cb3235f12c89fb6\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\fb5b5c551fe2aa08b50911a48ac1910a\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\anubh\\.gradle\\caches\\transforms-3\\fb5b5c551fe2aa08b50911a48ac1910a\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anubh\\.gradle\\caches\\transforms-3\\a48c2ae7df52a7865cb3235f12c89fb6\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,9 +1,12 @@
 package com.example.plutusecurus.data;
 
 import com.example.plutusecurus.dtos.RegisterResponse;
+import com.example.plutusecurus.model.AddExpenseBody;
+import com.example.plutusecurus.model.AddExpenseResponse;
 
 import okhttp3.MultipartBody;
 import retrofit2.Call;
+import retrofit2.http.Body;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
@@ -16,5 +19,8 @@ public interface TransAPI {
             @Part MultipartBody.Part account,
             @Part MultipartBody.Part name
     );
+
+    @POST("user/add-expense")
+    Call<AddExpenseResponse> addExpense(@Body AddExpenseBody addExpenseBody );
 
 }
