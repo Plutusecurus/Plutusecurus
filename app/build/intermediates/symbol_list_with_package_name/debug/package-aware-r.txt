@@ -1246,6 +1246,16 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zxing_framing_rect_height
+attr zxing_framing_rect_width
+attr zxing_possible_result_points
+attr zxing_preview_scaling_strategy
+attr zxing_result_view
+attr zxing_scanner_layout
+attr zxing_use_texture_view
+attr zxing_viewfinder_laser
+attr zxing_viewfinder_laser_visibility
+attr zxing_viewfinder_mask
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -1933,6 +1943,16 @@ color white2
 color white_2
 color yellow
 color yellow2
+color zxing_custom_possible_result_points
+color zxing_custom_result_view
+color zxing_custom_viewfinder_laser
+color zxing_custom_viewfinder_mask
+color zxing_possible_result_points
+color zxing_result_view
+color zxing_status_text
+color zxing_transparent
+color zxing_viewfinder_laser
+color zxing_viewfinder_mask
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2612,6 +2632,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_button1
 drawable background_credit_transactions
+drawable baseline_add_circle_outline_24
+drawable baseline_arrow_back_24
 drawable baseline_arrow_back_ios_24
 drawable bin
 drawable border_white
@@ -2645,6 +2667,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_rounded_red
+drawable buttonbackground
 drawable call_now_background
 drawable card_background
 drawable card_background_inactive
@@ -2694,6 +2717,7 @@ drawable ic_arrow_up_grey
 drawable ic_asset_31
 drawable ic_award
 drawable ic_bars
+drawable ic_baseline_arrow_back_24
 drawable ic_baseline_my_location_24
 drawable ic_baseline_person_24
 drawable ic_baseline_qr_code_scanner_24
@@ -2923,6 +2947,7 @@ drawable shape_default_address
 drawable test_custom_background
 drawable test_level_drawable
 drawable text_view_background_1
+drawable toolbar_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable white_circle
@@ -3019,6 +3044,7 @@ id activity_chooser_view_content
 id add
 id addUserProfileImageBtn
 id add_button
+id add_image
 id alertTitle
 id aligned
 id all
@@ -3037,6 +3063,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_button
 id back_button_planner
 id balance
 id balance_card
@@ -3069,6 +3096,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id change_pass
 id checkbox
 id checked
 id chip
@@ -3138,7 +3166,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id edit_product_header
 id edit_query
+id editprod_back_btn
+id editprod_title
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
 id elastic
@@ -3154,6 +3185,8 @@ id essentials_amt
 id essentials_button
 id essentials_card
 id essentials_text
+id eth_qr_selector
+id eth_radio
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3177,6 +3210,7 @@ id food_card
 id food_percentage
 id food_text
 id forever
+id forgot_password
 id fragment_container
 id fragment_container_view_tag
 id frost
@@ -3223,6 +3257,8 @@ id image
 id immediateStop
 id included
 id info
+id inr_qr_selector
+id inr_radio
 id invisible
 id inward
 id italic
@@ -3241,8 +3277,9 @@ id linear
 id listMode
 id list_item
 id locale
+id login_progress_bar
 id logo
-id logout_button
+id logout
 id ltr
 id luxury_amt
 id luxury_card
@@ -3320,6 +3357,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_qr
 id name_edit_text
 id nav_controller_view_tag
 id nav_graph
@@ -3362,7 +3400,12 @@ id password_toggle
 id path
 id pathRelative
 id pay
+id payNowBtn
 id pay_button
+id paymentAmountContainer
+id paymentAmountEditText
+id paymentTypeRecViewEditText
+id paymentTypeView
 id peekHeight
 id percent
 id pie_1
@@ -3373,6 +3416,7 @@ id postLayout
 id privateKeyEdittext
 id profile
 id profile_name
+id profile_pic
 id profile_pic_card
 id profile_picture
 id progress_circular
@@ -3383,6 +3427,10 @@ id qr_button
 id radial
 id radio
 id ratio
+id recieverNameContainer
+id recieverNameEditText
+id recieverPublicAddressContainer
+id recieverPublicAddressEditText
 id rectangles
 id restart
 id reverse
@@ -3547,6 +3595,19 @@ id wrap_content_constrained
 id x_left
 id x_right
 id zero_corner_chip
+id zxing_back_button
+id zxing_barcode_scanner
+id zxing_barcode_surface
+id zxing_camera_closed
+id zxing_camera_error
+id zxing_decode
+id zxing_decode_failed
+id zxing_decode_succeeded
+id zxing_possible_result_points
+id zxing_preview_failed
+id zxing_prewiew_size_ready
+id zxing_status_view
+id zxing_viewfinder_view
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3752,11 +3813,14 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout zxing_barcode_scanner
+layout zxing_capture
 menu navigation_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw zxing_beep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3787,6 +3851,7 @@ string abc_toolbar_collapse_description
 string age
 string androidx_startup
 string app_name
+string app_version
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
@@ -3796,6 +3861,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string default_web_client_id
+string define_zxingandroidembedded
 string email
 string enter_password
 string error_icon_content_description
@@ -3815,6 +3881,15 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string label
+string library_zxingandroidembedded_author
+string library_zxingandroidembedded_authorWebsite
+string library_zxingandroidembedded_isOpenSource
+string library_zxingandroidembedded_libraryDescription
+string library_zxingandroidembedded_libraryName
+string library_zxingandroidembedded_libraryVersion
+string library_zxingandroidembedded_libraryWebsite
+string library_zxingandroidembedded_licenseId
+string library_zxingandroidembedded_repositoryLink
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium
@@ -3902,6 +3977,10 @@ string second_fragment_label
 string sign_up
 string status_bar_notification_info_overflow
 string title_activity_payment
+string zxing_app_name
+string zxing_button_ok
+string zxing_msg_camera_framework_bug
+string zxing_msg_default_status
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -4965,6 +5044,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style zxing_CaptureTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5132,6 +5212,9 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+styleable zxing_camera_preview zxing_framing_rect_height zxing_framing_rect_width zxing_preview_scaling_strategy zxing_use_texture_view
+styleable zxing_finder zxing_possible_result_points zxing_result_view zxing_viewfinder_laser zxing_viewfinder_laser_visibility zxing_viewfinder_mask
+styleable zxing_view zxing_scanner_layout
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

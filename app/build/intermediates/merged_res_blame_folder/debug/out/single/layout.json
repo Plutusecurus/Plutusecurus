@@ -1,50 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\fragment_dashboard.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_login.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_main.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_profile.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_qr.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_qr.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\fragment_wallet.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\fragment_wallet.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/fragment_dashboard.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_profile.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/fragment_wallet.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_login.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_payment.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_planner.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_planner.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_qr.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_qr.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\minus_dialog_layout.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\minus_dialog_layout.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/fragment_nft.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_nft.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\add_dialog_layout.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\add_dialog_layout.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/add_dialog_layout.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/add_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\activity_payment.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\activity_payment.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/activity_planner.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_planner.xml"
     },
     {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-46:/layout/activity_login.xml",
-        "source": "com.example.plutusecurus.app-main-49:/layout/activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-46:\\layout\\fragment_nft.xml",
-        "source": "C:\\Users\\shagi\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-49:\\layout\\fragment_nft.xml"
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-47:/layout/minus_dialog_layout.xml",
+        "source": "com.example.plutusecurus.app-main-50:/layout/minus_dialog_layout.xml"
     }
 ]

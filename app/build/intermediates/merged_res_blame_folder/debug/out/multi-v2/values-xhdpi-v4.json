@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-45:/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-46:/values-xhdpi-v4/values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shagi\\.gradle\\caches\\transforms-3\\d11fb121352756c92ddb98eb58764143\\transformed\\jetified-core-1.9.13\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\d11fb121352756c92ddb98eb58764143\\transformed\\jetified-core-1.9.13\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-45:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-46:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "F:\\Plutusecurus\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\Plutusecurus\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",

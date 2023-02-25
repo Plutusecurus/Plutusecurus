@@ -184,7 +184,7 @@ public class LoginActivity extends AppCompatActivity {
     private void selectProfileImageFromGallery() {
         Intent intent = new Intent(Intent.ACTION_PICK);
         intent.setType("image/*");
-        startActivityForResult(intent, 100);
+        startActivityForResult(intent, 101);
     }
 
     @Override

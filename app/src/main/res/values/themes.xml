@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Base application theme. -->
-    <style name="Theme.Plutusecurus" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Plutusecurus" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#3F618C</item>
         <item name="colorPrimaryVariant">#3F618C</item>

@@ -6,15 +6,171 @@
     android:layout_height="match_parent"
     tools:context=".activities.ProfileActivity"
     android:background="#393939">
-
-    <Button
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:id="@+id/back_button"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:clickable="true"
+        android:focusable="true"
+        app:tint="@color/white" />
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/profile_pic_card"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="75dp"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/profile_pic"
+            android:background="@color/white"
+            android:src="@drawable/ic_android_black_24dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/add_image"
+        android:clickable="true"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/profile_pic_card"
+        app:layout_constraintEnd_toEndOf="@id/profile_pic_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:elevation="0dp"
+            app:tint="@color/white"
+            android:src="@drawable/baseline_add_circle_outline_24"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logout_button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/profile_name"
+        android:text="AMAN SINGH"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/profile_pic_card"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="LOGOUT"/>
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+        android:text="kk233dk334e"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/profile_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="2dp"
+        android:textSize="16sp" />
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="30dp"
+        android:id="@+id/inr_qr_selector"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userid"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@id/eth_qr_selector"
+        android:backgroundTint="@color/lgreen"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:text="PAY in INR"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#EA0909"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/eth_qr_selector"
+        android:layout_marginEnd="30dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@id/inr_qr_selector"
+        app:layout_constraintTop_toBottomOf="@id/userid"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/lgreen"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:text="PAY in ETH"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#EA0909"/>
+    </androidx.cardview.widget.CardView>
 
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:id="@+id/my_qr"
+        app:layout_constraintTop_toBottomOf="@id/inr_qr_selector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_qrcode" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_pass"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/logout"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/lgreen"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Change Password"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#EA0909"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logout"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="#F83232"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

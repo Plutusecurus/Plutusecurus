@@ -12,7 +12,7 @@ public interface TransAPI {
     @Multipart
     @POST("user/register")
     Call<RegisterResponse> createUser(
-            @Part MultipartBody.Part profilePic,
+            @Part("profilePic") MultipartBody.Part profilePic,
             @Part("account") MultipartBody.Part account,
             @Part("name") MultipartBody.Part name
     );

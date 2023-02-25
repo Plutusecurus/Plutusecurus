@@ -4,25 +4,105 @@ package com.example.plutusecurus.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatRadioButton;
+import androidx.appcompat.widget.AppCompatTextView;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.plutusecurus.R;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityPaymentBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final NestedScrollView rootView;
 
-  private ActivityPaymentBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final RelativeLayout editProductHeader;
+
+  @NonNull
+  public final AppCompatImageView editprodBackBtn;
+
+  @NonNull
+  public final AppCompatTextView editprodTitle;
+
+  @NonNull
+  public final AppCompatRadioButton ethRadio;
+
+  @NonNull
+  public final AppCompatRadioButton inrRadio;
+
+  @NonNull
+  public final ProgressBar loginProgressBar;
+
+  @NonNull
+  public final AppCompatButton payNowBtn;
+
+  @NonNull
+  public final TextInputLayout paymentAmountContainer;
+
+  @NonNull
+  public final TextInputEditText paymentAmountEditText;
+
+  @NonNull
+  public final TextInputEditText paymentTypeRecViewEditText;
+
+  @NonNull
+  public final TextInputLayout paymentTypeView;
+
+  @NonNull
+  public final TextInputLayout recieverNameContainer;
+
+  @NonNull
+  public final TextInputEditText recieverNameEditText;
+
+  @NonNull
+  public final TextInputLayout recieverPublicAddressContainer;
+
+  @NonNull
+  public final TextInputEditText recieverPublicAddressEditText;
+
+  private ActivityPaymentBinding(@NonNull NestedScrollView rootView,
+      @NonNull RelativeLayout editProductHeader, @NonNull AppCompatImageView editprodBackBtn,
+      @NonNull AppCompatTextView editprodTitle, @NonNull AppCompatRadioButton ethRadio,
+      @NonNull AppCompatRadioButton inrRadio, @NonNull ProgressBar loginProgressBar,
+      @NonNull AppCompatButton payNowBtn, @NonNull TextInputLayout paymentAmountContainer,
+      @NonNull TextInputEditText paymentAmountEditText,
+      @NonNull TextInputEditText paymentTypeRecViewEditText,
+      @NonNull TextInputLayout paymentTypeView, @NonNull TextInputLayout recieverNameContainer,
+      @NonNull TextInputEditText recieverNameEditText,
+      @NonNull TextInputLayout recieverPublicAddressContainer,
+      @NonNull TextInputEditText recieverPublicAddressEditText) {
     this.rootView = rootView;
+    this.editProductHeader = editProductHeader;
+    this.editprodBackBtn = editprodBackBtn;
+    this.editprodTitle = editprodTitle;
+    this.ethRadio = ethRadio;
+    this.inrRadio = inrRadio;
+    this.loginProgressBar = loginProgressBar;
+    this.payNowBtn = payNowBtn;
+    this.paymentAmountContainer = paymentAmountContainer;
+    this.paymentAmountEditText = paymentAmountEditText;
+    this.paymentTypeRecViewEditText = paymentTypeRecViewEditText;
+    this.paymentTypeView = paymentTypeView;
+    this.recieverNameContainer = recieverNameContainer;
+    this.recieverNameEditText = recieverNameEditText;
+    this.recieverPublicAddressContainer = recieverPublicAddressContainer;
+    this.recieverPublicAddressEditText = recieverPublicAddressEditText;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +123,107 @@ public final class ActivityPaymentBinding implements ViewBinding {
 
   @NonNull
   public static ActivityPaymentBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.edit_product_header;
+      RelativeLayout editProductHeader = ViewBindings.findChildViewById(rootView, id);
+      if (editProductHeader == null) {
+        break missingId;
+      }
 
-    return new ActivityPaymentBinding((ConstraintLayout) rootView);
+      id = R.id.editprod_back_btn;
+      AppCompatImageView editprodBackBtn = ViewBindings.findChildViewById(rootView, id);
+      if (editprodBackBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.editprod_title;
+      AppCompatTextView editprodTitle = ViewBindings.findChildViewById(rootView, id);
+      if (editprodTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.eth_radio;
+      AppCompatRadioButton ethRadio = ViewBindings.findChildViewById(rootView, id);
+      if (ethRadio == null) {
+        break missingId;
+      }
+
+      id = R.id.inr_radio;
+      AppCompatRadioButton inrRadio = ViewBindings.findChildViewById(rootView, id);
+      if (inrRadio == null) {
+        break missingId;
+      }
+
+      id = R.id.login_progress_bar;
+      ProgressBar loginProgressBar = ViewBindings.findChildViewById(rootView, id);
+      if (loginProgressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.payNowBtn;
+      AppCompatButton payNowBtn = ViewBindings.findChildViewById(rootView, id);
+      if (payNowBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.paymentAmountContainer;
+      TextInputLayout paymentAmountContainer = ViewBindings.findChildViewById(rootView, id);
+      if (paymentAmountContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.paymentAmountEditText;
+      TextInputEditText paymentAmountEditText = ViewBindings.findChildViewById(rootView, id);
+      if (paymentAmountEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.paymentTypeRecViewEditText;
+      TextInputEditText paymentTypeRecViewEditText = ViewBindings.findChildViewById(rootView, id);
+      if (paymentTypeRecViewEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.paymentTypeView;
+      TextInputLayout paymentTypeView = ViewBindings.findChildViewById(rootView, id);
+      if (paymentTypeView == null) {
+        break missingId;
+      }
+
+      id = R.id.recieverNameContainer;
+      TextInputLayout recieverNameContainer = ViewBindings.findChildViewById(rootView, id);
+      if (recieverNameContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.recieverNameEditText;
+      TextInputEditText recieverNameEditText = ViewBindings.findChildViewById(rootView, id);
+      if (recieverNameEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.recieverPublicAddressContainer;
+      TextInputLayout recieverPublicAddressContainer = ViewBindings.findChildViewById(rootView, id);
+      if (recieverPublicAddressContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.recieverPublicAddressEditText;
+      TextInputEditText recieverPublicAddressEditText = ViewBindings.findChildViewById(rootView, id);
+      if (recieverPublicAddressEditText == null) {
+        break missingId;
+      }
+
+      return new ActivityPaymentBinding((NestedScrollView) rootView, editProductHeader,
+          editprodBackBtn, editprodTitle, ethRadio, inrRadio, loginProgressBar, payNowBtn,
+          paymentAmountContainer, paymentAmountEditText, paymentTypeRecViewEditText,
+          paymentTypeView, recieverNameContainer, recieverNameEditText,
+          recieverPublicAddressContainer, recieverPublicAddressEditText);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
