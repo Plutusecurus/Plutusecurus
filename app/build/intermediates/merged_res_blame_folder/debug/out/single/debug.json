@@ -1,1194 +1,1190 @@
 [
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_semibold.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_semibold.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_support.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_support.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_semi_bold.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_semi_bold.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/navigation_nav_graph.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_tea.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_tea.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_label_dotd_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\label_dotd_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_funnel_dollar.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_funnel_dollar.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_done.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_done.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_minus.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_minus.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_item_notified.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\item_notified.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_navigation.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_right_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_right_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_book.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_book.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_award.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_award.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_launcher_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_booking.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_booking.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_text_view_background_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\text_view_background_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_down_grey_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_down_grey_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_notify_item.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\notify_item.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_housing_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_housing_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_plus.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_plus.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_custom_switch_thumb.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/custom_switch_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_baseline_arrow_back_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_20.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_20.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_hamburger_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_hamburger_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_no_notification.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/no_notification.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_lefr_black.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_lefr_black.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_left_arrow_red_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_left_arrow_red_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rounded_edittext.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rounded_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_search.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_search.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_filter.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_filter.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_panda.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_panda.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_radio_button_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/radio_button_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_calories.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_calories.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_12.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_12.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangular_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangular_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_home.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_home.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_fragment_nft.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\fragment_nft.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circular.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circular.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_rating.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_rating.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_day_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/day_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_sheet_notch.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_sheet_notch.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_label_most_popular_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/label_most_popular_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_plus_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_plus_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_food_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_food_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_coins.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_coins.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_text_view_background_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/text_view_background_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_telegram_messenger_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_telegram_messenger_logo.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_down_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_down_red.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_down.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_down.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_location.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_location.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_arrow_circle_left.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_arrow_circle_left.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_bin.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/bin.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_circular_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\circular_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_drawer_header_drawable.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/drawer_header_drawable.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_favourite.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_favourite.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_horizontal_line.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/horizontal_line.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\baseline_arrow_back_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_plus_icon_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_plus_icon_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_down_grey.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_down_grey.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_13.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_13.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_dish.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_dish.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_savings_hog_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_savings_hog_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_red_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_red_circle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_bars.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_bars.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_destination.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_destination.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_splash_center.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_splash_center.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_lightbulb.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_lightbulb.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_white_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_white_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_sheet_popularity.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_sheet_popularity.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_medication_cicle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_medication_cicle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangular_background_3.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangular_background_3.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_drawer_header_drawable.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\drawer_header_drawable.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_left_arrow_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_left_arrow_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_white_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\white_circle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_11.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_11.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_bottom_sheet_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\bottom_sheet_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_label_exclusive_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\label_exclusive_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_medium_regular.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_medium_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_nav_item_backgroud2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\nav_item_backgroud2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangular_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangular_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_planner.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_planner.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_fragment_wallet.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_date_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\date_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_gift.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_gift.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_routes_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_routes_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_label_exclusive_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/label_exclusive_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_dotted_line.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_dotted_line.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_star.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_star.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_wallet.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_question.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_question.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_medium.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_medium.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_up.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_up.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_otp_background_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\otp_background_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_login_background_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_login_background_logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_ethnocentric.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\ethnocentric.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_white_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/white_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_circle_cross_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_circle_cross_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_3.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_3.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_dashboard.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_dashboard.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_background_button1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\background_button1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_app_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_app_logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_sos.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_sos.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_icon_success.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/icon_success.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_booking.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_booking.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_light.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_light.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_baseline_person_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_home___icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/home___icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic__50_cal.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic__50_cal.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/menu_navigation_menu.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/menu/navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_shape_all_address.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\shape_all_address.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_skill_level_intermediate_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_skill_level_intermediate_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_splash_center.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_splash_center.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_animation_list.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_animation_list.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_nav_item_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\nav_item_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_dotted_line.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_dotted_line.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_horizontal_line.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_horizontal_line.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_buttonbackground.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/buttonbackground.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_radio_checked.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_radio_checked.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_14.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_14.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_address_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\address_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_arrow_circle_left.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_arrow_circle_left.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_6.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_6.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_red_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_red_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_favourite.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_favourite.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_calender.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_calender.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rounded_edittext.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rounded_edittext.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_21.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_21.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_home.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_dish.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_dish.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_xlight.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_xlight.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_linehorizontal.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_linehorizontal.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_no_interner_page.png.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\no_interner_page.png"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_logout.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_app_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_app_logo.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_9.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_9.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_calender_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_calender_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_referral_background_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/referral_background_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_dot_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/dot_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_upper_shapes.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_upper_shapes.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_9.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_9.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_percent.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_percent.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_onboarding_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_onboarding_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_unfavourite.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_unfavourite.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_sheet_distance.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_sheet_distance.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_lefr_black.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_lefr_black.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_transaction_history.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_transaction_history.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_semi_bold.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_semi_bold.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_booking.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_booking.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_label_dotd_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/label_dotd_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_hand_holding_usd.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_hand_holding_usd.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_location_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_location_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_calender_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_calender_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_profile.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_profile.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_call_now_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/call_now_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_11.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_11.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_award.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_award.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_white_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_white_circle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_horizontal_line.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_horizontal_line.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_book_ride.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_book_ride.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rounded_signup.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rounded_signup.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_day_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\day_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_qrcode.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_qrcode.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_skill_level_intermediate_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_skill_level_intermediate_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_date_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/date_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_custom_switch_body_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\custom_switch_body_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_card_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_card_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_baseline_west_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_baseline_west_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_done.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_done.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_bold.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_bold.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_wallet_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_wallet_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_light_italic.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_light_italic.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_radio_checked.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_radio_checked.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_3.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_3.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_qr_scanner.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_qr_scanner.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_circular_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/circular_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_linevertical.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_linevertical.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_semibold.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_semibold.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_rice_bowl.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_rice_bowl.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_sheet_low_to_high.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_sheet_low_to_high.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_bars.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_bars.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_10.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_10.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangle_821.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangle_821.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_sheet_distance.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_sheet_distance.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_question.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_question.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_minus_dialog_layout.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/minus_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_home.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_home.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_6.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_6.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_login_background_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_login_background_logo.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_custom_switch_body.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/custom_switch_body.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_support.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_support.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_icon_success.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\icon_success.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_telegram_messenger_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_telegram_messenger_logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_baseline_add_circle_outline_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\baseline_add_circle_outline_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_pizza_slice.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_pizza_slice.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_circle_grey.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_circle_grey.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_7.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_7.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_custom_switch_body_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/custom_switch_body_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_home.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_home.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_16.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_16.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_fragment_wallet.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\fragment_wallet.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_shape_default_address.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\shape_default_address.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_center_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_center_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_radio_unchecked.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_radio_unchecked.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_destination.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_destination.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_10.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_10.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_play_voice_note.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_play_voice_note.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_subway.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_subway.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_login.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_right_arrow_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_right_arrow_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_referral_background_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/referral_background_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_toolbar_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\toolbar_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_7.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_7.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_linehorizontal.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_linehorizontal.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_qr.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_qr.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_share_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_share_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_asset_31.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_asset_31.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_wallet.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_wallet.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_remove_voice_note.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_remove_voice_note.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_center_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_center_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_15.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_15.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_add_new_buzz.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\add_new_buzz.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_shape_default_address.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/shape_default_address.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_medium.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_medium.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_subscription.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_subscription.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_qr.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_qr.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_rice_bowl.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_rice_bowl.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_plus_with_square.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_plus_with_square.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_onboarding_3.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_onboarding_3.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_7.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_7.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_8.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_8.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_button_rounded_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\button_rounded_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_right_arrow_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_right_arrow_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_16.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_16.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_profile.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_profile.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_background_credit_transactions.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\background_credit_transactions.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_favourite.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_address.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_address.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_ethnocentric.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/ethnocentric.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_user_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_user_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_pickup.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_pickup.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_card_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_card_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_microphone2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_microphone2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_remove_voice_note.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_remove_voice_note.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_growth_investment_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_growth_investment_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_shopping_bag.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_shopping_bag.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_notifications.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/notifications.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_radio_button_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\radio_button_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_half_arrow_left_black.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_half_arrow_left_black.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_4.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_4.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_medium.ttf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_splash_screen_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_splash_screen_logo.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circular.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circular.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_star.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_star.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_faq.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_faq.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_sheet_notch.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_sheet_notch.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_login.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_call_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_call_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_lower_shapes.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_lower_shapes.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_bold.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_bold.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_sheet_high_to_low.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_sheet_high_to_low.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_payment.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_down_grey_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_down_grey_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_referral.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_referral.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_onboarding_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_onboarding_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_profile.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_profile.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_call_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_call_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_notify_item.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/notify_item.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_veg.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_veg.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_profile.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_profile.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rounded_signup.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rounded_signup.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_5.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_5.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_home.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_message_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\message_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_item_notified.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/item_notified.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_15.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_15.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_help.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_help.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_extra_light.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_extra_light.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_right_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_right_red.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_navigation.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_navigation.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_login_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\login_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_investment_model_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_investment_model_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_investment_model_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_investment_model_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_plus_add.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_plus_add.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_gift.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_gift.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_baseline_west_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_baseline_west_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_filter.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_filter.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_baseline_qr_code_scanner_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_housing_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_housing_circle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_bottom_sheet_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/bottom_sheet_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_mic_small.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_mic_small.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_piechart.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_piechart.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_briefcase_medical.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_briefcase_medical.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_up_grey.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_up_grey.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_plus_icon_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_plus_icon_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_learn.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_learn.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_red_heart.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_red_heart.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_search.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_referral_background_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\referral_background_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_onboarding_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_onboarding_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_half_arrow_left_black.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_half_arrow_left_black.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_border_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/border_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_half_arrow_left_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_half_arrow_left_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_call_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_call_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rounded.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rounded.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_cross_circle.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/cross_circle.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_notifications.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\notifications.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_background_credit_transactions.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/background_credit_transactions.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_minus_with_square.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_minus_with_square.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_down_grey.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_down_grey.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_bin.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\bin.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_notifications.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_qrcode.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_qrcode.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_microphone2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_microphone2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_animation_list.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_animation_list.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_no_interner_page.png.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/no_interner_page.png"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_main.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_half_arrow_left_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_half_arrow_left_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_custom_switch_thumb_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\custom_switch_thumb_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_edittext_style.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/edittext_style.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_logout.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_logout.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_add_new_buzz.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/add_new_buzz.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_unfavourite.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_unfavourite.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_user_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_user_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_non_veg.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_non_veg.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_profile.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_14.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_14.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_fragment_dashboard.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\fragment_dashboard.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_log_out.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_log_out.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_medium_regular.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_medium_regular.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_light_italic.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_light_italic.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_down_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_down_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_19.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_19.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_percent.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_percent.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_confectionaryicon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_confectionaryicon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_growth_investment_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_growth_investment_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_3.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_3.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_splash_screen_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_splash_screen_logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_17.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_17.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_book_ride.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_book_ride.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_no_notification.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\no_notification.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_regular.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_regular.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_referral_background_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\referral_background_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_onboarding_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_onboarding_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_button_rounded_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/button_rounded_red.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_round_btn.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\round_btn.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_add_note.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_add_note.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_card_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\card_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_circle_red_plus.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_circle_red_plus.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangle_820.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangle_820.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_minus_with_square.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_minus_with_square.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_crown.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_crown.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_background_button1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/background_button1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_book_regular.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_book_regular.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_radio_unchecked.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_radio_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_profile.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_item_history.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/item_history.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_red_cross1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\red_cross1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_otp_background_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/otp_background_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_subway.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_subway.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_plus_add.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_plus_add.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangular_background_3.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangular_background_3.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_qr_scanner.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_qr_scanner.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_skill_level_basic_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_skill_level_basic_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_call_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_call_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_extra_light.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_extra_light.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\logo.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_regular.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_regular.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_border_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\border_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_share_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_share_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_sun.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_sun.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_login__illustration.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/login__illustration.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_double_tick_red.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_double_tick_red.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_nav_item_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/nav_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_baseline_arrow_back_ios_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\baseline_arrow_back_ios_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_lower_shapes.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_lower_shapes.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_12.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_12.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_lightbulb.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_lightbulb.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_search_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_search_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_delete.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_8.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_8.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_3.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_3.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_shape_border_dashed.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\shape_border_dashed.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_transaction_history.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_transaction_history.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_card_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_card_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_routes_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_routes_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_referral.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_referral.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_mic.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_mic.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_left_arrow_red_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_left_arrow_red_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_panda.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_panda.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_piechart.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_piechart.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_hand_holding_usd.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_hand_holding_usd.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_mic.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_mic.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rounded.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rounded.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\navigation\\nav_graph.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_red_cross.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_red_cross.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_card_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_card_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_sos.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_sos.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_wallet_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_wallet_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_plus.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_plus.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_left_arrow_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_left_arrow_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_up_grey.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_up_grey.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_sun.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_sun.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_notifications.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_notifications.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_red_heart.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_red_heart.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_5.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_5.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_search_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_search_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_analytics_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_analytics_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_arrow_down.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_arrow_down.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_half_arrow_right_black.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_half_arrow_right_black.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_location_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_location_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_sheet_popularity.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_sheet_popularity.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_profile.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_profile.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_facebook_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_facebook_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_calender.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_calender.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_profile.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_profile.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_fragment_nft.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/fragment_nft.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_edittext_style.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\edittext_style.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_address_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/address_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_funnel_dollar.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_funnel_dollar.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_half_arrow_left_white.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_half_arrow_left_white.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_login__illustration.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\login__illustration.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_xlight.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_xlight.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_facebook_icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_facebook_icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_mic_small.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_mic_small.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_18.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_18.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_crown.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_crown.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_message_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/message_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_half_arrow_left_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_half_arrow_left_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_veg.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_veg.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_activity_payment.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\activity_payment.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangular_background_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangular_background_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_regular.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_regular.otf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_briefcase_medical.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_briefcase_medical.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_help.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_help.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_5.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_5.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_card_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_card_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_plus_with_square.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_plus_with_square.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\menu\\navigation_menu.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_card_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/card_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_share.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_share.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_card_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_card_icon.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_add_dialog_layout.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\add_dialog_layout.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangle_821.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangle_821.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_referral.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_referral.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_medication_cicle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_medication_cicle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_android_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_onboarding_3.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_onboarding_3.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_login_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/login_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_pickup.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_pickup.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_5.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_5.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_minus_dialog_layout.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\minus_dialog_layout.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_17.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_17.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_asset_31.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_asset_31.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_tea.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_tea.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\layout_item_history.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\layout\\item_history.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangular_background_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangular_background_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_4.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_4.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_booking.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_booking.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_baseline_qr_code_scanner_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_baseline_qr_code_scanner_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_sandwich.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_sandwich.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_cross_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\cross_circle.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_nav_item_backgroud2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/nav_item_backgroud2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_location.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_location.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_analytics_svgrepo_com.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_analytics_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_horizontal_line.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\horizontal_line.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_favourite.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_confectionaryicon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_confectionaryicon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_card_background_inactive.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/card_background_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_light.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_light.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_circle_red_cross.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\circle_red_cross.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_otp_background_1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/otp_background_1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_20.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_20.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_shape_border_dashed.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/shape_border_dashed.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_log_out.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_log_out.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_linevertical.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_linevertical.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_add_note.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_add_note.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_learn.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_learn.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_search_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/search_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangular_background_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangular_background_1.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_montserrat_medium.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/montserrat_medium.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_card_background_inactive.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\card_background_inactive.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_calories.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_calories.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_21.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_21.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_sheet_high_to_low.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_sheet_high_to_low.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_sandwich.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_sandwich.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_4.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_4.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_savings_hog_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_savings_hog_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_plus_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_plus_red.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_android_black_24dp.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_android_black_24dp.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_dashboard.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_dot_white.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\dot_white.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_shape_all_address.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/shape_all_address.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_wallet.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_wallet.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_shopping_bag.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_shopping_bag.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_search_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\search_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_half_arrow_right_black.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_half_arrow_right_black.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_home___icon.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\home___icon.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_toolbar_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/toolbar_background.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_wallet.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_wallet.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_hamburger_icon.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_hamburger_icon.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_add_dialog_layout.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/add_dialog_layout.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_circle_grey.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_circle_grey.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_non_veg.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_non_veg.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_double_tick_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_double_tick_red.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_bottom_home.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_bottom_home.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_circle_cross_red.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_circle_cross_red.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_baseline_person_24.xml"
     },
     {
         "merged": "com.example.plutusecurus.app-merged_res-48:/layout_fragment_dashboard.xml.flat",
         "source": "com.example.plutusecurus.app-main-50:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_custom_switch_thumb.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\custom_switch_thumb.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_custom_switch_thumb_2.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/custom_switch_thumb_2.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_play_voice_note.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_play_voice_note.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_round_btn.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/round_btn.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_referral.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_referral.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic__50_cal.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic__50_cal.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_circle_red_plus.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_circle_red_plus.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_red_cross1.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/red_cross1.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_share.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_share.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_arrow_up.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_arrow_up.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_7.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_7.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/font_gotham_book_regular.otf.flat",
+        "source": "com.example.plutusecurus.app-main-50:/font/gotham_book_regular.otf"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_pizza_slice.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_pizza_slice.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_logo.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/logo.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_13.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_13.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_faq.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_faq.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_skill_level_basic_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_skill_level_basic_svgrepo_com.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_nav_address.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_nav_address.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_gotham_book.ttf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\gotham_book.ttf"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_launcher_background.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_call_now_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\call_now_background.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_upper_shapes.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_upper_shapes.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangular_background_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangular_background_2.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_circle_4.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/circle_4.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_custom_switch_body.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\custom_switch_body.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable_ic_coins.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable/ic_coins.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_minus.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_minus.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_rectangle_820.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/rectangle_820.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_bottom_sheet_low_to_high.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_bottom_sheet_low_to_high.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_baseline_my_location_24.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_baseline_my_location_24.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_delete.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_delete.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_btn_background_18.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/btn_background_18.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_baseline_my_location_24.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_baseline_my_location_24.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/layout_activity_planner.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/layout/activity_planner.xml"
     },
     {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_nav_subscription.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_nav_subscription.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_label_most_popular_background.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\label_most_popular_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_1.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_1.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_ic_logo.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\ic_logo.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_otp_background_2.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\otp_background_2.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\font_montserrat_regular.otf.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\font\\montserrat_regular.otf"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_ic_food_circle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\ic_food_circle.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable_buttonbackground.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable\\buttonbackground.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_rectangle.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\rectangle.xml"
-    },
-    {
-        "merged": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-48:\\drawable-v24_btn_background_19.xml.flat",
-        "source": "C:\\Users\\anubh\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-50:\\drawable-v24\\btn_background_19.xml"
+        "merged": "com.example.plutusecurus.app-merged_res-48:/drawable-v24_ic_rating.xml.flat",
+        "source": "com.example.plutusecurus.app-main-50:/drawable-v24/ic_rating.xml"
     }
 ]

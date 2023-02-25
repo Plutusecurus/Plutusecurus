@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-46:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\anubh\\.gradle\\caches\\transforms-3\\2588b109c5d83ed13a0e39845a2ad1d3\\transformed\\jetified-zxing-android-embedded-4.2.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    }
+                }
+            ]
+        }
+    ]
+}

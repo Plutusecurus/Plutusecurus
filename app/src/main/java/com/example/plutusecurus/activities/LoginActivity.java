@@ -23,6 +23,7 @@ import com.example.plutusecurus.databinding.ActivityLoginBinding;
 import com.example.plutusecurus.dtos.RegisterResponse;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
 import com.google.android.material.snackbar.Snackbar;
+import com.kenai.jffi.Main;
 
 import org.web3j.crypto.ECKeyPair;
 
@@ -39,6 +40,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.util.Objects;
 
+import jnr.ffi.annotations.In;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
@@ -69,6 +71,15 @@ public class LoginActivity extends AppCompatActivity {
 
         init();
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if(sharedPreferencesConfig.readPublicKey() != null){
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
     }
 
     public void init() {
@@ -117,6 +128,7 @@ public class LoginActivity extends AppCompatActivity {
                             binding.privateKeyEdittext.getText().toString());
                 } catch (IOException e) {
                     e.printStackTrace();
+                    Log.e(TAG, "uploadImageOnClick: "+e.getMessage());
                 }
             }
         });
@@ -163,7 +175,7 @@ public class LoginActivity extends AppCompatActivity {
                             startActivity(intent);
                         }
 
-                        Log.d(TAG, "onResponse(): "+response.toString());
+
 
                         binding.signUpBtn.setVisibility(View.VISIBLE);
                         binding.otpProgressBar.setVisibility(View.GONE);
@@ -176,6 +188,7 @@ public class LoginActivity extends AppCompatActivity {
                         binding.signUpBtn.setVisibility(View.VISIBLE);
                         binding.otpProgressBar.setVisibility(View.GONE);
                         Log.d(TAG, "onFailure(): "+t.getMessage());
+                        Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
 
                     }
                 });

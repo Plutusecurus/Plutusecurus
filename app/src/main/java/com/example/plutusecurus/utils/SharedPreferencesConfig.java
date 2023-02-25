@@ -66,4 +66,21 @@ public class SharedPreferencesConfig {
     public String readImage() {
         return sharedPreferences.getString("IMAGE", "");
     }
+
+//    public void writeCategories(String category) {
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("CATEGORY", category);
+//        editor.apply();
+//    }
+//    public void writeAddress(String address) {
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("ADDRESS", address);
+//        editor.apply();
+//    }
+//
+//    public void writeAmount(String val) {
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("AMOUNT", val);
+//        editor.apply();
+//    }
 }

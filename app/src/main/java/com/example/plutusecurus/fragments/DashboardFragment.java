@@ -4,9 +4,12 @@ import static android.R.color.transparent;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +25,15 @@ import androidx.fragment.app.Fragment;
 
 import com.example.plutusecurus.R;
 import com.example.plutusecurus.activities.PlannerActivity;
+import com.example.plutusecurus.data.ApiClient;
+import com.example.plutusecurus.data.TransAPI;
+import com.example.plutusecurus.model.AddExpenseBody;
+import com.example.plutusecurus.model.AddExpenseResponse;
+import com.example.plutusecurus.utils.SharedPreferencesConfig;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class DashboardFragment extends Fragment {
 
@@ -31,6 +43,10 @@ public class DashboardFragment extends Fragment {
     float expenditure_int, earnings_int,total_int;
     TextView expenditure, earnings,total;
 
+    SharedPreferencesConfig sharedPreferencesConfig;
+
+    TransAPI transAPI;
+    String[] categories = {"housing", "food", "medical", "transport", "essentials", "luxury", "gifts", "misc"};
     @SuppressLint("SetTextI18n")
     @Nullable
     @Override
@@ -55,6 +71,9 @@ public class DashboardFragment extends Fragment {
         /*_______________________________BUTTONS CONFIGS_________________________________________*/
 
 
+        sharedPreferencesConfig = new SharedPreferencesConfig(requireContext());
+
+        transAPI = ApiClient.getApiClient().create(TransAPI.class);
 
         pie_chart_button.setOnClickListener(view12 -> {
             Intent intent=new Intent(getActivity(), PlannerActivity.class);
@@ -164,6 +183,37 @@ public class DashboardFragment extends Fragment {
                 total_int=total_int-value;
                 expenditure.setText(Float.toString(expenditure_int));
                 total.setText(Float.toString(total_int));
+
+                for(int i = 0; i < flag.length; i++){
+                    if(flag[i] == 1){
+                        Toast.makeText(getContext(), "Here" + i, Toast.LENGTH_SHORT).show();
+
+                        String publicKey = sharedPreferencesConfig.readPublicKey();
+                        Toast.makeText(getContext(), publicKey.toString(), Toast.LENGTH_SHORT).show();
+                        AddExpenseBody addExpenseBody = new AddExpenseBody(publicKey, val, categories[i]);
+                        int finalI = i;
+                        transAPI.addExpense(addExpenseBody).enqueue(new Callback<AddExpenseResponse>() {
+                            @Override
+                            public void onResponse(Call<AddExpenseResponse> call, Response<AddExpenseResponse> response) {
+                                if(response != null){
+                                    expenditure_int=expenditure_int+value;
+                                    total_int=total_int-value;
+                                    expenditure.setText(Float.toString(expenditure_int));
+                                    total.setText(Float.toString(total_int));
+                                    Log.d("SuccessfulResponse", response.message());
+//                                    sharedPreferencesConfig.writeCategories(categories[finalI]);
+//                                    sharedPreferencesConfig.writePublicKey(publicKey);
+//                                    sharedPreferencesConfig.writeAmount(val);
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Call<AddExpenseResponse> call, Throwable t) {
+                                Toast.makeText(getContext(), "Could not add expense.", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                }
 
                 minus_dialog.dismiss();
             }

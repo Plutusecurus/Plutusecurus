@@ -124,8 +124,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/345a2a1e78039464149a8b927da34ff0/transformed/jetified-disklrucache-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dadecce8e3abe38de5ca3fb045b0e408/transformed/jetified-annotations-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a49ca9e0c5b999bb265cf71b06db46bd/transformed/jetified-gson-2.8.5.jar</arg>
-                <arg>$MODULE_DIR$/../../../../ANDROID SDK/platforms/android-33/android.jar</arg>
-                <arg>$MODULE_DIR$/../../../../ANDROID SDK/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
