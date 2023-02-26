@@ -20,7 +20,7 @@ It is a daily financial planner cum ethereum wallet which helps users to:
   ```bash
   git clone https://github.com/shagil77/Plutusecurus
 ```
-[*Download the Application*]()
+[*Download the Application*](https://drive.google.com/drive/folders/1qhQvWmiZ3ByVY6IkPVEI-kjt40UngR44?usp=sharing)
 
 ## 💭 Features
 
@@ -50,7 +50,7 @@ Payment Through Decentralized Wallet
 * Docker Containers
 
 ## 💡Demo
-[Link to Demo Video]()
+[Link to Demo Video](https://drive.google.com/drive/folders/1Z7YAJCuBkNmIscB-myoC8R5tBP8VVg86?usp=sharing)
 
 ## 💁 Contributors
 
