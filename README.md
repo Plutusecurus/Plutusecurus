@@ -18,7 +18,7 @@ It is a daily financial planner cum ethereum wallet which helps users to:
   *Clone the Repository*
   
   ```bash
-  Git clone https://github.com/shagil77/Plutusecurus
+  git clone https://github.com/shagil77/Plutusecurus
 ```
 [*Download the Application*]()
 
