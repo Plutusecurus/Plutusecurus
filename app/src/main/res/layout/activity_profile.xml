@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/profile_pic"
+            android:id="@+id/profile_pic_of_profile"
             android:background="@color/white"
             android:src="@drawable/ic_android_black_24dp"/>
     </androidx.cardview.widget.CardView>
@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/profile_name"
+        android:id="@+id/profile_name_username"
         android:text="AMAN SINGH"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/profile_pic_card"
@@ -63,23 +63,24 @@
         android:layout_marginTop="10dp"
         android:textSize="24sp"
         />
+
     <TextView
+        android:id="@+id/userid_of_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/userid"
+        android:layout_marginTop="2dp"
         android:text="kk233dk334e"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/profile_name"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="2dp"
-        android:textSize="16sp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_name_username" />
 
     <ImageView
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/my_qr"
-        app:layout_constraintTop_toBottomOf="@id/userid"
+        app:layout_constraintTop_toBottomOf="@id/userid_of_profile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"
@@ -120,6 +121,7 @@
         android:clickable="true"
         android:focusable="true">
         <TextView
+            android:id="@+id/logout_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Logout"

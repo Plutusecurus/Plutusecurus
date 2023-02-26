@@ -27,8 +27,11 @@ import com.example.plutusecurus.R;
 import com.example.plutusecurus.activities.PlannerActivity;
 import com.example.plutusecurus.data.ApiClient;
 import com.example.plutusecurus.data.TransAPI;
+import com.example.plutusecurus.dtos.GetUserResponse;
 import com.example.plutusecurus.model.AddExpenseBody;
 import com.example.plutusecurus.model.AddExpenseResponse;
+import com.example.plutusecurus.model.AddIncomeBody;
+import com.example.plutusecurus.model.AddIncomeResponse;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
 
 import retrofit2.Call;
@@ -41,7 +44,9 @@ public class DashboardFragment extends Fragment {
     ImageView plus,minus;
     String exp="0",earn="0",tot="0";
     float expenditure_int, earnings_int,total_int;
-    TextView expenditure, earnings,total;
+    TextView expenditure, earnings,total, house_percent_tv, food_percent_tv, medical_percent_tv, dashboardTV;
+    String house,food,transport,essential,misc,gift,luxury,medical,totalStr;
+
 
     SharedPreferencesConfig sharedPreferencesConfig;
 
@@ -61,6 +66,10 @@ public class DashboardFragment extends Fragment {
         expenditure=view.findViewById(R.id.cash_val);
         earnings =view.findViewById(R.id.credit_val);
         total=view.findViewById(R.id.total_val);
+        house_percent_tv = view.findViewById(R.id.house_percentage);
+        food_percent_tv = view.findViewById(R.id.food_percentage);
+        medical_percent_tv = view.findViewById(R.id.medicine_percentage);
+        dashboardTV = view.findViewById(R.id.dashboard);
         /*______________________________TEXT CONFIG___________________________*/
         expenditure.setText(exp);
         earnings.setText(earn);
@@ -82,7 +91,44 @@ public class DashboardFragment extends Fragment {
         plus.setOnClickListener(view13 -> showAddDialog());
 
         minus.setOnClickListener(view1 -> showMinusDialog());
+
+        internetCall();
+
         return view;
+    }
+
+    private void internetCall() {
+        transAPI.getUser(sharedPreferencesConfig.readPublicKey()).enqueue(new Callback<GetUserResponse>() {
+            @Override
+            public void onResponse(Call<GetUserResponse> call, Response<GetUserResponse> response) {
+                if (response.isSuccessful()) {
+                    if (response.body()!=null) {
+                        GetUserResponse.User user = response.body().getUser();
+                        dashboardTV.setText(user.getName());
+                        GetUserResponse.Spending spending = response.body().getUser().getSpending();
+                        earnings.setText(String.valueOf((int)user.getEarning()));
+                        // total=String.valueOf(spending.());
+                        double temp = spending.getHousing() + spending.getFood() + spending.getTransport() + spending.getEssentials() + spending.getMisc()
+                                + spending.getGifts() + spending.getLuxury() + spending.getMedical();
+                        totalStr = String.valueOf(Math.round(temp));
+                        expenditure.setText(totalStr);
+                        total.setText( String.valueOf((int)(user.getEarning() - temp)));
+                        String house_percent = String.valueOf((int)(spending.getHousing()/temp*100))+"%";
+                        String food_percent = String.valueOf((int)(spending.getFood()/temp*100))+"%";
+                        String medical_percent = String.valueOf((int)(spending.getMedical()/temp*100))+"%";
+                        house_percent_tv.setText(house_percent);
+                        food_percent_tv.setText(food_percent);
+                        medical_percent_tv.setText(medical_percent);
+                    }
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<GetUserResponse> call, Throwable t) {
+
+            }
+        });
     }
     @SuppressLint("SetTextI18n")
     private void showAddDialog(){
@@ -127,12 +173,42 @@ public class DashboardFragment extends Fragment {
             //add data to file
             String val=addVal.getText().toString();
             if(!val.isEmpty()){
+
                 float value=Float.parseFloat(val);
-                earnings_int=earnings_int+value;
-                total_int=total_int+value;
-                earnings.setText(Float.toString(earnings_int));
-                total.setText(Float.toString(total_int));
-                add_dialog.dismiss();
+                earnings.setText(String.valueOf(earnings_int));
+                total.setText(String.valueOf(total_int));
+//                earnings_int=earnings_int+value;
+//                total_int=total_int+value;
+
+                String publicKey = sharedPreferencesConfig.readPublicKey();
+                AddIncomeBody addIncomeBody = new AddIncomeBody(publicKey, val);
+                transAPI.addIncome(addIncomeBody).enqueue(new Callback<AddIncomeResponse>() {
+                    @Override
+                    public void onResponse(Call<AddIncomeResponse> call, Response<AddIncomeResponse> response) {
+                        if (response.isSuccessful()) {
+                            if(response.body() != null){
+//                            earnings_int=earnings_int+value;
+//                            total_int=total_int+value;
+                                earnings.setText(Float.toString(earnings_int));
+                                total.setText(Float.toString(total_int));
+                                add_dialog.dismiss();
+                                internetCall();
+
+                                Log.d("SuccessfulResponse", response.message());
+//                                    sharedPreferencesConfig.writeCategories(categories[finalI]);
+//                                    sharedPreferencesConfig.writePublicKey(publicKey);
+//                                    sharedPreferencesConfig.writeAmount(val);
+                            }
+                        }
+
+
+
+                    }
+                    @Override
+                    public void onFailure(Call<AddIncomeResponse> call, Throwable t) {
+                        Toast.makeText(getContext(), "Could not add income.", Toast.LENGTH_SHORT).show();
+                    }
+                });
             }
             else{
                 Toast.makeText(getContext(), "Please enter a value", Toast.LENGTH_SHORT).show();
@@ -179,10 +255,10 @@ public class DashboardFragment extends Fragment {
             float value=Float.parseFloat(val);
 
             if(!val.isEmpty()){
-                expenditure_int=expenditure_int+value;
-                total_int=total_int-value;
-                expenditure.setText(Float.toString(expenditure_int));
-                total.setText(Float.toString(total_int));
+//                expenditure_int=expenditure_int+value;
+//                total_int=total_int-value;
+                expenditure.setText(String.valueOf(expenditure_int));
+                total.setText(String.valueOf(total_int));
 
                 for(int i = 0; i < flag.length; i++){
                     if(flag[i] == 1){
@@ -195,15 +271,18 @@ public class DashboardFragment extends Fragment {
                         transAPI.addExpense(addExpenseBody).enqueue(new Callback<AddExpenseResponse>() {
                             @Override
                             public void onResponse(Call<AddExpenseResponse> call, Response<AddExpenseResponse> response) {
-                                if(response != null){
-                                    expenditure_int=expenditure_int+value;
-                                    total_int=total_int-value;
-                                    expenditure.setText(Float.toString(expenditure_int));
-                                    total.setText(Float.toString(total_int));
-                                    Log.d("SuccessfulResponse", response.message());
+                                if (response.isSuccessful()){
+                                    if (response.body() != null) {
+//                                    expenditure_int=expenditure_int+value;
+//                                    total_int=total_int-value;
+                                        expenditure.setText(Float.toString(expenditure_int));
+                                        total.setText(Float.toString(total_int));
+                                        internetCall();
+                                        Log.d("SuccessfulResponse", response.message());
 //                                    sharedPreferencesConfig.writeCategories(categories[finalI]);
 //                                    sharedPreferencesConfig.writePublicKey(publicKey);
 //                                    sharedPreferencesConfig.writeAmount(val);
+                                    }
                                 }
                             }
 

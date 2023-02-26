@@ -16,6 +16,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import jnr.ffi.annotations.In;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class QrActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
@@ -52,10 +53,18 @@ public class QrActivity extends AppCompatActivity implements ZXingScannerView.Re
     @Override
     public void handleResult(Result rawResult) {
 
-        Uri uri = Uri.parse(rawResult.getText()); // missing 'http://' will cause crashed
+        /*Uri uri = Uri.parse(rawResult.getText()); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
-        onBackPressed();
+        onBackPressed();*/
+        String recipientPublicKey = rawResult.getText().split(",")[1];
+        String recipientName = rawResult.getText().split(",")[0];
+
+        Intent intent = new Intent(this, PaymentActivity.class);
+        intent.putExtra("name", recipientName);
+        intent.putExtra("publicKey", recipientPublicKey);
+
+        startActivity(intent);
 
     }
 

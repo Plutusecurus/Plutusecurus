@@ -6,7 +6,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL = "https://c4a0-118-185-209-213.in.ngrok.io/";
+    private static final String BASE_URL = "https://oyster-app-93slp.ondigitalocean.app/";
     private static final String TAG = ApiClient.class.getName();
     //private static final String BASE_URL = "http://13.59.151.77:4000/";
     private static Retrofit retrofit = null;

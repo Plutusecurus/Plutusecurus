@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\anubh\.gradle\caches\transforms-3\5776647b33eaa1df80681d4f3507a112\transformed\jetified-viewbinding-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\anubh\.gradle\caches\transforms-3\e72c97e1200dccfa881520ded1c8df38\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -71,22 +71,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\anub
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\anubh\.gradle\caches\transforms-3\1db748c5711ec71523d6fdd8c06e957b\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fa714198374fad697ff37c4d7555e1\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\anubh\.gradle\caches\transforms-3\00e203d6d8c9679b00b528e1a0e50863\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:2:11-69
@@ -112,8 +112,18 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradl
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
 	android:name
 		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:10:19-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:5-14:40
+	tools:ignore
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:14:9-37
+	android:name
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:22-78
 application
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:5-49:19
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:16:5-53:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\anubh\.gradle\caches\transforms-3\728bc65372d46aef0e245074d736cc50\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
@@ -143,79 +153,79 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\anubh\.gradle\cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\anubh\.gradle\caches\transforms-3\03467fe8e0cc032ff03107cc5e24e866\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\anubh\.gradle\caches\transforms-3\03467fe8e0cc032ff03107cc5e24e866\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:9-52
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:17:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:20:9-41
 	tools:ignore
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:24:9-35
 	android:roundIcon
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:21:9-54
 	android:icon
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:19:9-50
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:23:9-50
 activity#com.example.plutusecurus.activities.LoginActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:21:9-33:20
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:9-37:20
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:22:13-53
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:26:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:27-74
 intent-filter#action:name:io.metamask.intent.action.SIGN_TX+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:13-32:29
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:33:13-36:29
 action#io.metamask.intent.action.SIGN_TX
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:30:17-75
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:17-75
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:30:25-73
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:25-73
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:17-75
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:17-75
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:27-73
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:27-73
 activity#com.example.plutusecurus.activities.PaymentActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:13-55
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:39:13-55
 activity#com.example.plutusecurus.activities.QrActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:38:13-50
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:42:13-50
 activity#com.example.plutusecurus.activities.PlannerActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:41:13-55
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:45:13-55
 activity#com.example.plutusecurus.activities.ProfileActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:44:13-55
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:48:13-55
 activity#com.example.plutusecurus.activities.MainActivity
-ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:50:9-52:39
 	android:exported
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:47:13-52
+		ADDED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:51:13-52
 uses-sdk
 INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml

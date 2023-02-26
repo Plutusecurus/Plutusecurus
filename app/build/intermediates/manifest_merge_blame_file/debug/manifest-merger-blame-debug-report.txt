@@ -23,175 +23,183 @@
 15    <uses-feature android:name="android.hardware.camera.autofocus" />
 15-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:10:5-70
 15-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:10:19-67
-16    <uses-feature
-16-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
-17        android:name="android.hardware.camera.front"
-17-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
-18        android:required="false" />
-18-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
-19    <uses-feature
-19-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
-20        android:name="android.hardware.camera.flash"
-20-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
-21        android:required="false" />
-21-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
-22    <uses-feature
-22-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
-23        android:name="android.hardware.screen.landscape"
-23-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
-24        android:required="false" />
-24-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
-25    <uses-feature
-25-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
-26        android:name="android.hardware.wifi"
-26-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
-27        android:required="false" />
-27-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
-28
-29    <permission
-29-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-30        android:name="com.example.a7os.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:5-14:40
+18-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:22-78
+19
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+21        android:name="android.hardware.camera.front"
+21-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+22        android:required="false" />
+22-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+24        android:name="android.hardware.camera.flash"
+24-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+27        android:name="android.hardware.screen.landscape"
+27-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+30        android:name="android.hardware.wifi"
+30-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
 32
-33    <uses-permission android:name="com.example.a7os.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-34
-35    <application
-35-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:12:5-49:19
-36        android:allowBackup="true"
-36-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:14:9-35
-37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-38        android:debuggable="true"
-39        android:extractNativeLibs="false"
-40        android:icon="@mipmap/ic_launcher"
-40-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:15:9-43
-41        android:label="@string/app_name"
-41-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:16:9-41
-42        android:requestLegacyExternalStorage="true"
-42-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:13:9-52
-43        android:roundIcon="@mipmap/ic_launcher_round"
-43-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:17:9-54
-44        android:supportsRtl="true"
-44-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:18:9-35
-45        android:testOnly="true"
-46        android:theme="@style/Theme.Plutusecurus" >
-46-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:19:9-50
-47        <activity
-47-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:21:9-33:20
-48            android:name="com.example.plutusecurus.activities.LoginActivity"
-48-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:22:13-53
-49            android:exported="true" >
-49-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:23:13-36
-50            <intent-filter>
-50-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:24:13-28:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:17-69
-51-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:17-77
-53-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:27-74
-54            </intent-filter>
-55            <intent-filter>
-55-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:13-32:29
-56                <action android:name="io.metamask.intent.action.SIGN_TX" />
-56-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:30:17-75
-56-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:30:25-73
-57
-58                <category android:name="android.intent.category.DEFAULT" />
-58-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:17-75
-58-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:27-73
-59            </intent-filter>
-60        </activity>
-61        <activity
-61-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:9-36:40
-62            android:name="com.example.plutusecurus.activities.PaymentActivity"
-62-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:13-55
-63            android:exported="false" />
-63-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:36:13-37
-64        <activity
-64-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:37:9-39:40
-65            android:name="com.example.plutusecurus.activities.QrActivity"
-65-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:38:13-50
-66            android:exported="false" />
-66-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:39:13-37
-67        <activity
-67-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:40:9-42:40
-68            android:name="com.example.plutusecurus.activities.PlannerActivity"
-68-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:41:13-55
-69            android:exported="false" />
-69-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:42:13-37
-70        <activity
-70-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:43:9-45:40
-71            android:name="com.example.plutusecurus.activities.ProfileActivity"
-71-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:44:13-55
-72            android:exported="false" />
-72-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:45:13-37
-73        <activity
-73-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:46:9-48:39
-74            android:name="com.example.plutusecurus.activities.MainActivity"
-74-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:47:13-52
-75            android:exported="false" />
-75-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:48:13-37
-76        <activity
-76-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
-77            android:name="com.karumi.dexter.DexterActivity"
-77-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
-78            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-78-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
-79        <activity
-79-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
-80            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-80-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
-81            android:clearTaskOnLaunch="true"
-81-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
-82            android:screenOrientation="sensorLandscape"
-82-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
-83            android:stateNotNeeded="true"
-83-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
-84            android:theme="@style/zxing_CaptureTheme"
-84-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
-85            android:windowSoftInputMode="stateAlwaysHidden" />
-85-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
-86
-87        <provider
-87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-88            android:name="androidx.startup.InitializationProvider"
-88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-89            android:authorities="com.example.a7os.androidx-startup"
-89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-90            android:exported="false" >
-90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-91            <meta-data
-91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-93                android:value="androidx.startup" />
-93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-94            <meta-data
-94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-96                android:value="androidx.startup" />
-96-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-97        </provider>
-98
-99        <uses-library
-99-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-100            android:name="androidx.window.extensions"
-100-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-101            android:required="false" />
-101-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-102        <uses-library
-102-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-103            android:name="androidx.window.sidecar"
-103-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-104            android:required="false" />
-104-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-105    </application>
-106
-107</manifest>
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.example.a7os.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.example.a7os.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:16:5-53:19
+40        android:allowBackup="true"
+40-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:18:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.9.0] C:\Users\anubh\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:19:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:20:9-41
+46        android:requestLegacyExternalStorage="true"
+46-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:17:9-52
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:21:9-54
+48        android:supportsRtl="true"
+48-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:22:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.Plutusecurus" >
+50-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:23:9-50
+51        <activity
+51-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:25:9-37:20
+52            android:name="com.example.plutusecurus.activities.LoginActivity"
+52-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:26:13-53
+53            android:exported="true" >
+53-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:27:13-36
+54            <intent-filter>
+54-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:28:13-32:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:17-69
+55-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:29:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:17-77
+57-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:31:27-74
+58            </intent-filter>
+59            <intent-filter>
+59-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:33:13-36:29
+60                <action android:name="io.metamask.intent.action.SIGN_TX" />
+60-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:17-75
+60-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:34:25-73
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:17-75
+62-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:35:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:38:9-40:40
+66            android:name="com.example.plutusecurus.activities.PaymentActivity"
+66-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:39:13-55
+67            android:exported="false" />
+67-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:40:13-37
+68        <activity
+68-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:41:9-43:40
+69            android:name="com.example.plutusecurus.activities.QrActivity"
+69-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:42:13-50
+70            android:exported="false" />
+70-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:43:13-37
+71        <activity
+71-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:44:9-46:40
+72            android:name="com.example.plutusecurus.activities.PlannerActivity"
+72-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:45:13-55
+73            android:exported="false" />
+73-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:46:13-37
+74        <activity
+74-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:47:9-49:40
+75            android:name="com.example.plutusecurus.activities.ProfileActivity"
+75-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:48:13-55
+76            android:exported="false" />
+76-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:49:13-37
+77        <activity
+77-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:50:9-52:39
+78            android:name="com.example.plutusecurus.activities.MainActivity"
+78-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:51:13-52
+79            android:exported="false" />
+79-->C:\Users\anubh\OneDrive\Desktop\Plutusecurus_Diversion\app\src\main\AndroidManifest.xml:52:13-37
+80        <activity
+80-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+81            android:name="com.karumi.dexter.DexterActivity"
+81-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+82            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+82-->[com.karumi:dexter:6.2.2] C:\Users\anubh\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+83        <activity
+83-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+84            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+84-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+85            android:clearTaskOnLaunch="true"
+85-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+86            android:screenOrientation="sensorLandscape"
+86-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+87            android:stateNotNeeded="true"
+87-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+88            android:theme="@style/zxing_CaptureTheme"
+88-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+89            android:windowSoftInputMode="stateAlwaysHidden" />
+89-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\anubh\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+93            android:authorities="com.example.a7os.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\anubh\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+101        </provider>
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0] C:\Users\anubh\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+109    </application>
+110
+111</manifest>

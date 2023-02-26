@@ -33,11 +33,12 @@
                     android:layout_gravity="end"
                     android:hint="100000"
                     android:inputType="number"
+                    android:maxLength="6"
                     android:textSize="22sp"
                     android:layout_marginEnd="26dp"
                     android:id="@+id/money_spend"
                     android:textColor="#535353"
-                    android:textColorHint="#535353"/>
+                    android:textColorHint="#33553353"/>
             </androidx.cardview.widget.CardView>
             <TextView
                 android:layout_width="wrap_content"

@@ -5,11 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.plutusecurus.R;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class FragmentDashboardBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final ImageView addButton;
@@ -37,10 +38,16 @@ public final class FragmentDashboardBinding implements ViewBinding {
   public final TextView creditVal;
 
   @NonNull
+  public final AppCompatTextView dashboard;
+
+  @NonNull
   public final CardView foodCard;
 
   @NonNull
   public final TextView foodPercentage;
+
+  @NonNull
+  public final AppCompatTextView greetingUser;
 
   @NonNull
   public final CardView houseCard;
@@ -61,17 +68,25 @@ public final class FragmentDashboardBinding implements ViewBinding {
   public final ImageView minusButton;
 
   @NonNull
+  public final LinearLayout percentager;
+
+  @NonNull
+  public final LinearLayout plusminuser;
+
+  @NonNull
   public final CardView total;
 
   @NonNull
   public final TextView totalVal;
 
-  private FragmentDashboardBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView addButton,
+  private FragmentDashboardBinding(@NonNull LinearLayout rootView, @NonNull ImageView addButton,
       @NonNull CardView cash, @NonNull TextView cashVal, @NonNull CardView credit,
-      @NonNull TextView creditVal, @NonNull CardView foodCard, @NonNull TextView foodPercentage,
+      @NonNull TextView creditVal, @NonNull AppCompatTextView dashboard, @NonNull CardView foodCard,
+      @NonNull TextView foodPercentage, @NonNull AppCompatTextView greetingUser,
       @NonNull CardView houseCard, @NonNull TextView housePercentage,
       @NonNull ImageView mainPagePie, @NonNull CardView medicineCard,
-      @NonNull TextView medicinePercentage, @NonNull ImageView minusButton, @NonNull CardView total,
+      @NonNull TextView medicinePercentage, @NonNull ImageView minusButton,
+      @NonNull LinearLayout percentager, @NonNull LinearLayout plusminuser, @NonNull CardView total,
       @NonNull TextView totalVal) {
     this.rootView = rootView;
     this.addButton = addButton;
@@ -79,21 +94,25 @@ public final class FragmentDashboardBinding implements ViewBinding {
     this.cashVal = cashVal;
     this.credit = credit;
     this.creditVal = creditVal;
+    this.dashboard = dashboard;
     this.foodCard = foodCard;
     this.foodPercentage = foodPercentage;
+    this.greetingUser = greetingUser;
     this.houseCard = houseCard;
     this.housePercentage = housePercentage;
     this.mainPagePie = mainPagePie;
     this.medicineCard = medicineCard;
     this.medicinePercentage = medicinePercentage;
     this.minusButton = minusButton;
+    this.percentager = percentager;
+    this.plusminuser = plusminuser;
     this.total = total;
     this.totalVal = totalVal;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -148,6 +167,12 @@ public final class FragmentDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.dashboard;
+      AppCompatTextView dashboard = ViewBindings.findChildViewById(rootView, id);
+      if (dashboard == null) {
+        break missingId;
+      }
+
       id = R.id.food_card;
       CardView foodCard = ViewBindings.findChildViewById(rootView, id);
       if (foodCard == null) {
@@ -157,6 +182,12 @@ public final class FragmentDashboardBinding implements ViewBinding {
       id = R.id.food_percentage;
       TextView foodPercentage = ViewBindings.findChildViewById(rootView, id);
       if (foodPercentage == null) {
+        break missingId;
+      }
+
+      id = R.id.greeting_user;
+      AppCompatTextView greetingUser = ViewBindings.findChildViewById(rootView, id);
+      if (greetingUser == null) {
         break missingId;
       }
 
@@ -196,6 +227,18 @@ public final class FragmentDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.percentager;
+      LinearLayout percentager = ViewBindings.findChildViewById(rootView, id);
+      if (percentager == null) {
+        break missingId;
+      }
+
+      id = R.id.plusminuser;
+      LinearLayout plusminuser = ViewBindings.findChildViewById(rootView, id);
+      if (plusminuser == null) {
+        break missingId;
+      }
+
       id = R.id.total;
       CardView total = ViewBindings.findChildViewById(rootView, id);
       if (total == null) {
@@ -208,9 +251,10 @@ public final class FragmentDashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDashboardBinding((ConstraintLayout) rootView, addButton, cash, cashVal,
-          credit, creditVal, foodCard, foodPercentage, houseCard, housePercentage, mainPagePie,
-          medicineCard, medicinePercentage, minusButton, total, totalVal);
+      return new FragmentDashboardBinding((LinearLayout) rootView, addButton, cash, cashVal, credit,
+          creditVal, dashboard, foodCard, foodPercentage, greetingUser, houseCard, housePercentage,
+          mainPagePie, medicineCard, medicinePercentage, minusButton, percentager, plusminuser,
+          total, totalVal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

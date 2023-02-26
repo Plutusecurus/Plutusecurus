@@ -30,8 +30,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/profile_name"
-        android:text="AMAN SINGH"
+        android:id="@+id/profile_name_username"
+
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/profile_pic_card"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,10 +42,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/userid"
-        android:text="kk233dk334e"
+        android:id="@+id/userid_of_user"
+
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/profile_name"
+        app:layout_constraintTop_toBottomOf="@id/profile_name_username"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="2dp"
@@ -55,7 +55,7 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/qr_button"
-        app:layout_constraintTop_toBottomOf="@id/userid"
+        app:layout_constraintTop_toBottomOf="@id/userid_of_user"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
@@ -71,6 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="50dp"
         android:id="@+id/balance_card"
+        android:visibility="gone"
         android:elevation="0dp"
         android:backgroundTint="#FFF6A9"
         app:cardCornerRadius="20dp">

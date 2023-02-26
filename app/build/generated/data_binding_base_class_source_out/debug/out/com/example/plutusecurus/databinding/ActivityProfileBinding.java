@@ -34,34 +34,39 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final CardView logout;
 
   @NonNull
+  public final TextView logoutBtn;
+
+  @NonNull
   public final ImageView myQr;
 
   @NonNull
-  public final TextView profileName;
-
-  @NonNull
-  public final ImageView profilePic;
+  public final TextView profileNameUsername;
 
   @NonNull
   public final CardView profilePicCard;
 
   @NonNull
-  public final TextView userid;
+  public final ImageView profilePicOfProfile;
+
+  @NonNull
+  public final TextView useridOfProfile;
 
   private ActivityProfileBinding(@NonNull ConstraintLayout rootView, @NonNull CardView addImage,
       @NonNull ImageView backButton, @NonNull CardView changePass, @NonNull CardView logout,
-      @NonNull ImageView myQr, @NonNull TextView profileName, @NonNull ImageView profilePic,
-      @NonNull CardView profilePicCard, @NonNull TextView userid) {
+      @NonNull TextView logoutBtn, @NonNull ImageView myQr, @NonNull TextView profileNameUsername,
+      @NonNull CardView profilePicCard, @NonNull ImageView profilePicOfProfile,
+      @NonNull TextView useridOfProfile) {
     this.rootView = rootView;
     this.addImage = addImage;
     this.backButton = backButton;
     this.changePass = changePass;
     this.logout = logout;
+    this.logoutBtn = logoutBtn;
     this.myQr = myQr;
-    this.profileName = profileName;
-    this.profilePic = profilePic;
+    this.profileNameUsername = profileNameUsername;
     this.profilePicCard = profilePicCard;
-    this.userid = userid;
+    this.profilePicOfProfile = profilePicOfProfile;
+    this.useridOfProfile = useridOfProfile;
   }
 
   @Override
@@ -115,21 +120,21 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logout_btn;
+      TextView logoutBtn = ViewBindings.findChildViewById(rootView, id);
+      if (logoutBtn == null) {
+        break missingId;
+      }
+
       id = R.id.my_qr;
       ImageView myQr = ViewBindings.findChildViewById(rootView, id);
       if (myQr == null) {
         break missingId;
       }
 
-      id = R.id.profile_name;
-      TextView profileName = ViewBindings.findChildViewById(rootView, id);
-      if (profileName == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_pic;
-      ImageView profilePic = ViewBindings.findChildViewById(rootView, id);
-      if (profilePic == null) {
+      id = R.id.profile_name_username;
+      TextView profileNameUsername = ViewBindings.findChildViewById(rootView, id);
+      if (profileNameUsername == null) {
         break missingId;
       }
 
@@ -139,14 +144,21 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.userid;
-      TextView userid = ViewBindings.findChildViewById(rootView, id);
-      if (userid == null) {
+      id = R.id.profile_pic_of_profile;
+      ImageView profilePicOfProfile = ViewBindings.findChildViewById(rootView, id);
+      if (profilePicOfProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.userid_of_profile;
+      TextView useridOfProfile = ViewBindings.findChildViewById(rootView, id);
+      if (useridOfProfile == null) {
         break missingId;
       }
 
       return new ActivityProfileBinding((ConstraintLayout) rootView, addImage, backButton,
-          changePass, logout, myQr, profileName, profilePic, profilePicCard, userid);
+          changePass, logout, logoutBtn, myQr, profileNameUsername, profilePicCard,
+          profilePicOfProfile, useridOfProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatRadioButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
@@ -36,12 +35,6 @@ public final class ActivityPaymentBinding implements ViewBinding {
   public final AppCompatTextView editprodTitle;
 
   @NonNull
-  public final AppCompatRadioButton ethRadio;
-
-  @NonNull
-  public final AppCompatRadioButton inrRadio;
-
-  @NonNull
   public final ProgressBar loginProgressBar;
 
   @NonNull
@@ -54,10 +47,10 @@ public final class ActivityPaymentBinding implements ViewBinding {
   public final TextInputEditText paymentAmountEditText;
 
   @NonNull
-  public final TextInputEditText paymentTypeRecViewEditText;
+  public final TextInputLayout paymentAmountINRContainer;
 
   @NonNull
-  public final TextInputLayout paymentTypeView;
+  public final TextInputEditText paymentAmountINREditText;
 
   @NonNull
   public final TextInputLayout recieverNameContainer;
@@ -73,12 +66,12 @@ public final class ActivityPaymentBinding implements ViewBinding {
 
   private ActivityPaymentBinding(@NonNull NestedScrollView rootView,
       @NonNull RelativeLayout editProductHeader, @NonNull AppCompatImageView editprodBackBtn,
-      @NonNull AppCompatTextView editprodTitle, @NonNull AppCompatRadioButton ethRadio,
-      @NonNull AppCompatRadioButton inrRadio, @NonNull ProgressBar loginProgressBar,
+      @NonNull AppCompatTextView editprodTitle, @NonNull ProgressBar loginProgressBar,
       @NonNull AppCompatButton payNowBtn, @NonNull TextInputLayout paymentAmountContainer,
       @NonNull TextInputEditText paymentAmountEditText,
-      @NonNull TextInputEditText paymentTypeRecViewEditText,
-      @NonNull TextInputLayout paymentTypeView, @NonNull TextInputLayout recieverNameContainer,
+      @NonNull TextInputLayout paymentAmountINRContainer,
+      @NonNull TextInputEditText paymentAmountINREditText,
+      @NonNull TextInputLayout recieverNameContainer,
       @NonNull TextInputEditText recieverNameEditText,
       @NonNull TextInputLayout recieverPublicAddressContainer,
       @NonNull TextInputEditText recieverPublicAddressEditText) {
@@ -86,14 +79,12 @@ public final class ActivityPaymentBinding implements ViewBinding {
     this.editProductHeader = editProductHeader;
     this.editprodBackBtn = editprodBackBtn;
     this.editprodTitle = editprodTitle;
-    this.ethRadio = ethRadio;
-    this.inrRadio = inrRadio;
     this.loginProgressBar = loginProgressBar;
     this.payNowBtn = payNowBtn;
     this.paymentAmountContainer = paymentAmountContainer;
     this.paymentAmountEditText = paymentAmountEditText;
-    this.paymentTypeRecViewEditText = paymentTypeRecViewEditText;
-    this.paymentTypeView = paymentTypeView;
+    this.paymentAmountINRContainer = paymentAmountINRContainer;
+    this.paymentAmountINREditText = paymentAmountINREditText;
     this.recieverNameContainer = recieverNameContainer;
     this.recieverNameEditText = recieverNameEditText;
     this.recieverPublicAddressContainer = recieverPublicAddressContainer;
@@ -145,18 +136,6 @@ public final class ActivityPaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.eth_radio;
-      AppCompatRadioButton ethRadio = ViewBindings.findChildViewById(rootView, id);
-      if (ethRadio == null) {
-        break missingId;
-      }
-
-      id = R.id.inr_radio;
-      AppCompatRadioButton inrRadio = ViewBindings.findChildViewById(rootView, id);
-      if (inrRadio == null) {
-        break missingId;
-      }
-
       id = R.id.login_progress_bar;
       ProgressBar loginProgressBar = ViewBindings.findChildViewById(rootView, id);
       if (loginProgressBar == null) {
@@ -181,15 +160,15 @@ public final class ActivityPaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.paymentTypeRecViewEditText;
-      TextInputEditText paymentTypeRecViewEditText = ViewBindings.findChildViewById(rootView, id);
-      if (paymentTypeRecViewEditText == null) {
+      id = R.id.paymentAmountINRContainer;
+      TextInputLayout paymentAmountINRContainer = ViewBindings.findChildViewById(rootView, id);
+      if (paymentAmountINRContainer == null) {
         break missingId;
       }
 
-      id = R.id.paymentTypeView;
-      TextInputLayout paymentTypeView = ViewBindings.findChildViewById(rootView, id);
-      if (paymentTypeView == null) {
+      id = R.id.paymentAmountINREditText;
+      TextInputEditText paymentAmountINREditText = ViewBindings.findChildViewById(rootView, id);
+      if (paymentAmountINREditText == null) {
         break missingId;
       }
 
@@ -218,10 +197,10 @@ public final class ActivityPaymentBinding implements ViewBinding {
       }
 
       return new ActivityPaymentBinding((NestedScrollView) rootView, editProductHeader,
-          editprodBackBtn, editprodTitle, ethRadio, inrRadio, loginProgressBar, payNowBtn,
-          paymentAmountContainer, paymentAmountEditText, paymentTypeRecViewEditText,
-          paymentTypeView, recieverNameContainer, recieverNameEditText,
-          recieverPublicAddressContainer, recieverPublicAddressEditText);
+          editprodBackBtn, editprodTitle, loginProgressBar, payNowBtn, paymentAmountContainer,
+          paymentAmountEditText, paymentAmountINRContainer, paymentAmountINREditText,
+          recieverNameContainer, recieverNameEditText, recieverPublicAddressContainer,
+          recieverPublicAddressEditText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

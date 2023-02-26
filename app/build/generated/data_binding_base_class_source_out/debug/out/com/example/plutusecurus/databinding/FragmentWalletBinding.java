@@ -41,7 +41,7 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final CardView payButton;
 
   @NonNull
-  public final TextView profileName;
+  public final TextView profileNameUsername;
 
   @NonNull
   public final CardView profilePicCard;
@@ -53,13 +53,14 @@ public final class FragmentWalletBinding implements ViewBinding {
   public final ImageView qrButton;
 
   @NonNull
-  public final TextView userid;
+  public final TextView useridOfUser;
 
   private FragmentWalletBinding(@NonNull NestedScrollView rootView, @NonNull TextView balance,
       @NonNull CardView balanceCard, @NonNull RecyclerView historyRecyclerView,
       @NonNull TextView historyTxt, @NonNull TextView pay, @NonNull CardView payButton,
-      @NonNull TextView profileName, @NonNull CardView profilePicCard,
-      @NonNull ImageView profilePicture, @NonNull ImageView qrButton, @NonNull TextView userid) {
+      @NonNull TextView profileNameUsername, @NonNull CardView profilePicCard,
+      @NonNull ImageView profilePicture, @NonNull ImageView qrButton,
+      @NonNull TextView useridOfUser) {
     this.rootView = rootView;
     this.balance = balance;
     this.balanceCard = balanceCard;
@@ -67,11 +68,11 @@ public final class FragmentWalletBinding implements ViewBinding {
     this.historyTxt = historyTxt;
     this.pay = pay;
     this.payButton = payButton;
-    this.profileName = profileName;
+    this.profileNameUsername = profileNameUsername;
     this.profilePicCard = profilePicCard;
     this.profilePicture = profilePicture;
     this.qrButton = qrButton;
-    this.userid = userid;
+    this.useridOfUser = useridOfUser;
   }
 
   @Override
@@ -137,9 +138,9 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_name;
-      TextView profileName = ViewBindings.findChildViewById(rootView, id);
-      if (profileName == null) {
+      id = R.id.profile_name_username;
+      TextView profileNameUsername = ViewBindings.findChildViewById(rootView, id);
+      if (profileNameUsername == null) {
         break missingId;
       }
 
@@ -161,15 +162,15 @@ public final class FragmentWalletBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.userid;
-      TextView userid = ViewBindings.findChildViewById(rootView, id);
-      if (userid == null) {
+      id = R.id.userid_of_user;
+      TextView useridOfUser = ViewBindings.findChildViewById(rootView, id);
+      if (useridOfUser == null) {
         break missingId;
       }
 
       return new FragmentWalletBinding((NestedScrollView) rootView, balance, balanceCard,
-          historyRecyclerView, historyTxt, pay, payButton, profileName, profilePicCard,
-          profilePicture, qrButton, userid);
+          historyRecyclerView, historyTxt, pay, payButton, profileNameUsername, profilePicCard,
+          profilePicture, qrButton, useridOfUser);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

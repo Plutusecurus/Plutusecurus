@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if(sharedPreferencesConfig.readPublicKey() != null){
+        if(!sharedPreferencesConfig.readPublicKey().isEmpty()){
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
@@ -136,11 +136,11 @@ public class LoginActivity extends AppCompatActivity {
 
     private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey) throws IOException {
         File filesDir = getApplicationContext().getFilesDir();
-//        File file = new File(filesDir, "hiveImage."+getFileExtension(imageUri));
+        File file = new File(filesDir, "profileImg."+getFileExtension(imageUri));
 
-        File file = uriToFile(imageUri);
+//        File file = uriToFile(imageUri);
 
-        /*@SuppressLint("Recycle")
+        @SuppressLint("Recycle")
         InputStream inputStream = getContentResolver().openInputStream(imageUri);
         OutputStream outputStream = new FileOutputStream(file);
 
@@ -148,7 +148,7 @@ public class LoginActivity extends AppCompatActivity {
         int bytesRead;
         while ((bytesRead = inputStream.read(buffer)) != -1) {
             outputStream.write(buffer, 0, bytesRead);
-        }*/
+        }
 
         RequestBody requestBody = RequestBody.create(MediaType.parse("image/"+getFileExtension(imageUri)), file);
         MultipartBody.Part profilePic = MultipartBody.Part.createFormData("profilePic", file.getName(), requestBody);
@@ -184,11 +184,10 @@ public class LoginActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<RegisterResponse> call, Throwable t) {
-                        Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
                         binding.signUpBtn.setVisibility(View.VISIBLE);
                         binding.otpProgressBar.setVisibility(View.GONE);
                         Log.d(TAG, "onFailure(): "+t.getMessage());
-                        Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "onFailure(): "+t.getMessage(), Toast.LENGTH_SHORT).show();
 
                     }
                 });
@@ -238,7 +237,7 @@ public class LoginActivity extends AppCompatActivity {
 
         }
 
-        if (requestCode == REQ_CODE && resultCode == RESULT_OK) {
+        else if (requestCode == REQ_CODE && resultCode == RESULT_OK) {
             // Get the account details from the Intent
             String address = data.getStringExtra("address");
             String chainId = data.getStringExtra("chainId");
@@ -249,6 +248,10 @@ public class LoginActivity extends AppCompatActivity {
             Log.d(TAG, "address: "+address);
             Log.d(TAG, "chainId: "+chainId);
             Toast.makeText(this, "address: "+address, Toast.LENGTH_SHORT).show();
+        }
+
+        else {
+
         }
     }
 

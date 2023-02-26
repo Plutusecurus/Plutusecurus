@@ -1,14 +1,20 @@
 package com.example.plutusecurus.activities;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.plutusecurus.R;
+import com.example.plutusecurus.data.ApiClient;
+import com.example.plutusecurus.data.TransAPI;
+import com.example.plutusecurus.dtos.GetUserResponse;
+import com.example.plutusecurus.utils.SharedPreferencesConfig;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
@@ -17,8 +23,13 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
+import com.google.zxing.WriterException;
 
 import java.util.ArrayList;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class PlannerActivity extends AppCompatActivity {
 
@@ -29,10 +40,17 @@ public class PlannerActivity extends AppCompatActivity {
     ImageView backButton;
     //ghjghgh
 
+    private TransAPI transAPI;
+    SharedPreferencesConfig sharedPreferencesConfig;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planner);
+        transAPI = ApiClient.getApiClient().create(TransAPI.class);
+        sharedPreferencesConfig = new SharedPreferencesConfig(this);
+
         pie1=findViewById(R.id.pie_chart_1);
         backButton = findViewById(R.id.back_button_planner);
         House=findViewById(R.id.house_amt);
@@ -49,45 +67,78 @@ public class PlannerActivity extends AppCompatActivity {
         pe=findViewById(R.id.essentials_percentage);
         pmis=findViewById(R.id.misc_percentage);
         pg=findViewById(R.id.gift_percentage);
-        plu=findViewById(R.id.luxury_amt);
+        plu=findViewById(R.id.luxury_percentage);
         pm=findViewById(R.id.medicine_percentage);
 
-        house="10";food="10";transport="10";essential="10";misc="10";gift="10";luxury="10";medical="10";total="0";
-        h = Float.parseFloat(house);
-        f = Float.parseFloat(food);
-        t = Float.parseFloat(transport);
-        e = Float.parseFloat(essential);
-        mis =Float.parseFloat(misc);
-        g = Float.parseFloat(gift);
-        lu = Float.parseFloat(luxury);
-        m = Float.parseFloat(medical);
-        tot=h+f+t+e+mis+g+lu+m;
-
-        ph.setText(Float.toString(100*h/tot)+"%");
-        pf.setText(Float.toString(100*f/tot)+"%");
-        pe.setText(Float.toString(100*e/tot)+"%");
-        pg.setText(Float.toString(100*g/tot)+"%");
-        pt.setText(Float.toString(100*t/tot)+"%");
-        pmis.setText(Float.toString(100*mis/tot)+"%");
-        plu.setText(Float.toString(100*lu/tot)+"%");
-        pm.setText(Float.toString(100*h/tot)+"%");
-
-
-        House.setText("Rs. "+house);
-        Food.setText("Rs. "+food);
-        Essential.setText("Rs. "+essential);
-        Gift.setText("Rs. "+gift);
-        Transport.setText("Rs. "+transport);
-        Misc.setText("Rs. "+misc);
-        Luxury.setText("Rs. "+luxury);
-        Medical.setText("Rs. "+medical);
+        getUser();
 
         backButton.setOnClickListener(view -> {
             Intent myIntent = new Intent(PlannerActivity.this, MainActivity.class);
             PlannerActivity.this.startActivity(myIntent);
             finish();
         });
-        loadPieChart1();
+
+    }
+
+    private void getUser() {
+        transAPI.getUser(sharedPreferencesConfig.readPublicKey())
+                .enqueue(new Callback<GetUserResponse>() {
+                    @Override
+                    public void onResponse(Call<GetUserResponse> call, Response<GetUserResponse> response) {
+                        if (response.isSuccessful()) {
+                            if (response.body()!=null) {
+                                GetUserResponse.Spending spending = response.body().getUser().getSpending();
+                                house=String.valueOf(spending.getHousing());
+                                food=String.valueOf(spending.getFood());
+                                transport=String.valueOf(spending.getTransport());
+                                essential=String.valueOf(spending.getEssentials());
+                                misc=String.valueOf(spending.getMisc());
+                                gift=String.valueOf(spending.getGifts());
+                                luxury=String.valueOf(spending.getLuxury());
+                                medical=String.valueOf(spending.getMedical());
+                                // total=String.valueOf(spending.());
+                                total = String.valueOf(spending.getHousing() + spending.getFood() + spending.getTransport() + spending.getEssentials() + spending.getMisc()
+                                + spending.getGifts() + spending.getLuxury() + spending.getMedical());
+
+                                h = Float.parseFloat(house);
+                                f = Float.parseFloat(food);
+                                t = Float.parseFloat(transport);
+                                e = Float.parseFloat(essential);
+                                mis =Float.parseFloat(misc);
+                                g = Float.parseFloat(gift);
+                                lu = Float.parseFloat(luxury);
+                                m = Float.parseFloat(medical);
+                                tot=h+f+t+e+mis+g+lu+m;
+
+                                ph.setText(Float.toString(100*h/tot)+"%");
+                                pf.setText(Float.toString(100*f/tot)+"%");
+                                pe.setText(Float.toString(100*e/tot)+"%");
+                                pg.setText(Float.toString(100*g/tot)+"%");
+                                pt.setText(Float.toString(100*t/tot)+"%");
+                                pmis.setText(Float.toString(100*mis/tot)+"%");
+                                plu.setText(Float.toString(100*lu/tot)+"%");
+                                pm.setText(Float.toString(100*m/tot)+"%");
+
+
+                                House.setText("Rs. "+house);
+                                Food.setText("Rs. "+food);
+                                Essential.setText("Rs. "+essential);
+                                Gift.setText("Rs. "+gift);
+                                Transport.setText("Rs. "+transport);
+                                Misc.setText("Rs. "+misc);
+                                Luxury.setText("Rs. "+luxury);
+                                Medical.setText("Rs. "+medical);
+
+                                loadPieChart1();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<GetUserResponse> call, Throwable t) {
+
+                    }
+                });
     }
 
     private void loadPieChart1(){

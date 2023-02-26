@@ -56,7 +56,7 @@ public class GetUserResponse {
         private int __v;
         @Expose
         @SerializedName("earning")
-        private int earning;
+        private double earning;
         @Expose
         @SerializedName("name")
         private String name;
@@ -81,7 +81,7 @@ public class GetUserResponse {
             this.__v = __v;
         }
 
-        public int getEarning() {
+        public double getEarning() {
             return earning;
         }
 
@@ -133,22 +133,22 @@ public class GetUserResponse {
     public static class Spending {
         @Expose
         @SerializedName("misc")
-        private int misc;
+        private double misc;
         @Expose
         @SerializedName("gifts")
-        private int gifts;
+        private double gifts;
         @Expose
         @SerializedName("luxury")
-        private int luxury;
+        private double luxury;
         @Expose
         @SerializedName("transport")
-        private int transport;
+        private double transport;
         @Expose
         @SerializedName("medical")
-        private int medical;
+        private double medical;
         @Expose
         @SerializedName("food")
-        private int food;
+        private double food;
         @Expose
         @SerializedName("housing")
         private double housing;
@@ -156,7 +156,7 @@ public class GetUserResponse {
         @SerializedName("essentials")
         private double essentials;
 
-        public int getMisc() {
+        public double getMisc() {
             return misc;
         }
 
@@ -164,7 +164,7 @@ public class GetUserResponse {
             this.misc = misc;
         }
 
-        public int getGifts() {
+        public double getGifts() {
             return gifts;
         }
 
@@ -172,7 +172,7 @@ public class GetUserResponse {
             this.gifts = gifts;
         }
 
-        public int getLuxury() {
+        public double getLuxury() {
             return luxury;
         }
 
@@ -180,7 +180,7 @@ public class GetUserResponse {
             this.luxury = luxury;
         }
 
-        public int getTransport() {
+        public double getTransport() {
             return transport;
         }
 
@@ -188,7 +188,7 @@ public class GetUserResponse {
             this.transport = transport;
         }
 
-        public int getMedical() {
+        public double getMedical() {
             return medical;
         }
 
@@ -196,7 +196,7 @@ public class GetUserResponse {
             this.medical = medical;
         }
 
-        public int getFood() {
+        public double getFood() {
             return food;
         }
 

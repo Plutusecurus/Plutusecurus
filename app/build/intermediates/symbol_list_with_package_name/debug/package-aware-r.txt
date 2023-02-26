@@ -2938,6 +2938,7 @@ drawable referral_background_1
 drawable referral_background_2
 drawable round_btn
 drawable rounded
+drawable rounded_2
 drawable rounded_edittext
 drawable rounded_signup
 drawable search_background
@@ -3189,7 +3190,6 @@ id essentials_button
 id essentials_card
 id essentials_percentage
 id essentials_text
-id eth_radio
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3234,6 +3234,7 @@ id go_to_login_btn
 id gone
 id graph
 id graph_wrap
+id greeting_user
 id group_divider
 id grouping
 id groups
@@ -3262,7 +3263,6 @@ id image
 id immediateStop
 id included
 id info
-id inr_radio
 id invisible
 id inward
 id italic
@@ -3284,6 +3284,7 @@ id locale
 id login_progress_bar
 id logo
 id logout
+id logout_btn
 id ltr
 id luxury_amt
 id luxury_card
@@ -3410,20 +3411,22 @@ id payNowBtn
 id pay_button
 id paymentAmountContainer
 id paymentAmountEditText
-id paymentTypeRecViewEditText
-id paymentTypeView
+id paymentAmountINRContainer
+id paymentAmountINREditText
 id peekHeight
 id percent
+id percentager
 id pie_1
 id pie_chart_1
 id pin
+id plusminuser
 id position
 id postLayout
 id privateKeyEdittext
 id profile
-id profile_name
-id profile_pic
+id profile_name_username
 id profile_pic_card
+id profile_pic_of_profile
 id profile_picture
 id progress_circular
 id progress_horizontal
@@ -3583,7 +3586,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id userid
+id userid_of_profile
+id userid_of_user
 id vertical_only
 id view_offset_helper
 id view_transition

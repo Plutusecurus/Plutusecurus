@@ -52,27 +52,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical">
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/paymentTypeView"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-                android:layout_marginHorizontal="20dp"
-                app:helperText="* Required"
-                app:helperTextTextColor="#ff0000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/paymentTypeRecViewEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:textColor="@color/colorPrimary"
-                    android:lines="1"
-                    android:inputType="textAutoComplete"
-                    android:hint="Currency of Recipient"/>
-
-            </com.google.android.material.textfield.TextInputLayout>
 
             <!--<com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/patientTypeSenderContainer"
@@ -111,6 +90,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lines="1"
+                    android:enabled="false"
                     android:fontFamily="@font/montserrat_medium"
                     android:textColor="@color/colorPrimary"
                     android:inputType="number"
@@ -132,6 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lines="1"
+                    android:enabled="false"
                     android:fontFamily="@font/montserrat_medium"
                     android:textColor="@color/colorPrimary"
                     android:inputType="number"
@@ -155,55 +136,31 @@
                     android:lines="1"
                     android:fontFamily="@font/montserrat_medium"
                     android:textColor="@color/colorPrimary"
-                    android:inputType="number"
-                    android:hint="Payment Amount"/>
+                    android:inputType="numberDecimal"
+                    android:hint="Payment Amount(in Ethers)"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-            <LinearLayout
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/paymentAmountINRContainer"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_marginHorizontal="20dp"
+                app:helperText="* Required"
+                app:helperTextTextColor="#ff0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:layout_margin="10dp">
 
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:textColor="@color/colorPrimary"
-                    android:text="Currency of Payment" />
-
-                <LinearLayout
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/paymentAmountINREditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:orientation="horizontal">
+                    android:lines="1"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="numberDecimal"
+                    android:hint="Payment Amount(in INR)"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <androidx.appcompat.widget.AppCompatRadioButton
-                            android:id="@+id/eth_radio"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:textColor="@color/colorPrimary"
-                            android:text="ETH" />
-                        <androidx.appcompat.widget.AppCompatRadioButton
-                            android:id="@+id/inr_radio"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:textColor="@color/colorPrimary"
-                            android:layout_marginStart="20dp"
-                            android:text="INR" />
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-            </LinearLayout>
 
 
         </LinearLayout>

@@ -1,9 +1,13 @@
 package com.example.plutusecurus.data;
 
+import com.example.plutusecurus.dtos.DepositETH;
+import com.example.plutusecurus.dtos.DepositETHResponse;
 import com.example.plutusecurus.dtos.GetUserResponse;
 import com.example.plutusecurus.dtos.RegisterResponse;
 import com.example.plutusecurus.model.AddExpenseBody;
 import com.example.plutusecurus.model.AddExpenseResponse;
+import com.example.plutusecurus.model.AddIncomeBody;
+import com.example.plutusecurus.model.AddIncomeResponse;
 
 import okhttp3.MultipartBody;
 import retrofit2.Call;
@@ -12,6 +16,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
+import retrofit2.http.Path;
 
 public interface TransAPI {
     @Multipart
@@ -25,7 +30,16 @@ public interface TransAPI {
     @POST("user/add-expense")
     Call<AddExpenseResponse> addExpense(@Body AddExpenseBody addExpenseBody );
 
+    @POST("user/add-income")
+    Call<AddIncomeResponse> addIncome(@Body AddIncomeBody addIncomeBody );
+
     @GET("user/{public_key}")
-    Call<GetUserResponse> getUser();
+    Call<GetUserResponse> getUser(@Path("public_key") String public_key);
+
+    @POST("user/deposit")
+    Call<DepositETHResponse> depositETH(@Body DepositETH depositETH);
+
+    @POST("user/transfer")
+    Call<DepositETHResponse> transferETH(@Body DepositETH depositETH);
 
 }
