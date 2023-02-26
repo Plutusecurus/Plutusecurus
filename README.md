@@ -1,4 +1,4 @@
-# Plutuswcurus
+# Plutusecurus
 
 ## 📁 Hackathon Project Repository
 
