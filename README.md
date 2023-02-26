@@ -50,7 +50,7 @@ Payment Through Decentralized Wallet
 * Docker Containers
 
 ## 💡Demo
-[Link to Demo Video](https://drive.google.com/drive/folders/1Z7YAJCuBkNmIscB-myoC8R5tBP8VVg86?usp=sharing)
+[Link to Demo Video](https://www.youtube.com/watch?v=9TaKodTJnA8)
 
 ## 💁 Contributors
 
