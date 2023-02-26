@@ -49,6 +49,16 @@ Payment Through Decentralized Wallet
 * DigitalOcean 
 * Docker Containers
 
+### DIGITAL OCEAN
+
+We have used the following applications in DigitalOcean:-
+
+* App Deployement - This application helped us to deploy our Docker Container for our backend which has been written in Node.js, Express.js and Javascript. With its detailed documentation, we had no problem to deploy our backend application.
+* Container Registry - This application has helped us to push our Docker Container to the DigitalOcean platform. 
+* Managed Database - We have used a managed MongoDB database instance to use as our backend database. Since this MongoDB instance is deployed on the DigitalOcean platform itself, it is much more reliable and efficient. Also, we can easily connect from our deployed application more securely as both of them are hosted on the same platform.
+
+As a whole, the free credits from DigitalOcean, as well as their detailed documentation has helped us to deploy our project to be used for public use. We are grateful to DigitalOcean for sponsoring this event and helping aspiring developers like us to realise our potentials
+
 ## 💡Demo
 [Link to Demo Video](https://www.youtube.com/watch?v=9TaKodTJnA8)
 
