@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F618C"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_baseline_attach_money_24" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="18sp"
+            android:text="Select Payment Type"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/eth_to_eth_transaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETH-ETH Transaction"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                />
+            <RadioButton
+                android:id="@+id/inr_to_eth_transaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="INR-ETH Transaction"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/select_transaction_type_dialog_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_dialog_btn_bg"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="Proceed" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/cancel_transaction_type_dialog_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_dialog_btn_bg"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="Cancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

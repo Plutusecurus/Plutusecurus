@@ -67,6 +67,26 @@ public class SharedPreferencesConfig {
         return sharedPreferences.getString("IMAGE", "");
     }
 
+    public void writeUpiID(String upiID) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("UPIID", upiID);
+        editor.apply();
+    }
+
+    public String readUpiID() {
+        return sharedPreferences.getString("UPIID", "");
+    }
+
+    public void writeUID(String uid) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("UID", uid);
+        editor.apply();
+    }
+
+    public String readUID() {
+        return sharedPreferences.getString("UID", "");
+    }
+
 //    public void writeCategories(String category) {
 //        SharedPreferences.Editor editor = sharedPreferences.edit();
 //        editor.putString("CATEGORY", category);

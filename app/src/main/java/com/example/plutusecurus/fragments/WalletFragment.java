@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,12 +20,16 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.plutusecurus.R;
 import com.example.plutusecurus.activities.QrActivity;
 import com.example.plutusecurus.data.ApiClient;
 import com.example.plutusecurus.data.TransAPI;
 import com.example.plutusecurus.dtos.GetUserResponse;
+import com.example.plutusecurus.model.Account;
 import com.example.plutusecurus.model.History;
+import com.example.plutusecurus.model.WalletTransaction;
+import com.example.plutusecurus.model.WalletTransactionResponse;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
@@ -37,7 +42,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class WalletFragment extends Fragment {
+public class WalletFragment extends Fragment implements TransactionTypeDetector{
 
     ImageView profilePicture,userQr;
     TextView userId, username;
@@ -48,6 +53,9 @@ public class WalletFragment extends Fragment {
     private TransAPI transAPI;
 
     SharedPreferencesConfig sharedPreferencesConfig;
+    HistoryAdapter historyAdapter;
+    ArrayList<WalletTransaction> walletTransactionsList = new ArrayList<>();
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -63,31 +71,19 @@ public class WalletFragment extends Fragment {
         transAPI = ApiClient.getApiClient().create(TransAPI.class);
         sharedPreferencesConfig = new SharedPreferencesConfig(requireContext());
 
-        if (!sharedPreferencesConfig.readImage().isEmpty())
-            base64ToBitmap(sharedPreferencesConfig.readImage().substring(sharedPreferencesConfig.readImage().indexOf(",") + 1));
-
-//        try {
-//            Bitmap bitmap = generateQrCodeBitmap("Hello, Hello!", 512, 512);
-//
-//            userQr.setImageBitmap(bitmap);
-//        } catch (WriterException e) {
-//            e.printStackTrace();
-//
-//        }
-
-        HistoryAdapter historyAdapter = new HistoryAdapter();
-        ArrayList<History> arrayList = new ArrayList<>();
-
-        for(int i= 0; i < 20; i++){
-            History history = new History("ABCDEF" + i, "12/12/2012", String.valueOf(i));
-            arrayList.add(history);
-        }
-
-        historyAdapter.updateTransaction(arrayList);
+        historyAdapter = new HistoryAdapter(requireContext(), WalletFragment.this);
         historyRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         historyRecyclerView.setAdapter(historyAdapter);
 
+        if (!sharedPreferencesConfig.readImage().isEmpty()) {
+            // base64ToBitmap(sharedPreferencesConfig.readImage().substring(sharedPreferencesConfig.readImage().indexOf(",") + 1));
+            Glide.with(requireContext()).load(sharedPreferencesConfig.readImage()).into(profilePicture);
+        }
+
+
+
         setUserDetails();
+        getAllTransactions();
 
         /*payButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,6 +96,57 @@ public class WalletFragment extends Fragment {
         return view;
 
     }
+
+    private void getAllTransactions() {
+        /*
+        HistoryAdapter historyAdapter = new HistoryAdapter();
+        ArrayList<History> arrayList = new ArrayList<>();
+
+        for(int i= 0; i < 20; i++){
+            History history = new History("ABCDEF" + i, "12/12/2012", String.valueOf(i));
+            arrayList.add(history);
+        }
+
+        historyAdapter.updateTransaction(arrayList);
+        historyRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        historyRecyclerView.setAdapter(historyAdapter);
+         */
+
+
+        Log.d(TAG, "UID: "+sharedPreferencesConfig.readUID());
+        transAPI.getAllWalletTransactions(new Account(sharedPreferencesConfig.readUID()))
+                .enqueue(new Callback<WalletTransactionResponse>() {
+                    @Override
+                    public void onResponse(Call<WalletTransactionResponse> call, Response<WalletTransactionResponse> response) {
+                        if (response.isSuccessful()) {
+                            if (response.body()!=null) {
+                                Log.d(TAG, "getAllWalletTransactions(): "+response.body());
+
+
+
+                                if (response.body().getTransactions()!=null) {
+                                    walletTransactionsList.clear();
+                                    walletTransactionsList.addAll(response.body().getTransactions());
+                                }
+
+
+
+                                historyAdapter.updateTransaction(walletTransactionsList);
+
+                            }
+                        } else {
+                            Toast.makeText(requireContext(), "Unable to fetch transaction history!", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<WalletTransactionResponse> call, Throwable t) {
+                        Log.e(TAG, "getAllWalletTransactions() onFailure(): "+t.getMessage());
+                        Toast.makeText(requireContext(), t.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+    }
+
     private Bitmap generateQrCodeBitmap(String data, int width, int height) throws WriterException {
         QRCodeWriter writer = new QRCodeWriter();
         BitMatrix matrix = writer.encode(data, BarcodeFormat.QR_CODE, width, height);
@@ -143,9 +190,9 @@ public class WalletFragment extends Fragment {
 
                                 username.setText(response.body().getUser().getName());
 
-                                userId.setText(response.body().getUser().get_id());
+                                userId.setText(response.body().getUser().getAccount());
 
-                                String qrData = response.body().getUser().getName()+","+response.body().getUser().get_id();
+                                String qrData = response.body().getUser().getName()+","+response.body().getUser().getAccount()+","+response.body().getUser().get_id();
                                 try {
                                     Bitmap bitmap = generateQrCodeBitmap(qrData, 512, 512);
                                     userQr.setImageBitmap(bitmap);
@@ -173,4 +220,11 @@ public class WalletFragment extends Fragment {
     }
 
     private static final String TAG = "WalletFragment";
-} 
+
+    @Override
+    public boolean isCredit(int position) {
+        if (walletTransactionsList.get(position).getSender().getAccount().equals(sharedPreferencesConfig.readPublicKey()))
+            return false;
+        return true;
+    }
+}

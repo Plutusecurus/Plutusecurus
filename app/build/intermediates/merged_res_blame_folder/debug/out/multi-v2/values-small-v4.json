@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-46:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-52:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anubh\\.gradle\\caches\\transforms-3\\728bc65372d46aef0e245074d736cc50\\transformed\\material-1.6.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\shagi\\.gradle\\caches\\transforms-3\\728bc65372d46aef0e245074d736cc50\\transformed\\material-1.6.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

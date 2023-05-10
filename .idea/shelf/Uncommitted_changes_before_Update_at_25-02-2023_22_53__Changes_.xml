@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Update_at_25-02-2023_22_53_[Changes]" date="1677345828984" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25-02-2023_22_53_[Changes]/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 25-02-2023 22:53 [Changes]" />
-  <binary>
-    <option name="BEFORE_PATH" value="app/build/intermediates/merged_res/debug/layout_fragment_dashboard.xml.flat" />
-    <option name="AFTER_PATH" value="app/build/intermediates/merged_res/debug/layout_fragment_dashboard.xml.flat" />
-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25-02-2023_22_53_[Changes]/layout_fragment_dashboard.xml.flat" />
-  </binary>
-</changelist>

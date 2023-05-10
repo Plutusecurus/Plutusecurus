@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.plutusecurus.app-mergeReleaseResources-52:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shagi\\.gradle\\caches\\transforms-3\\2588b109c5d83ed13a0e39845a2ad1d3\\transformed\\jetified-zxing-android-embedded-4.2.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "133,192,239,371",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "187,234,366,475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shagi\\.gradle\\caches\\transforms-3\\7955c43a5461bef70df5c98b5b893d8c\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}

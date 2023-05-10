@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatSpinner;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
@@ -24,6 +25,9 @@ import java.lang.String;
 public final class ActivityPaymentBinding implements ViewBinding {
   @NonNull
   private final NestedScrollView rootView;
+
+  @NonNull
+  public final AppCompatSpinner categorySpinner;
 
   @NonNull
   public final RelativeLayout editProductHeader;
@@ -65,9 +69,10 @@ public final class ActivityPaymentBinding implements ViewBinding {
   public final TextInputEditText recieverPublicAddressEditText;
 
   private ActivityPaymentBinding(@NonNull NestedScrollView rootView,
-      @NonNull RelativeLayout editProductHeader, @NonNull AppCompatImageView editprodBackBtn,
-      @NonNull AppCompatTextView editprodTitle, @NonNull ProgressBar loginProgressBar,
-      @NonNull AppCompatButton payNowBtn, @NonNull TextInputLayout paymentAmountContainer,
+      @NonNull AppCompatSpinner categorySpinner, @NonNull RelativeLayout editProductHeader,
+      @NonNull AppCompatImageView editprodBackBtn, @NonNull AppCompatTextView editprodTitle,
+      @NonNull ProgressBar loginProgressBar, @NonNull AppCompatButton payNowBtn,
+      @NonNull TextInputLayout paymentAmountContainer,
       @NonNull TextInputEditText paymentAmountEditText,
       @NonNull TextInputLayout paymentAmountINRContainer,
       @NonNull TextInputEditText paymentAmountINREditText,
@@ -76,6 +81,7 @@ public final class ActivityPaymentBinding implements ViewBinding {
       @NonNull TextInputLayout recieverPublicAddressContainer,
       @NonNull TextInputEditText recieverPublicAddressEditText) {
     this.rootView = rootView;
+    this.categorySpinner = categorySpinner;
     this.editProductHeader = editProductHeader;
     this.editprodBackBtn = editprodBackBtn;
     this.editprodTitle = editprodTitle;
@@ -118,6 +124,12 @@ public final class ActivityPaymentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.category_spinner;
+      AppCompatSpinner categorySpinner = ViewBindings.findChildViewById(rootView, id);
+      if (categorySpinner == null) {
+        break missingId;
+      }
+
       id = R.id.edit_product_header;
       RelativeLayout editProductHeader = ViewBindings.findChildViewById(rootView, id);
       if (editProductHeader == null) {
@@ -196,11 +208,11 @@ public final class ActivityPaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPaymentBinding((NestedScrollView) rootView, editProductHeader,
-          editprodBackBtn, editprodTitle, loginProgressBar, payNowBtn, paymentAmountContainer,
-          paymentAmountEditText, paymentAmountINRContainer, paymentAmountINREditText,
-          recieverNameContainer, recieverNameEditText, recieverPublicAddressContainer,
-          recieverPublicAddressEditText);
+      return new ActivityPaymentBinding((NestedScrollView) rootView, categorySpinner,
+          editProductHeader, editprodBackBtn, editprodTitle, loginProgressBar, payNowBtn,
+          paymentAmountContainer, paymentAmountEditText, paymentAmountINRContainer,
+          paymentAmountINREditText, recieverNameContainer, recieverNameEditText,
+          recieverPublicAddressContainer, recieverPublicAddressEditText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

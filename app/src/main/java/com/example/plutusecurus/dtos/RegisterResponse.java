@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class RegisterResponse {
 
+
     @Expose
     @SerializedName("message")
     private String message;
@@ -14,9 +15,6 @@ public class RegisterResponse {
     @Expose
     @SerializedName("success")
     private boolean success;
-    @Expose
-    @SerializedName("code")
-    private int code;
 
     public String getMessage() {
         return message;
@@ -42,14 +40,6 @@ public class RegisterResponse {
         this.success = success;
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
     public static class User {
         @Expose
         @SerializedName("__v")
@@ -62,7 +52,10 @@ public class RegisterResponse {
         private Spending spending;
         @Expose
         @SerializedName("earning")
-        private int earning;
+        private double earning;
+        @Expose
+        @SerializedName("upiID")
+        private String upiID;
         @Expose
         @SerializedName("name")
         private String name;
@@ -97,12 +90,20 @@ public class RegisterResponse {
             this.spending = spending;
         }
 
-        public int getEarning() {
+        public double getEarning() {
             return earning;
         }
 
         public void setEarning(int earning) {
             this.earning = earning;
+        }
+
+        public String getUpiID() {
+            return upiID;
+        }
+
+        public void setUpiID(String upiID) {
+            this.upiID = upiID;
         }
 
         public String getName() {
@@ -133,90 +134,90 @@ public class RegisterResponse {
     public static class Spending {
         @Expose
         @SerializedName("misc")
-        private int misc;
+        private double misc;
         @Expose
         @SerializedName("gifts")
-        private int gifts;
+        private double gifts;
         @Expose
         @SerializedName("luxury")
-        private int luxury;
+        private double luxury;
         @Expose
         @SerializedName("transport")
-        private int transport;
+        private double transport;
         @Expose
         @SerializedName("medical")
-        private int medical;
+        private double medical;
         @Expose
         @SerializedName("food")
-        private int food;
+        private double food;
         @Expose
         @SerializedName("housing")
-        private int housing;
+        private double housing;
         @Expose
         @SerializedName("essentials")
-        private int essentials;
+        private double essentials;
 
-        public int getMisc() {
+        public double getMisc() {
             return misc;
         }
 
-        public void setMisc(int misc) {
+        public void setMisc(double misc) {
             this.misc = misc;
         }
 
-        public int getGifts() {
+        public double getGifts() {
             return gifts;
         }
 
-        public void setGifts(int gifts) {
+        public void setGifts(double gifts) {
             this.gifts = gifts;
         }
 
-        public int getLuxury() {
+        public double getLuxury() {
             return luxury;
         }
 
-        public void setLuxury(int luxury) {
+        public void setLuxury(double luxury) {
             this.luxury = luxury;
         }
 
-        public int getTransport() {
+        public double getTransport() {
             return transport;
         }
 
-        public void setTransport(int transport) {
+        public void setTransport(double transport) {
             this.transport = transport;
         }
 
-        public int getMedical() {
+        public double getMedical() {
             return medical;
         }
 
-        public void setMedical(int medical) {
+        public void setMedical(double medical) {
             this.medical = medical;
         }
 
-        public int getFood() {
+        public double getFood() {
             return food;
         }
 
-        public void setFood(int food) {
+        public void setFood(double food) {
             this.food = food;
         }
 
-        public int getHousing() {
+        public double getHousing() {
             return housing;
         }
 
-        public void setHousing(int housing) {
+        public void setHousing(double housing) {
             this.housing = housing;
         }
 
-        public int getEssentials() {
+        public double getEssentials() {
             return essentials;
         }
 
-        public void setEssentials(int essentials) {
+        public void setEssentials(double essentials) {
             this.essentials = essentials;
         }
     }

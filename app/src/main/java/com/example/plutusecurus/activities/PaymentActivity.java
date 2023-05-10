@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,19 +17,35 @@ import com.example.plutusecurus.data.TransAPI;
 import com.example.plutusecurus.databinding.ActivityPaymentBinding;
 import com.example.plutusecurus.dtos.DepositETH;
 import com.example.plutusecurus.dtos.DepositETHResponse;
+import com.example.plutusecurus.model.Amount;
+import com.example.plutusecurus.model.ETHtoINRResponse;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
 import com.google.android.material.snackbar.Snackbar;
+import com.razorpay.Checkout;
+import com.razorpay.PaymentData;
+import com.razorpay.PaymentResultWithDataListener;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class PaymentActivity extends AppCompatActivity {
+public class PaymentActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, PaymentResultWithDataListener {
     private ActivityPaymentBinding binding;
     private TransAPI transAPI;
     SharedPreferencesConfig sharedPreferencesConfig;
+    DecimalFormat decimalFormat = new DecimalFormat("#.##");
+    private String paymentType = "", recipientName="", recipientPublicKey="", recipientUId="", paymentId ="", paymentAmt = "0";
+
+    private String remarkCategory = "";
+    private ArrayList<String> listOfCategories = new ArrayList<>(Arrays.asList("essentials", "housing", "food", "medical", "transport", "luxury", "gifts", "misc"));
 
 
     @Override
@@ -41,125 +59,157 @@ public class PaymentActivity extends AppCompatActivity {
         binding.payNowBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (binding.paymentAmountEditText.getText().toString().isEmpty() && binding.paymentAmountINREditText.getText().toString().isEmpty()) {
+
+                if (binding.paymentAmountEditText.getText().toString().isEmpty()) {
                     Snackbar.make(binding.getRoot(), "Please enter amount!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
+                if (remarkCategory.isEmpty()) {
+                    Snackbar.make(binding.getRoot(), "Please select remark!", Snackbar.LENGTH_SHORT).show();
+                    return;
+                }
+                paymentAmt = binding.paymentAmountEditText.getText().toString();
 
                 binding.payNowBtn.setVisibility(View.GONE);
                 binding.loginProgressBar.setVisibility(View.VISIBLE);
 
-                String amount = "";
-                if (!binding.paymentAmountEditText.getText().toString().isEmpty()) amount = binding.paymentAmountEditText.getText().toString();
-                else {
-                    double amt = Double.parseDouble(binding.paymentAmountINREditText.getText().toString());
-                    amt = amt/132787.77;
-                    amount = String.valueOf(amt);
-                }
+                if (paymentType.equals("INR")) {
+                    convertETHtoINR(Double.parseDouble(paymentAmt));
+                } else {
+                    Intent paymentStatusIntent = new Intent(PaymentActivity.this, PaymentStatusActivity.class);
+                    paymentStatusIntent.putExtra("paymentId", "")
+                            .putExtra("recipientName", recipientName)
+                            .putExtra("recipientPublicKey", recipientPublicKey)
+                            .putExtra("recipientUId", recipientUId)
+                            .putExtra("paymentType", paymentType)
+                            .putExtra("remark", remarkCategory)
+                            .putExtra("amount", paymentAmt);
 
-                depositEth(amount, binding.recieverPublicAddressEditText.getText().toString());
+                    binding.payNowBtn.setVisibility(View.VISIBLE);
+                    binding.loginProgressBar.setVisibility(View.GONE);
+                    startActivity(paymentStatusIntent);
+                }
             }
         });
+    }
+
+    private void convertETHtoINR(double amountInETH) {
+        transAPI.convertETHtoINR(new Amount(amountInETH))
+                .enqueue(new Callback<ETHtoINRResponse>() {
+                    @Override
+                    public void onResponse(Call<ETHtoINRResponse> call, Response<ETHtoINRResponse> response) {
+                        if (response.isSuccessful() && response.body()!=null) {
+                            double amountInINR = response.body().getAmount();
+
+                            startPayment(amountInINR);
+                        }
+
+                        binding.payNowBtn.setVisibility(View.VISIBLE);
+                        binding.loginProgressBar.setVisibility(View.GONE);
+                    }
+
+                    @Override
+                    public void onFailure(Call<ETHtoINRResponse> call, Throwable t) {
+                        binding.payNowBtn.setVisibility(View.VISIBLE);
+                        binding.loginProgressBar.setVisibility(View.GONE);
+                        Toast.makeText(PaymentActivity.this, "Failed to convert ETH to INR! Please retry.", Toast.LENGTH_LONG).show();
+                    }
+                });
     }
 
     private void init() {
         transAPI = ApiClient.getApiClient().create(TransAPI.class);
         sharedPreferencesConfig = new SharedPreferencesConfig(this);
 
-        String recipientName = getIntent().getStringExtra("name");
-        String recipientPublicKey = getIntent().getStringExtra("publicKey");
+        paymentType = getIntent().getStringExtra("paymentType");
+
+        recipientName = getIntent().getStringExtra("name");
+        recipientPublicKey = getIntent().getStringExtra("publicKey");
+        recipientUId = getIntent().getStringExtra("uid");
+
 
         binding.recieverNameEditText.setText(recipientName, TextView.BufferType.NORMAL);
         binding.recieverPublicAddressEditText.setText(recipientPublicKey, TextView.BufferType.NORMAL);
 
 
+
+        initSpinnerView();
     }
 
-    private void depositEth(String amount, String recipientPublicAddress) {
+    private void initSpinnerView() {
+        binding.categorySpinner.setOnItemSelectedListener(this);
 
-        Log.d(TAG, "amount: "+amount);
-
-        transAPI.depositETH(new DepositETH(
-                amount,
-                sharedPreferencesConfig.readPrivateKey(),
-                recipientPublicAddress,
-                sharedPreferencesConfig.readPublicKey()
-        )).enqueue(new Callback<DepositETHResponse>() {
-            @Override
-            public void onResponse(Call<DepositETHResponse> call, Response<DepositETHResponse> response) {
-
-                if (response.isSuccessful()) {
-                    if (response.body()!=null) {
-                        Toast.makeText(PaymentActivity.this, "Deposit Successful!", Toast.LENGTH_SHORT).show();
-                        transferEth(amount, recipientPublicAddress);
-                    }
-                } else {
-                    Toast.makeText(PaymentActivity.this, "Deposit Successful!", Toast.LENGTH_SHORT).show();
-                    Log.d(TAG, "depositEth() onResponse(): "+response);
-
-                    startActivity(new Intent(PaymentActivity.this, MainActivity.class));
-                    finish();
-
-                    binding.payNowBtn.setVisibility(View.VISIBLE);
-                    binding.loginProgressBar.setVisibility(View.GONE);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<DepositETHResponse> call, Throwable t) {
-                Toast.makeText(PaymentActivity.this, "Deposit Successful!", Toast.LENGTH_SHORT).show();
-                Log.d(TAG, "depositEth() onResponse(): "+t.getMessage());
-
-                startActivity(new Intent(PaymentActivity.this, MainActivity.class));
-                finish();
-
-                binding.payNowBtn.setVisibility(View.VISIBLE);
-                binding.loginProgressBar.setVisibility(View.GONE);
-
-            }
-        });
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, listOfCategories);
+        arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        binding.categorySpinner.setAdapter(arrayAdapter);
     }
 
-    private void transferEth(String amount, String recipientPublicAddress) {
+    private void startPayment(double amount) {
+        Checkout checkout = new Checkout();
+        checkout.setImage(R.drawable.ic_app_logo);
 
-        Log.d(TAG, "amount: "+amount);
+        try {
+            JSONObject options = new JSONObject();
+            options.put("name", recipientName);
+            options.put("description", "INR to ETH Transaction");
+            options.put("theme.color", R.color.colorPrimary);
+            options.put("currency", "INR");
 
-        transAPI.transferETH(new DepositETH(
-                amount,
-                sharedPreferencesConfig.readPrivateKey(),
-                recipientPublicAddress,
-                sharedPreferencesConfig.readPublicKey()
-        )).enqueue(new Callback<DepositETHResponse>() {
-            @Override
-            public void onResponse(Call<DepositETHResponse> call, Response<DepositETHResponse> response) {
-                if (response.isSuccessful()) {
-                    if (response.body()!=null) {
-                        Toast.makeText(PaymentActivity.this, "Transfer Successful!", Toast.LENGTH_SHORT).show();
-                        binding.payNowBtn.setVisibility(View.GONE);
-                        binding.loginProgressBar.setVisibility(View.VISIBLE);
-                        startActivity(new Intent(PaymentActivity.this, MainActivity.class));
-                        finish();
-                    }
-                } else {
-                    Toast.makeText(PaymentActivity.this, "Transfer Successful!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(PaymentActivity.this, MainActivity.class));
-                    finish();
-                    Log.d(TAG, "onResponse(): "+response);
-                    binding.payNowBtn.setVisibility(View.GONE);
-                    binding.loginProgressBar.setVisibility(View.VISIBLE);
-                }
+            options.put("amount", String.valueOf((int)Math.ceil(amount*100)));
 
-            }
+            checkout.open(PaymentActivity.this, options);
 
-            @Override
-            public void onFailure(Call<DepositETHResponse> call, Throwable t) {
-                Toast.makeText(PaymentActivity.this, "Transfer Successful!", Toast.LENGTH_SHORT).show();
-                Log.d(TAG, "onResponse(): "+t.getMessage());
-                startActivity(new Intent(PaymentActivity.this, MainActivity.class));
-                finish();
-            }
-        });
+        } catch (Exception e) {
+            Toast.makeText(PaymentActivity.this,"Error in payment: "+ e.getMessage(), Toast.LENGTH_LONG).show();
+            e.printStackTrace();
+        }
     }
 
     private static final String TAG = "PaymentActivity";
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+        remarkCategory = listOfCategories.get(i);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+        remarkCategory = "";
+    }
+
+    @Override
+    public void onPaymentSuccess(String s, PaymentData paymentData) {
+        binding.payNowBtn.setVisibility(View.VISIBLE);
+        binding.loginProgressBar.setVisibility(View.GONE);
+
+        if (s != null) {
+            paymentId = s;
+            Intent paymentStatusIntent = new Intent(PaymentActivity.this, PaymentStatusActivity.class);
+            paymentStatusIntent.putExtra("paymentId", paymentId)
+                    .putExtra("recipientName", recipientName)
+                    .putExtra("recipientPublicKey", recipientPublicKey)
+                    .putExtra("recipientUId", recipientUId)
+                    .putExtra("paymentType", paymentType)
+                    .putExtra("remark", remarkCategory)
+                    .putExtra("amount", paymentAmt);
+
+            startActivity(paymentStatusIntent);
+
+        } else {
+            Toast.makeText(PaymentActivity.this,"Error in payment!",Toast.LENGTH_LONG).show();
+        }
+    }
+
+    @Override
+    public void onPaymentError(int i, String s, PaymentData paymentData) {
+        JSONObject jsonObject = null;
+        try {
+            jsonObject = new JSONObject(s);
+            JSONObject error = jsonObject.getJSONObject("error");
+            Snackbar.make(binding.getRoot(), error.getString("description"), Snackbar.LENGTH_LONG).show();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+    }
 }

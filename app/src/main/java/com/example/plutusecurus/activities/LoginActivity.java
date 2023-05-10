@@ -115,7 +115,8 @@ public class LoginActivity extends AppCompatActivity {
                 if (imageUri==null
                         || binding.nameEditText.getText().toString().isEmpty()
                         || binding.publicAddressEdittext.getText().toString().isEmpty()
-                        || binding.privateKeyEdittext.getText().toString().isEmpty()) {
+                        || binding.privateKeyEdittext.getText().toString().isEmpty()
+                        || binding.upiIdET.getText().toString().isEmpty()) {
                     Snackbar.make(binding.getRoot(), "All Fields including profile image are mandatory!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
@@ -125,7 +126,8 @@ public class LoginActivity extends AppCompatActivity {
                             imageUri,
                             binding.publicAddressEdittext.getText().toString(),
                             binding.nameEditText.getText().toString(),
-                            binding.privateKeyEdittext.getText().toString());
+                            binding.privateKeyEdittext.getText().toString(),
+                            binding.upiIdET.getText().toString());
                 } catch (IOException e) {
                     e.printStackTrace();
                     Log.e(TAG, "uploadImageOnClick: "+e.getMessage());
@@ -134,7 +136,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey) throws IOException {
+    private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey, String upiIDComm) throws IOException {
         File filesDir = getApplicationContext().getFilesDir();
         File file = new File(filesDir, "profileImg."+getFileExtension(imageUri));
 
@@ -155,11 +157,12 @@ public class LoginActivity extends AppCompatActivity {
 
         MultipartBody.Part name = MultipartBody.Part.createFormData("name", nameComm);
         MultipartBody.Part account = MultipartBody.Part.createFormData("account", accountComm);
+        MultipartBody.Part upiID = MultipartBody.Part.createFormData("upiID", upiIDComm);
 
         binding.signUpBtn.setVisibility(View.GONE);
         binding.otpProgressBar.setVisibility(View.VISIBLE);
 
-        transAPI.createUser(profilePic, account, name)
+        transAPI.createUser(profilePic, account, name, upiID)
                 .enqueue(new Callback<RegisterResponse>() {
                     @Override
                     public void onResponse(Call<RegisterResponse> call, Response<RegisterResponse> response) {
@@ -169,6 +172,9 @@ public class LoginActivity extends AppCompatActivity {
                             sharedPreferencesConfig.writeName(nameComm);
                             sharedPreferencesConfig.writeImage(response.body().getUser().getProfilePic());
                             sharedPreferencesConfig.writePublicKey(accountComm);
+                            sharedPreferencesConfig.writeUpiID(upiIDComm);
+                            sharedPreferencesConfig.writeUID(response.body().getUser().get_id());
+
                             Log.d(TAG, "onResponse(): "+response.body().getMessage().toString());
                             Toast.makeText(LoginActivity.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
@@ -187,7 +193,7 @@ public class LoginActivity extends AppCompatActivity {
                         binding.signUpBtn.setVisibility(View.VISIBLE);
                         binding.otpProgressBar.setVisibility(View.GONE);
                         Log.d(TAG, "onFailure(): "+t.getMessage());
-                        Toast.makeText(LoginActivity.this, "onFailure(): "+t.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
 
                     }
                 });
@@ -226,7 +232,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Log.d(TAG, "onActivityResult(): "+resultCode);
-        Toast.makeText(this, resultCode+" "+requestCode, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, resultCode+" "+requestCode, Toast.LENGTH_SHORT).show();
 
         if(resultCode == Activity.RESULT_OK && requestCode == 101) {
             if (data!=null) {
@@ -247,12 +253,14 @@ public class LoginActivity extends AppCompatActivity {
 
             Log.d(TAG, "address: "+address);
             Log.d(TAG, "chainId: "+chainId);
-            Toast.makeText(this, "address: "+address, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "address: "+address, Toast.LENGTH_SHORT).show();
         }
 
-        else {
-
-        }
+        /*else {
+            Toast.makeText(this, "Please install Metamask app from Google Playstore.", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=metamask&c=apps"));
+            startActivity(intent);
+        }*/
     }
 
 

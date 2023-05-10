@@ -4,10 +4,14 @@ import com.example.plutusecurus.dtos.DepositETH;
 import com.example.plutusecurus.dtos.DepositETHResponse;
 import com.example.plutusecurus.dtos.GetUserResponse;
 import com.example.plutusecurus.dtos.RegisterResponse;
+import com.example.plutusecurus.model.Account;
 import com.example.plutusecurus.model.AddExpenseBody;
 import com.example.plutusecurus.model.AddExpenseResponse;
 import com.example.plutusecurus.model.AddIncomeBody;
 import com.example.plutusecurus.model.AddIncomeResponse;
+import com.example.plutusecurus.model.Amount;
+import com.example.plutusecurus.model.ETHtoINRResponse;
+import com.example.plutusecurus.model.WalletTransactionResponse;
 
 import okhttp3.MultipartBody;
 import retrofit2.Call;
@@ -24,7 +28,8 @@ public interface TransAPI {
     Call<RegisterResponse> createUser(
             @Part MultipartBody.Part profilePic,
             @Part MultipartBody.Part account,
-            @Part MultipartBody.Part name
+            @Part MultipartBody.Part name,
+            @Part MultipartBody.Part upiID
     );
 
     @POST("user/add-expense")
@@ -42,4 +47,9 @@ public interface TransAPI {
     @POST("user/transfer")
     Call<DepositETHResponse> transferETH(@Body DepositETH depositETH);
 
+    @POST("user/transactions")
+    Call<WalletTransactionResponse> getAllWalletTransactions(@Body Account account);
+
+    @POST("user/convertETHtoINR")
+    Call<ETHtoINRResponse> convertETHtoINR(@Body Amount amount);
 }

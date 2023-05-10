@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class GetUserResponse {
 
+
     @Expose
     @SerializedName("message")
     private String message;
@@ -14,9 +15,6 @@ public class GetUserResponse {
     @Expose
     @SerializedName("success")
     private boolean success;
-    @Expose
-    @SerializedName("code")
-    private int code;
 
     public String getMessage() {
         return message;
@@ -42,14 +40,6 @@ public class GetUserResponse {
         this.success = success;
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
     public static class User {
         @Expose
         @SerializedName("__v")
@@ -57,6 +47,9 @@ public class GetUserResponse {
         @Expose
         @SerializedName("earning")
         private double earning;
+        @Expose
+        @SerializedName("upiID")
+        private String upiID;
         @Expose
         @SerializedName("name")
         private String name;
@@ -85,8 +78,16 @@ public class GetUserResponse {
             return earning;
         }
 
-        public void setEarning(int earning) {
+        public void setEarning(double earning) {
             this.earning = earning;
+        }
+
+        public String getUpiID() {
+            return upiID;
+        }
+
+        public void setUpiID(String upiID) {
+            this.upiID = upiID;
         }
 
         public String getName() {
@@ -160,7 +161,7 @@ public class GetUserResponse {
             return misc;
         }
 
-        public void setMisc(int misc) {
+        public void setMisc(double misc) {
             this.misc = misc;
         }
 
@@ -168,7 +169,7 @@ public class GetUserResponse {
             return gifts;
         }
 
-        public void setGifts(int gifts) {
+        public void setGifts(double gifts) {
             this.gifts = gifts;
         }
 
@@ -176,7 +177,7 @@ public class GetUserResponse {
             return luxury;
         }
 
-        public void setLuxury(int luxury) {
+        public void setLuxury(double luxury) {
             this.luxury = luxury;
         }
 
@@ -184,7 +185,7 @@ public class GetUserResponse {
             return transport;
         }
 
-        public void setTransport(int transport) {
+        public void setTransport(double transport) {
             this.transport = transport;
         }
 
@@ -192,7 +193,7 @@ public class GetUserResponse {
             return medical;
         }
 
-        public void setMedical(int medical) {
+        public void setMedical(double medical) {
             this.medical = medical;
         }
 
