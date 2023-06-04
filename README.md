@@ -64,7 +64,7 @@ We have used the NoSQL database service of MongoDB as the database for our app.
 As a whole, the free credits from AWS, as well as their detailed documentation has helped us to deploy our project to be used for public use. We are grateful to AWS for helping aspiring developers like us to realise our potentials
 
 ## 💡Demo
-[Link to Demo Video](https://www.youtube.com/watch?v=9TaKodTJnA8)
+[Link to Demo Video]([https://www.youtube.com/watch?v=9TaKodTJnA8](https://drive.google.com/file/d/1vaGFZec9QX0HcLpgrFAoDDMAYK4_szC9/view?usp=sharing))
 
 ## 💁 Contributors
 
