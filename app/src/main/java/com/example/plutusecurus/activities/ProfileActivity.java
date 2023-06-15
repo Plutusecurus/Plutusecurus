@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import android.graphics.Bitmap;
 
+import com.bumptech.glide.Glide;
 import com.example.plutusecurus.data.ApiClient;
 import com.example.plutusecurus.data.TransAPI;
 import com.example.plutusecurus.dtos.GetUserResponse;
@@ -49,7 +50,7 @@ public class ProfileActivity extends AppCompatActivity {
         profilePic=findViewById(R.id.profile_pic_of_profile);
         addButton=findViewById(R.id.add_image);
         changePassword=findViewById(R.id.change_pass);
-        logout=findViewById(R.id.logout_btn);
+        logout=findViewById(R.id.logout);
         myQR=findViewById(R.id.my_qr);
         userId=findViewById(R.id.userid_of_profile);
         userName=findViewById(R.id.profile_name_username);
@@ -58,9 +59,10 @@ public class ProfileActivity extends AppCompatActivity {
         transAPI = ApiClient.getApiClient().create(TransAPI.class);
         sharedPreferencesConfig = new SharedPreferencesConfig(this);
 
-        if (!sharedPreferencesConfig.readImage().isEmpty())
-            base64ToBitmap(sharedPreferencesConfig.readImage().substring(sharedPreferencesConfig.readImage().indexOf(",") + 1));
-
+        if (!sharedPreferencesConfig.readImage().isEmpty()) {
+            Glide.with(this).load(sharedPreferencesConfig.readImage()).into(profilePic);
+            //base64ToBitmap(sharedPreferencesConfig.readImage().substring(sharedPreferencesConfig.readImage().indexOf(",") + 1));
+        }
 
         userName.setText(sharedPreferencesConfig.readName());
         userId.setText(sharedPreferencesConfig.readPublicKey());
