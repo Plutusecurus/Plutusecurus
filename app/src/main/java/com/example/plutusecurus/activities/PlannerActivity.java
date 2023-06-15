@@ -156,14 +156,22 @@ public class PlannerActivity extends AppCompatActivity {
         l.setEnabled(false);
 
         ArrayList<PieEntry> entries=new ArrayList<>();
-        entries.add(new PieEntry((h/tot),"Housing"));
-        entries.add(new PieEntry((f/tot),"Food"));
-        entries.add(new PieEntry((m/tot),"Medication"));
-        entries.add(new PieEntry((t/tot),"Transport"));
-        entries.add(new PieEntry((e/tot),"Essentials"));
-        entries.add(new PieEntry((lu/tot),"Luxury"));
-        entries.add(new PieEntry((g/tot),"Gift"));
-        entries.add(new PieEntry((mis/tot),"Misc."));
+        if(h!=0)
+            entries.add(new PieEntry((h/tot),"Housing"));
+        if(f!=0)
+            entries.add(new PieEntry((f/tot),"Food"));
+        if(m!=0)
+            entries.add(new PieEntry((m/tot),"Medication"));
+        if(t!=0)
+            entries.add(new PieEntry((t/tot),"Transport"));
+        if(e!=0)
+            entries.add(new PieEntry((e/tot),"Essentials"));
+        if(lu!=0)
+            entries.add(new PieEntry((lu/tot),"Luxury"));
+        if(g!=0)
+            entries.add(new PieEntry((g/tot),"Gift"));
+        if(mis!=0)
+            entries.add(new PieEntry((mis/tot),"Misc."));
 
         ArrayList<Integer> colors =new ArrayList<>();
         for(int color: ColorTemplate.MATERIAL_COLORS){ colors.add(color); }
