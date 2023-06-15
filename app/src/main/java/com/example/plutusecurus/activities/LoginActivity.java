@@ -60,6 +60,7 @@ public class LoginActivity extends AppCompatActivity {
     private String messageToSign = "Please sign this message";
     private static final String TAG = "LoginActivity";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

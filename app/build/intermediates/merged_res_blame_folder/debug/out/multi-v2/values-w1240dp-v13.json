@@ -4,7 +4,7 @@
             "outputFile": "com.example.plutusecurus.app-mergeDebugResources-52:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "F:\\Plutusecurus\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\proj\\Plutusecurus\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",

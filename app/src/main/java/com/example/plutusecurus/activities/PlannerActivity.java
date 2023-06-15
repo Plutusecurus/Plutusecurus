@@ -25,6 +25,7 @@ import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.zxing.WriterException;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import retrofit2.Call;
@@ -109,15 +110,16 @@ public class PlannerActivity extends AppCompatActivity {
                                 lu = Float.parseFloat(luxury);
                                 m = Float.parseFloat(medical);
                                 tot=h+f+t+e+mis+g+lu+m;
-
-                                ph.setText(Float.toString(100*h/tot)+"%");
-                                pf.setText(Float.toString(100*f/tot)+"%");
-                                pe.setText(Float.toString(100*e/tot)+"%");
-                                pg.setText(Float.toString(100*g/tot)+"%");
-                                pt.setText(Float.toString(100*t/tot)+"%");
-                                pmis.setText(Float.toString(100*mis/tot)+"%");
-                                plu.setText(Float.toString(100*lu/tot)+"%");
-                                pm.setText(Float.toString(100*m/tot)+"%");
+                                DecimalFormat decimalFormat = new DecimalFormat("#.##");
+                                decimalFormat.setGroupingUsed(false);
+                                ph.setText(decimalFormat.format(100*h/tot)+"%");
+                                pf.setText(decimalFormat.format(100*f/tot)+"%");
+                                pe.setText(decimalFormat.format(100*e/tot)+"%");
+                                pg.setText(decimalFormat.format(100*g/tot)+"%");
+                                pt.setText(decimalFormat.format(100*t/tot)+"%");
+                                pmis.setText(decimalFormat.format(100*mis/tot)+"%");
+                                plu.setText(decimalFormat.format(100*lu/tot)+"%");
+                                pm.setText(decimalFormat.format(100*m/tot)+"%");
 
 
                                 House.setText("Rs. "+house);
