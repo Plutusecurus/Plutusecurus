@@ -2701,6 +2701,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_new_buzz
 drawable address_background
+drawable all_rounded_bg
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_button1
@@ -3201,6 +3202,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id button_first
 id buyButton
 id buy_now
 id buy_with
@@ -3242,6 +3244,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_password
 id constraint
 id container
 id content
@@ -3344,6 +3347,7 @@ id food_percentage
 id food_text
 id forever
 id forgot_password
+id forgot_password_btn
 id fragment_container
 id fragment_container_view_tag
 id frost
@@ -3424,6 +3428,8 @@ id listMode
 id list_item
 id ll_loader
 id locale
+id log_in_btn
+id login_btn
 id login_progress_bar
 id logo
 id logo_only
@@ -3515,6 +3521,7 @@ id my_qr
 id name_edit_text
 id nav_controller_view_tag
 id nav_graph
+id nav_graph2
 id nav_host_fragment_container
 id nav_menu
 id navigation_bar_item_active_indicator_view
@@ -3550,6 +3557,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -3571,6 +3579,7 @@ id plusminuser
 id position
 id postLayout
 id privateKeyEdittext
+id private_key_layout
 id production
 id profile
 id profile_name_username
@@ -3717,6 +3726,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_first
 id time
 id title
 id titleDividerNoCustom
@@ -3892,6 +3902,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account_login
 layout activity_login
 layout activity_main
 layout activity_payment
@@ -3918,6 +3929,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_dashboard
+layout fragment_first
 layout fragment_nft
 layout fragment_wallet
 layout item_history
@@ -4018,6 +4030,7 @@ mipmap app_icon
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+navigation nav_graph2
 plurals mtrl_badge_content_description
 raw rzp_config
 raw zxing_beep
@@ -4194,6 +4207,7 @@ string search_menu_title
 string second_fragment_label
 string sign_up
 string status_bar_notification_info_overflow
+string title_activity_account_login
 string title_activity_payment
 string wallet_buy_button_place_holder
 string zxing_app_name

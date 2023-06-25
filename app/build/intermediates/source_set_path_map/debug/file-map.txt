@@ -24,33 +24,37 @@ com.example.plutusecurus.app-jetified-glide-4.13.2-22 C:\Users\Suswan Biswas\.gr
 com.example.plutusecurus.app-cardview-1.0.0-23 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\5eb30915dc28087112f49b076e8b6fea\transformed\cardview-1.0.0\res
 com.example.plutusecurus.app-jetified-core-ktx-1.9.0-24 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\5f69fdd54beb708cd1efa2e1f794fcc7\transformed\jetified-core-ktx-1.9.0\res
 com.example.plutusecurus.app-navigation-fragment-2.5.3-25 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\61f66bedbb798e0a4dc12571fca9a890\transformed\navigation-fragment-2.5.3\res
-com.example.plutusecurus.app-jetified-play-services-maps-17.0.0-26 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\res
-com.example.plutusecurus.app-jetified-fragment-ktx-1.5.4-27 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6e61f56b8e7a53633c3cef759f885406\transformed\jetified-fragment-ktx-1.5.4\res
-com.example.plutusecurus.app-material-1.6.0-28 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\728bc65372d46aef0e245074d736cc50\transformed\material-1.6.0\res
-com.example.plutusecurus.app-navigation-runtime-2.5.3-29 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\77e9dccc9e9b770c4ac038c084ef89e4\transformed\navigation-runtime-2.5.3\res
-com.example.plutusecurus.app-jetified-play-services-wallet-18.1.3-30 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\7955c43a5461bef70df5c98b5b893d8c\transformed\jetified-play-services-wallet-18.1.3\res
-com.example.plutusecurus.app-jetified-lifecycle-runtime-ktx-2.5.1-31 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\7fd5999a4ecfbcfc81559560a1064d3f\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
-com.example.plutusecurus.app-jetified-play-services-auth-17.0.0-32 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\res
-com.example.plutusecurus.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-33 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8eb746da3eded4ac8decd2c43266c864\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.plutusecurus.app-jetified-lifecycle-process-2.4.0-34 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\res
-com.example.plutusecurus.app-core-1.9.0-35 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\res
-com.example.plutusecurus.app-jetified-emoji2-1.0.0-36 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\res
-com.example.plutusecurus.app-jetified-lifecycle-viewmodel-ktx-2.5.1-37 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\b5b1b3df581c9b7e791146e6e89df810\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
-com.example.plutusecurus.app-jetified-lifecycle-livedata-core-ktx-2.5.1-38 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\b668aeec9807d75f85c6ae965aaccb1e\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\res
-com.example.plutusecurus.app-jetified-window-1.0.0-39 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\res
-com.example.plutusecurus.app-constraintlayout-2.1.3-40 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\cf50b1d02576ae3f849dd42d95e003c3\transformed\constraintlayout-2.1.3\res
-com.example.plutusecurus.app-jetified-core-1.9.13-41 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\d11fb121352756c92ddb98eb58764143\transformed\jetified-core-1.9.13\res
-com.example.plutusecurus.app-slidingpanelayout-1.2.0-42 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e1966a8f0dfcdc2d8197c333ec1aaf6e\transformed\slidingpanelayout-1.2.0\res
-com.example.plutusecurus.app-navigation-ui-2.5.3-43 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e72c97e1200dccfa881520ded1c8df38\transformed\navigation-ui-2.5.3\res
-com.example.plutusecurus.app-jetified-checkout-1.6.30-44 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\res
-com.example.plutusecurus.app-media-1.0.0-45 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f134f8ff0f0d9064c1706fb099aa2584\transformed\media-1.0.0\res
-com.example.plutusecurus.app-appcompat-1.4.1-46 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\fb5b5c551fe2aa08b50911a48ac1910a\transformed\appcompat-1.4.1\res
-com.example.plutusecurus.app-jetified-activity-ktx-1.5.1-47 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\fb75d2e118d01631bee978a061b1276f\transformed\jetified-activity-ktx-1.5.1\res
-com.example.plutusecurus.app-google-services-48 D:\proj\Plutusecurus\app\build\generated\res\google-services\debug
-com.example.plutusecurus.app-resValues-49 D:\proj\Plutusecurus\app\build\generated\res\resValues\debug
-com.example.plutusecurus.app-rs-50 D:\proj\Plutusecurus\app\build\generated\res\rs\debug
-com.example.plutusecurus.app-mergeDebugResources-51 D:\proj\Plutusecurus\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.plutusecurus.app-mergeDebugResources-52 D:\proj\Plutusecurus\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.plutusecurus.app-merged_res-53 D:\proj\Plutusecurus\app\build\intermediates\merged_res\debug
-com.example.plutusecurus.app-debug-54 D:\proj\Plutusecurus\app\src\debug\res
-com.example.plutusecurus.app-main-55 D:\proj\Plutusecurus\app\src\main\res
+com.example.plutusecurus.app-navigation-ui-ktx-2.5.3-26 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\631cd808eef6f004bbc78aacebbb34ba\transformed\navigation-ui-ktx-2.5.3\res
+com.example.plutusecurus.app-navigation-fragment-ktx-2.5.3-27 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6837ef18bb21f7801dbfee40258ca2c7\transformed\navigation-fragment-ktx-2.5.3\res
+com.example.plutusecurus.app-jetified-play-services-maps-17.0.0-28 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\res
+com.example.plutusecurus.app-jetified-fragment-ktx-1.5.4-29 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6e61f56b8e7a53633c3cef759f885406\transformed\jetified-fragment-ktx-1.5.4\res
+com.example.plutusecurus.app-material-1.6.0-30 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\728bc65372d46aef0e245074d736cc50\transformed\material-1.6.0\res
+com.example.plutusecurus.app-navigation-runtime-2.5.3-31 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\77e9dccc9e9b770c4ac038c084ef89e4\transformed\navigation-runtime-2.5.3\res
+com.example.plutusecurus.app-jetified-play-services-wallet-18.1.3-32 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\7955c43a5461bef70df5c98b5b893d8c\transformed\jetified-play-services-wallet-18.1.3\res
+com.example.plutusecurus.app-jetified-lifecycle-runtime-ktx-2.5.1-33 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\7fd5999a4ecfbcfc81559560a1064d3f\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
+com.example.plutusecurus.app-jetified-play-services-auth-17.0.0-34 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\res
+com.example.plutusecurus.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-35 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8eb746da3eded4ac8decd2c43266c864\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.plutusecurus.app-jetified-lifecycle-process-2.4.0-36 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\res
+com.example.plutusecurus.app-core-1.9.0-37 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\res
+com.example.plutusecurus.app-jetified-emoji2-1.0.0-38 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\res
+com.example.plutusecurus.app-navigation-common-ktx-2.5.3-39 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a71d895dd80b6e69dd2839ed8ecfbd18\transformed\navigation-common-ktx-2.5.3\res
+com.example.plutusecurus.app-jetified-lifecycle-viewmodel-ktx-2.5.1-40 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\b5b1b3df581c9b7e791146e6e89df810\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
+com.example.plutusecurus.app-jetified-lifecycle-livedata-core-ktx-2.5.1-41 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\b668aeec9807d75f85c6ae965aaccb1e\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\res
+com.example.plutusecurus.app-jetified-window-1.0.0-42 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\res
+com.example.plutusecurus.app-constraintlayout-2.1.3-43 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\cf50b1d02576ae3f849dd42d95e003c3\transformed\constraintlayout-2.1.3\res
+com.example.plutusecurus.app-jetified-core-1.9.13-44 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\d11fb121352756c92ddb98eb58764143\transformed\jetified-core-1.9.13\res
+com.example.plutusecurus.app-navigation-runtime-ktx-2.5.3-45 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e0b029b2f14a9cbeb84f4a85ded3dd70\transformed\navigation-runtime-ktx-2.5.3\res
+com.example.plutusecurus.app-slidingpanelayout-1.2.0-46 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e1966a8f0dfcdc2d8197c333ec1aaf6e\transformed\slidingpanelayout-1.2.0\res
+com.example.plutusecurus.app-navigation-ui-2.5.3-47 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\e72c97e1200dccfa881520ded1c8df38\transformed\navigation-ui-2.5.3\res
+com.example.plutusecurus.app-jetified-checkout-1.6.30-48 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\res
+com.example.plutusecurus.app-media-1.0.0-49 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f134f8ff0f0d9064c1706fb099aa2584\transformed\media-1.0.0\res
+com.example.plutusecurus.app-appcompat-1.4.1-50 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\fb5b5c551fe2aa08b50911a48ac1910a\transformed\appcompat-1.4.1\res
+com.example.plutusecurus.app-jetified-activity-ktx-1.5.1-51 C:\Users\Suswan Biswas\.gradle\caches\transforms-3\fb75d2e118d01631bee978a061b1276f\transformed\jetified-activity-ktx-1.5.1\res
+com.example.plutusecurus.app-google-services-52 D:\proj\Plutusecurus\app\build\generated\res\google-services\debug
+com.example.plutusecurus.app-resValues-53 D:\proj\Plutusecurus\app\build\generated\res\resValues\debug
+com.example.plutusecurus.app-rs-54 D:\proj\Plutusecurus\app\build\generated\res\rs\debug
+com.example.plutusecurus.app-mergeDebugResources-55 D:\proj\Plutusecurus\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.plutusecurus.app-mergeDebugResources-56 D:\proj\Plutusecurus\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.plutusecurus.app-merged_res-57 D:\proj\Plutusecurus\app\build\intermediates\merged_res\debug
+com.example.plutusecurus.app-debug-58 D:\proj\Plutusecurus\app\src\debug\res
+com.example.plutusecurus.app-main-59 D:\proj\Plutusecurus\app\src\main\res

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-52:/values-mr/values-mr.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-56:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\10cfd85dc828a4e95f1457d3280d9bb0\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-mr\\values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-52:/values-land/values-land.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-56:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\fb5b5c551fe2aa08b50911a48ac1910a\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
@@ -36,10 +36,10 @@
                     "source": "D:\\proj\\Plutusecurus\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1",
-                        "startColumns": "6",
-                        "startOffsets": "19",
-                        "endColumns": "43",
-                        "endOffsets": "56"
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
                         "startLines": "5",

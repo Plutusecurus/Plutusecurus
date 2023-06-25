@@ -25,6 +25,9 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.AccountLoginActivity"
             android:exported="false"
             android:label="@string/title_activity_account_login"

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -28,6 +29,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final AppCompatImageView addUserProfileImageBtn;
 
   @NonNull
+  public final AppCompatEditText confirmPassword;
+
+  @NonNull
   public final AppCompatImageView galleryProfilePicView;
 
   @NonNull
@@ -40,10 +44,16 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final LinearLayout goToLoginBtn;
 
   @NonNull
+  public final TextView loginBtn;
+
+  @NonNull
   public final AppCompatEditText nameEditText;
 
   @NonNull
   public final ProgressBar otpProgressBar;
+
+  @NonNull
+  public final AppCompatEditText password;
 
   @NonNull
   public final AppCompatEditText privateKeyEdittext;
@@ -62,20 +72,24 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   private ActivityLoginBinding(@NonNull RelativeLayout rootView,
       @NonNull AppCompatImageView addUserProfileImageBtn,
-      @NonNull AppCompatImageView galleryProfilePicView, @NonNull AppCompatTextView getPublicKeyBtn,
-      @NonNull AppCompatTextView getPvtKeyBtn, @NonNull LinearLayout goToLoginBtn,
+      @NonNull AppCompatEditText confirmPassword, @NonNull AppCompatImageView galleryProfilePicView,
+      @NonNull AppCompatTextView getPublicKeyBtn, @NonNull AppCompatTextView getPvtKeyBtn,
+      @NonNull LinearLayout goToLoginBtn, @NonNull TextView loginBtn,
       @NonNull AppCompatEditText nameEditText, @NonNull ProgressBar otpProgressBar,
-      @NonNull AppCompatEditText privateKeyEdittext,
+      @NonNull AppCompatEditText password, @NonNull AppCompatEditText privateKeyEdittext,
       @NonNull AppCompatEditText publicAddressEdittext, @NonNull AppCompatButton signUpBtn,
       @NonNull RelativeLayout signUpImg, @NonNull AppCompatEditText upiIdET) {
     this.rootView = rootView;
     this.addUserProfileImageBtn = addUserProfileImageBtn;
+    this.confirmPassword = confirmPassword;
     this.galleryProfilePicView = galleryProfilePicView;
     this.getPublicKeyBtn = getPublicKeyBtn;
     this.getPvtKeyBtn = getPvtKeyBtn;
     this.goToLoginBtn = goToLoginBtn;
+    this.loginBtn = loginBtn;
     this.nameEditText = nameEditText;
     this.otpProgressBar = otpProgressBar;
+    this.password = password;
     this.privateKeyEdittext = privateKeyEdittext;
     this.publicAddressEdittext = publicAddressEdittext;
     this.signUpBtn = signUpBtn;
@@ -116,6 +130,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.confirm_password;
+      AppCompatEditText confirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (confirmPassword == null) {
+        break missingId;
+      }
+
       id = R.id.gallery_profile_pic_view;
       AppCompatImageView galleryProfilePicView = ViewBindings.findChildViewById(rootView, id);
       if (galleryProfilePicView == null) {
@@ -140,6 +160,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.login_btn;
+      TextView loginBtn = ViewBindings.findChildViewById(rootView, id);
+      if (loginBtn == null) {
+        break missingId;
+      }
+
       id = R.id.name_edit_text;
       AppCompatEditText nameEditText = ViewBindings.findChildViewById(rootView, id);
       if (nameEditText == null) {
@@ -149,6 +175,12 @@ public final class ActivityLoginBinding implements ViewBinding {
       id = R.id.otp_progress_bar;
       ProgressBar otpProgressBar = ViewBindings.findChildViewById(rootView, id);
       if (otpProgressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.password;
+      AppCompatEditText password = ViewBindings.findChildViewById(rootView, id);
+      if (password == null) {
         break missingId;
       }
 
@@ -183,8 +215,9 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((RelativeLayout) rootView, addUserProfileImageBtn,
-          galleryProfilePicView, getPublicKeyBtn, getPvtKeyBtn, goToLoginBtn, nameEditText,
-          otpProgressBar, privateKeyEdittext, publicAddressEdittext, signUpBtn, signUpImg, upiIdET);
+          confirmPassword, galleryProfilePicView, getPublicKeyBtn, getPvtKeyBtn, goToLoginBtn,
+          loginBtn, nameEditText, otpProgressBar, password, privateKeyEdittext,
+          publicAddressEdittext, signUpBtn, signUpImg, upiIdET);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

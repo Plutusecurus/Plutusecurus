@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-52:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.example.plutusecurus.app-mergeDebugResources-56:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "D:\\proj\\Plutusecurus\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
-                        "startColumns": "6",
-                        "startOffsets": "19",
-                        "endColumns": "43",
-                        "endOffsets": "56"
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
                         "startLines": "2",

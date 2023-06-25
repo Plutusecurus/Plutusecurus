@@ -92,8 +92,8 @@
 51        <intent>
 51-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:28:9-30:18
 52            <action android:name="android.intent.action.MAIN" />
-52-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:17-69
-52-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:25-66
+52-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:17-69
+52-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:25-66
 53        </intent>
 54        <intent>
 54-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:31:9-35:18
@@ -135,7 +135,7 @@
 73-->[androidx.core:core:1.9.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a48c2ae7df52a7865cb3235f12c89fb6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 74
 75    <application
-75-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:17:5-77:19
+75-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:17:5-85:19
 76        android:allowBackup="true"
 76-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:18:9-35
 77        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -158,241 +158,257 @@
 87        android:usesCleartextTraffic="true" >
 87-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:25:9-44
 88        <activity
-88-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:27:9-33:20
-89            android:name="com.example.plutusecurus.activities.TransactionSuccessfulActivity"
-89-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:28:13-69
-90            android:exported="false" >
+88-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:27:9-29:40
+89            android:name="com.example.plutusecurus.ForgotPasswordActivity"
+89-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:28:13-51
+90            android:exported="false" />
 90-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:29:13-37
-91            <meta-data
-91-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:30:13-32:36
-92                android:name="android.app.lib_name"
-92-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:31:17-52
-93                android:value="" />
-93-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:32:17-33
-94        </activity>
-95        <activity
-95-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:34:9-40:20
-96            android:name="com.example.plutusecurus.activities.PaymentStatusActivity"
-96-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:35:13-61
-97            android:exported="false" >
-97-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:36:13-37
-98            <meta-data
-98-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:30:13-32:36
-99                android:name="android.app.lib_name"
-99-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:31:17-52
-100                android:value="" />
-100-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:32:17-33
-101        </activity>
-102        <activity
-102-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:41:9-54:20
-103            android:name="com.example.plutusecurus.activities.LoginActivity"
-103-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:42:13-53
-104            android:exported="true" >
-104-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:43:13-36
-105            <intent-filter>
-105-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:44:13-48:29
-106                <action android:name="android.intent.action.MAIN" />
-106-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:17-69
-106-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:25-66
-107
-108                <category android:name="android.intent.category.LAUNCHER" />
-108-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:47:17-77
-108-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:47:27-74
-109            </intent-filter>
-110            <intent-filter>
-110-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:49:13-53:29
-111                <action android:name="io.metamask.intent.action.SIGN_TX" />
-111-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:50:17-76
-111-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:50:25-73
-112
-113                <category android:name="android.intent.category.DEFAULT" />
-113-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:52:17-76
-113-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:52:27-73
-114            </intent-filter>
-115        </activity>
-116        <activity
-116-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:55:9-57:40
-117            android:name="com.example.plutusecurus.activities.PaymentActivity"
-117-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:56:13-55
-118            android:exported="false" />
-118-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:57:13-37
-119        <activity
-119-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:9-60:40
-120            android:name="com.example.plutusecurus.activities.QrActivity"
-120-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:59:13-50
-121            android:exported="false" />
-121-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:13-37
-122        <activity
-122-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:61:9-63:40
-123            android:name="com.example.plutusecurus.activities.PlannerActivity"
-123-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:62:13-55
-124            android:exported="false" />
-124-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:63:13-37
-125        <activity
-125-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:64:9-66:40
-126            android:name="com.example.plutusecurus.activities.ProfileActivity"
-126-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:65:13-55
-127            android:exported="false" />
-127-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:66:13-37
-128        <activity
-128-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:67:9-69:40
-129            android:name="com.example.plutusecurus.activities.MainActivity"
-129-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:68:13-52
-130            android:exported="false" />
-130-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:69:13-37
-131
-132        <meta-data
-132-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:71:9-73:55
-133            android:name="com.razorpay.ApiKey"
-133-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:72:13-47
-134            android:value="rzp_test_wdFPxUvzC75FBP" />
-134-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:73:13-52
-135        <meta-data
-135-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:74:9-76:36
-136            android:name="com.google.gms.wallet.api.enabled"
-136-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:75:13-61
-137            android:value="true" />
-137-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:76:13-33
-138
-139        <activity
-139-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
-140            android:name="com.karumi.dexter.DexterActivity"
-140-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
-141            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-141-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
-142        <activity
-142-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
-143            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-143-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
-144            android:clearTaskOnLaunch="true"
-144-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
-145            android:screenOrientation="sensorLandscape"
-145-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
-146            android:stateNotNeeded="true"
-146-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
-147            android:theme="@style/zxing_CaptureTheme"
-147-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
-148            android:windowSoftInputMode="stateAlwaysHidden" />
-148-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
-149
-150        <provider
-150-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-151            android:name="androidx.startup.InitializationProvider"
-151-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-152            android:authorities="com.example.a7os.androidx-startup"
-152-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-153            android:exported="false" >
-153-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-154            <meta-data
-154-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-155                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-155-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-156                android:value="androidx.startup" />
-156-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-157            <meta-data
-157-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-158                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-158-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-159                android:value="androidx.startup" />
-159-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-160        </provider>
-161
-162        <receiver
-162-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:42:9-49:20
-163            android:name="com.razorpay.RzpTokenReceiver"
-163-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:43:13-57
-164            android:exported="true" >
-164-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:44:13-36
-165            <intent-filter>
-165-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:46:13-48:29
-166                <action android:name="rzp.device_token.share" />
-166-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
-166-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
-167            </intent-filter>
-168        </receiver>
+91        <activity
+91-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:30:9-34:69
+92            android:name="com.example.plutusecurus.activities.AccountLoginActivity"
+92-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:31:13-60
+93            android:exported="false"
+93-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:32:13-37
+94            android:label="@string/title_activity_account_login"
+94-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:33:13-65
+95            android:theme="@style/Theme.Plutusecurus.NoActionBar" />
+95-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:34:13-66
+96        <activity
+96-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:35:9-41:20
+97            android:name="com.example.plutusecurus.activities.TransactionSuccessfulActivity"
+97-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:36:13-69
+98            android:exported="false" >
+98-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:37:13-37
+99            <meta-data
+99-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:38:13-40:36
+100                android:name="android.app.lib_name"
+100-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:39:17-52
+101                android:value="" />
+101-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:40:17-33
+102        </activity>
+103        <activity
+103-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:42:9-48:20
+104            android:name="com.example.plutusecurus.activities.PaymentStatusActivity"
+104-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:43:13-61
+105            android:exported="false" >
+105-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:44:13-37
+106            <meta-data
+106-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:38:13-40:36
+107                android:name="android.app.lib_name"
+107-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:39:17-52
+108                android:value="" />
+108-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:40:17-33
+109        </activity>
+110        <activity
+110-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:49:9-62:20
+111            android:name="com.example.plutusecurus.activities.LoginActivity"
+111-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:50:13-53
+112            android:exported="true" >
+112-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:51:13-36
+113            <intent-filter>
+113-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:52:13-56:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:17-69
+114-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:55:17-77
+116-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:55:27-74
+117            </intent-filter>
+118            <intent-filter>
+118-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:57:13-61:29
+119                <action android:name="io.metamask.intent.action.SIGN_TX" />
+119-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:17-76
+119-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:25-73
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:17-76
+121-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:27-73
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:63:9-65:40
+125            android:name="com.example.plutusecurus.activities.PaymentActivity"
+125-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:64:13-55
+126            android:exported="false" />
+126-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:65:13-37
+127        <activity
+127-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:66:9-68:40
+128            android:name="com.example.plutusecurus.activities.QrActivity"
+128-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:67:13-50
+129            android:exported="false" />
+129-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:68:13-37
+130        <activity
+130-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:69:9-71:40
+131            android:name="com.example.plutusecurus.activities.PlannerActivity"
+131-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:70:13-55
+132            android:exported="false" />
+132-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:71:13-37
+133        <activity
+133-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:72:9-74:40
+134            android:name="com.example.plutusecurus.activities.ProfileActivity"
+134-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:73:13-55
+135            android:exported="false" />
+135-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:74:13-37
+136        <activity
+136-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:75:9-77:40
+137            android:name="com.example.plutusecurus.activities.MainActivity"
+137-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:76:13-52
+138            android:exported="false" />
+138-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:77:13-37
+139
+140        <meta-data
+140-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:79:9-81:55
+141            android:name="com.razorpay.ApiKey"
+141-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:80:13-47
+142            android:value="rzp_test_wdFPxUvzC75FBP" />
+142-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:81:13-52
+143        <meta-data
+143-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:82:9-84:36
+144            android:name="com.google.gms.wallet.api.enabled"
+144-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:83:13-61
+145            android:value="true" />
+145-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:84:13-33
+146
+147        <activity
+147-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+148            android:name="com.karumi.dexter.DexterActivity"
+148-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+149            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+149-->[com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\261f78637e28d286dfe8f0fa632d911a\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+150        <activity
+150-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+151            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+151-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+152            android:clearTaskOnLaunch="true"
+152-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+153            android:screenOrientation="sensorLandscape"
+153-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+154            android:stateNotNeeded="true"
+154-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+155            android:theme="@style/zxing_CaptureTheme"
+155-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+156            android:windowSoftInputMode="stateAlwaysHidden" />
+156-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2588b109c5d83ed13a0e39845a2ad1d3\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+157
+158        <provider
+158-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+159            android:name="androidx.startup.InitializationProvider"
+159-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+160            android:authorities="com.example.a7os.androidx-startup"
+160-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+161            android:exported="false" >
+161-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+162            <meta-data
+162-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+163                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+163-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+164                android:value="androidx.startup" />
+164-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a6c238052f9a92d6350d59148026e5d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+165            <meta-data
+165-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+166                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+166-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+167                android:value="androidx.startup" />
+167-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8f8c92b8e80f2ffb60d8682a9c71382f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+168        </provider>
 169
-170        <activity
-170-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:51:9-59:20
-171            android:name="com.razorpay.CheckoutActivity"
-171-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:52:13-57
-172            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-172-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:53:13-83
-173            android:exported="true"
-173-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:54:13-36
-174            android:theme="@style/CheckoutTheme" >
-174-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:55:13-49
-175            <intent-filter>
-175-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:56:13-58:29
-176                <action android:name="android.intent.action.MAIN" />
-176-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:17-69
-176-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:45:25-66
-177            </intent-filter>
-178        </activity>
-179
-180        <meta-data
-180-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:61:9-63:58
-181            android:name="com.razorpay.plugin.googlepay_all"
-181-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:62:13-61
-182            android:value="com.razorpay.RzpGpayMerged" />
-182-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:63:13-55
-183
-184        <activity
-184-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-185            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-185-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-186            android:excludeFromRecents="true"
-186-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-187            android:exported="false"
-187-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-188-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-189        <!--
-190            Service handling Google Sign-In user revocation. For apps that do not integrate with
-191            Google Sign-In, this service will never be started.
-192        -->
-193        <service
-193-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-194            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-194-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-195            android:exported="true"
-195-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-196            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
-196-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-197        <uses-library
-197-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-198            android:name="org.apache.http.legacy"
-198-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-199            android:required="false" />
-199-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-200
-201        <activity
-201-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-202            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-202-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-203            android:exported="false"
-203-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-204-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-205
-206        <meta-data
-206-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
-207            android:name="com.google.android.gms.version"
-207-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
-208            android:value="@integer/google_play_services_version" />
-208-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
-209
-210        <uses-library
-210-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-211            android:name="androidx.window.extensions"
-211-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-212            android:required="false" />
-212-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-213        <uses-library
-213-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-214            android:name="androidx.window.sidecar"
-214-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-215            android:required="false" />
-215-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-216    </application>
+170        <receiver
+170-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:42:9-49:20
+171            android:name="com.razorpay.RzpTokenReceiver"
+171-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:43:13-57
+172            android:exported="true" >
+172-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:44:13-36
+173            <intent-filter>
+173-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:46:13-48:29
+174                <action android:name="rzp.device_token.share" />
+174-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
+174-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
+175            </intent-filter>
+176        </receiver>
+177
+178        <activity
+178-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:51:9-59:20
+179            android:name="com.razorpay.CheckoutActivity"
+179-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:52:13-57
+180            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+180-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:53:13-83
+181            android:exported="true"
+181-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:54:13-36
+182            android:theme="@style/CheckoutTheme" >
+182-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:55:13-49
+183            <intent-filter>
+183-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:56:13-58:29
+184                <action android:name="android.intent.action.MAIN" />
+184-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:17-69
+184-->D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:25-66
+185            </intent-filter>
+186        </activity>
+187
+188        <meta-data
+188-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:61:9-63:58
+189            android:name="com.razorpay.plugin.googlepay_all"
+189-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:62:13-61
+190            android:value="com.razorpay.RzpGpayMerged" />
+190-->[com.razorpay:checkout:1.6.30] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f0a5bfcaa10b150c99308651e8ff0792\transformed\jetified-checkout-1.6.30\AndroidManifest.xml:63:13-55
+191
+192        <activity
+192-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+193            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+193-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+194            android:excludeFromRecents="true"
+194-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+197        <!--
+198            Service handling Google Sign-In user revocation. For apps that do not integrate with
+199            Google Sign-In, this service will never be started.
+200        -->
+201        <service
+201-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+202            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+202-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+203            android:exported="true"
+203-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+204            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+204-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\8aeaae7816d7813619270a52970babdf\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+205        <uses-library
+205-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+206            android:name="org.apache.http.legacy"
+206-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+207            android:required="false" />
+207-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\6b091095c550a5d3309d715454de6212\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\0f7ab81bb3e693e1766ee14cdb9606b9\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+213
+214        <meta-data
+214-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+215            android:name="com.google.android.gms.version"
+215-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+216            android:value="@integer/google_play_services_version" />
+216-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\10cfd85dc828a4e95f1457d3280d9bb0\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
 217
-218</manifest>
+218        <uses-library
+218-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+219            android:name="androidx.window.extensions"
+219-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+220            android:required="false" />
+220-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+221        <uses-library
+221-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+222            android:name="androidx.window.sidecar"
+222-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\c0fc7037cf884cda6e6a3be52f599f93\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+224    </application>
+225
+226</manifest>
