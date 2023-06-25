@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/profile_name_username"
-
+        android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/profile_pic_card"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/userid_of_user"
-
+        android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/profile_name_username"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +96,7 @@
         android:layout_marginHorizontal="50dp"
         android:id="@+id/pay_button"
         android:elevation="0dp"
-        android:backgroundTint="#97ECB6"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="20dp">
         <TextView
             android:layout_width="wrap_content"
@@ -114,6 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HISTORY"
+        android:fontFamily="@font/montserrat_bold"
         app:layout_constraintTop_toBottomOf="@id/pay_button"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="20dp"

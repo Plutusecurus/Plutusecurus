@@ -55,7 +55,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/profile_name_username"
-        android:text="AMAN SINGH"
+        android:text="USER NAME"
+        android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/profile_pic_card"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:text="kk233dk334e"
+        android:text="Public Key"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +95,7 @@
         app:layout_constraintBottom_toTopOf="@id/logout"
         android:layout_marginBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/lgreen"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="20dp"
         android:clickable="true"
         android:focusable="true">
@@ -105,7 +106,7 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:gravity="center"
-            android:textColor="#EA0909"/>
+            android:textColor="#072b65"/>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView

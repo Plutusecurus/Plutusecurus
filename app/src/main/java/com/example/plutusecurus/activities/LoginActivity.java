@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -74,6 +76,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -123,8 +126,15 @@ public class LoginActivity extends AppCompatActivity {
                         || binding.nameEditText.getText().toString().isEmpty()
                         || binding.publicAddressEdittext.getText().toString().isEmpty()
                         || binding.privateKeyEdittext.getText().toString().isEmpty()
-                        || binding.upiIdET.getText().toString().isEmpty()) {
+                        || binding.upiIdET.getText().toString().isEmpty()
+                        || binding.password.getText().toString().isEmpty()
+                        || binding.confirmPassword.getText().toString().isEmpty()) {
                     Snackbar.make(binding.getRoot(), "All Fields including profile image are mandatory!", Snackbar.LENGTH_SHORT).show();
+                    return;
+                }
+                if(binding.confirmPassword.getText().toString()!=binding.password.getText().toString()){
+                    Snackbar.make(binding.getRoot(), "Error! Confirmation Password Doesn't Match", Snackbar.LENGTH_SHORT).show();
+                    binding.confirmPassword.getText().clear();
                     return;
                 }
 

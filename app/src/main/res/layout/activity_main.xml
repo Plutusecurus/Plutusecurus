@@ -17,6 +17,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
+            android:fontFamily="@font/montserrat_bold"
             android:id="@+id/logo"
             android:scaleType="fitXY"
             android:gravity="center"
@@ -34,7 +35,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/profile"
-            android:src="@drawable/ic_bars"
+            android:src="@drawable/ic_bottom_profile"
             app:tint="@color/white" />
         <ImageView
             android:layout_width="23dp"

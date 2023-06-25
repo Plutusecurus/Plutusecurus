@@ -25,6 +25,7 @@
         android:layout_marginStart="10dp"
         android:text="CATEGORIES"
         android:textSize="25sp"
+        android:fontFamily="@font/montserrat_bold"
 
         android:textColor="#A2E778"/>
     <androidx.cardview.widget.CardView
@@ -494,6 +495,7 @@
         android:layout_marginStart="35dp"
         android:text="STATISTICS"
         android:textSize="25sp"
+        android:fontFamily="@font/montserrat_bold"
         android:id="@+id/stats_text"
         android:textColor="#A2E778"/>
 

@@ -4,7 +4,7 @@
             "outputFile": "com.example.plutusecurus.app-mergeDebugResources-56:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\d11fb121352756c92ddb98eb58764143\\transformed\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\788abae94f1f39ed12ea4848adc29ec4\\transformed\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\fb5b5c551fe2aa08b50911a48ac1910a\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\c953e759ce18e686ba8b5ebb239c33f2\\transformed\\appcompat-1.5.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

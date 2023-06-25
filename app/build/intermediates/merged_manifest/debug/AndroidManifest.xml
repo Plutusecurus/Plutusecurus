@@ -86,7 +86,7 @@
         android:theme="@style/Theme.Plutusecurus"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.plutusecurus.ForgotPasswordActivity"
+            android:name="com.example.plutusecurus.activities.LoginActivity"
             android:exported="false" />
         <activity
             android:name="com.example.plutusecurus.activities.AccountLoginActivity"
@@ -108,7 +108,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.plutusecurus.activities.LoginActivity"
+            android:name="com.example.plutusecurus.activities.GettingStartedActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -154,18 +154,6 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
-
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.a7os.androidx-startup"
-            android:exported="false" >
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-        </provider>
 
         <receiver
             android:name="com.razorpay.RzpTokenReceiver"
@@ -221,6 +209,18 @@
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.a7os.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
     </application>
 
 </manifest>

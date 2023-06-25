@@ -4,24 +4,7 @@
             "outputFile": "com.example.plutusecurus.app-mergeDebugResources-56:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\fb5b5c551fe2aa08b50911a48ac1910a\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "93,162,231,301,375,451,510,581",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "157,226,296,370,446,505,576,644"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\f0a5bfcaa10b150c99308651e8ff0792\\transformed\\jetified-checkout-1.6.30\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\717c9ea6f507d75e37a3af02b774d8e7\\transformed\\jetified-checkout-1.6.30\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -40,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\728bc65372d46aef0e245074d736cc50\\transformed\\material-1.6.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\c953e759ce18e686ba8b5ebb239c33f2\\transformed\\appcompat-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "93,162,231,301,375,451,510,581",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "157,226,296,370,446,505,576,644"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Suswan Biswas\\.gradle\\caches\\transforms-3\\cd526867b590c7b346f270e96afafeb6\\transformed\\material-1.9.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

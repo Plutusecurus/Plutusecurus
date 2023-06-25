@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_planner.xml",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_planner.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\fragment_dashboard.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_planner.xml",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_planner.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\item_history.xml",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\fragment_wallet.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\fragment_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\onboarding_items_container.xml",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\onboarding_items_container.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\select_payment_type_dialog.xml",
@@ -44,16 +48,16 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\minus_dialog_layout.xml"
     },
     {
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-57:/layout/activity_getting_started.xml",
+        "source": "com.example.plutusecurus.app-main-60:/layout/activity_getting_started.xml"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_transaction_successful.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_transaction_successful.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_qr.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_qr.xml"
-    },
-    {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-57:/layout/activity_account_login.xml",
-        "source": "com.example.plutusecurus.app-main-60:/layout/activity_account_login.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_login.xml",
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\add_dialog_layout.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\add_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_getting_started.xml",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_getting_started.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_account_login.xml",
