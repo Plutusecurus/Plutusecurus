@@ -48,13 +48,6 @@ class AccountLoginActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(metamaskScheme))
             startActivityForResult(intent, REQ_CODE)
         }
-        binding.forgotPasswordBtn.setOnClickListener {
-            binding.privateKeyLayout.visibility= View.VISIBLE
-            binding.getPvtKeyBtn.visibility=View.VISIBLE
-            binding.password.visibility=View.GONE
-            binding.forgotPasswordBtn.visibility=View.GONE
-        }
-
         binding.logInBtn.setOnClickListener {
             // TO BE DONE
         }
