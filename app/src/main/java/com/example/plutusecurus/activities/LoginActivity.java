@@ -93,7 +93,13 @@ public class LoginActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQ_CODE);
             }
         });
-
+        binding.loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(LoginActivity.this, AccountLoginActivity.class);
+                LoginActivity.this.startActivity(myIntent);
+            }
+        });
         binding.getPvtKeyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

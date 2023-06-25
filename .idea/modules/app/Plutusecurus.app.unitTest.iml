@@ -14,8 +14,10 @@
             <stringArg name="classpath">
               <args>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_app_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5368591f3fda788a75228625203154e2/transformed/jetified-viewbinding-7.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/33149296bc925b950b8d604415388c25/transformed/jetified-dexter-6.2.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/97cbb90ba1e6d2adc7b7ba02ee3e19d3/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2207a1aee8134719c187951fd0fabf4a/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bd220bc7ba3b3819aac827a44a5842d8/transformed/material-1.6.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/66de27d8bbbb06c156818e8135a362a8/transformed/appcompat-1.4.1-api.jar</arg>
@@ -23,6 +25,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/75d3045341be4407d6e4f1635d36d590/transformed/legacy-support-v4-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d91e2104ff40e039a0838b992ce24337/transformed/jetified-glide-4.13.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/40e8529d9085c430f48b49bc14ecc64f/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d214381b761c220b02ed2fcc868324cb/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8ef40bd3d3559b809a65a5e6532d4683/transformed/navigation-fragment-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f26d4e60ce48dd0dcfa62f89fbbc083a/transformed/jetified-fragment-ktx-1.5.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/daa546b5897be9194a3d88f0ce352cd6/transformed/jetified-checkout-1.6.30-api.jar</arg>
@@ -36,9 +39,11 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/05b1d3a5c78e5e8144de2660bc354ec2/transformed/jetified-play-services-tasks-17.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/231c591bb35157a3be53f6ef41f7a48e/transformed/jetified-play-services-basement-17.6.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2d1c1c02565c291c006ec602b0fd3cc7/transformed/fragment-1.5.4-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/1c9b7edcccb9503ba9a42c203762932c/transformed/navigation-runtime-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d39bd22e5992d42c6cc4552ae7f4efd3/transformed/navigation-runtime-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c0a6836720172832b0ac52a124e655e9/transformed/jetified-activity-ktx-1.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b3176ba0f03dd5fe024b360be45a81ee/transformed/jetified-activity-1.5.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/be9b996a39a1a650858e518c5f524564/transformed/navigation-common-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/08d9a2e7ccd3f827aab7c6d6199a1f69/transformed/navigation-common-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4a6015c828e19da101e36a9f7b1736ee/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6ed2bdbab1be933563eade58b6e50bcc/transformed/jetified-core-ktx-1.9.0-api.jar</arg>
@@ -137,8 +142,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dadecce8e3abe38de5ca3fb045b0e408/transformed/jetified-annotations-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a49ca9e0c5b999bb265cf71b06db46bd/transformed/jetified-gson-2.8.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bda028cb42dbca7687dcc238b8faade0/transformed/jetified-json-20090211.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../ANDROID SDK/platforms/android-33/android.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../ANDROID SDK/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
@@ -164,11 +169,6 @@
     <facet type="android" name="Android">
       <configuration>
         <option name="SELECTED_BUILD_VARIANT" value="debug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
-        <afterSyncTasks>
-          <task>generateDebugSources</task>
-        </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
@@ -178,7 +178,9 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugUnitTest/out" />
     <content url="file://$MODULE_DIR$/../../../app/src/test">
@@ -296,6 +298,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.journeyapps:zxing-android-embedded:4.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.5.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.5.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.5.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:glide:4.13.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.13.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.exifinterface:exifinterface:1.2.0@aar" level="project" />
