@@ -39,15 +39,6 @@ class AccountLoginActivity : AppCompatActivity() {
             val myIntent = Intent(this@AccountLoginActivity, LoginActivity::class.java)
             this@AccountLoginActivity.startActivity(myIntent)
         }
-        binding.getPvtKeyBtn.setOnClickListener {
-            Toast.makeText(
-                this@AccountLoginActivity,
-                "Copy and paste your Private Address.",
-                Toast.LENGTH_LONG
-            ).show()
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(metamaskScheme))
-            startActivityForResult(intent, REQ_CODE)
-        }
         binding.logInBtn.setOnClickListener {
             // TO BE DONE
         }

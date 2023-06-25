@@ -92,40 +92,26 @@
                     android:textSize="12sp"
                     android:padding="5dp"
                     android:text="Get your public key." />
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/private_key_layout"
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="30dp"
                     android:background="@drawable/rounded_edittext"
-                    android:elevation="5dp"
-                    >
+                    android:elevation="5dp">
 
                     <androidx.appcompat.widget.AppCompatEditText
-                        android:id="@+id/privateKeyEdittext"
+                        android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
+                        android:background="@null"
                         android:maxLines="1"
                         android:scrollHorizontally="true"
                         android:ellipsize="end"
-                        android:background="@null"
-                        android:hint="Private Key"
+                        android:inputType="textPassword"
+                        android:hint="Password"
                         android:padding="10dp" />
                 </RelativeLayout>
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/get_pvt_key_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:layout_marginEnd="30dp"
-                    android:textColor="@color/colorPrimary"
-                    android:fontFamily="@font/montserrat_bold"
-                    android:textSize="12sp"
-                    android:padding="5dp"
-                    android:text="Get your private key." />
 
 
 
