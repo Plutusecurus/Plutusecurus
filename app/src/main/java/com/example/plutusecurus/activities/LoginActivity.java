@@ -132,11 +132,6 @@ public class LoginActivity extends AppCompatActivity {
                     Snackbar.make(binding.getRoot(), "All Fields including profile image are mandatory!", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
-                if(binding.confirmPassword.getText().toString()!=binding.password.getText().toString()){
-                    Snackbar.make(binding.getRoot(), "Error! Confirmation Password Doesn't Match", Snackbar.LENGTH_SHORT).show();
-                    binding.confirmPassword.getText().clear();
-                    return;
-                }
 
                 try {
                     uploadImage(
@@ -144,7 +139,8 @@ public class LoginActivity extends AppCompatActivity {
                             binding.publicAddressEdittext.getText().toString(),
                             binding.nameEditText.getText().toString(),
                             binding.privateKeyEdittext.getText().toString(),
-                            binding.upiIdET.getText().toString());
+                            binding.upiIdET.getText().toString(),
+                            binding.confirmPassword.getText().toString());
                 } catch (IOException e) {
                     e.printStackTrace();
                     Log.e(TAG, "uploadImageOnClick: "+e.getMessage());
@@ -153,7 +149,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey, String upiIDComm) throws IOException {
+    private void uploadImage(Uri imageUri, String accountComm, String nameComm, String privateKey, String upiIDComm, String passwordComm) throws IOException {
         File filesDir = getApplicationContext().getFilesDir();
         File file = new File(filesDir, "profileImg."+getFileExtension(imageUri));
 
@@ -171,7 +167,7 @@ public class LoginActivity extends AppCompatActivity {
 
         RequestBody requestBody = RequestBody.create(MediaType.parse("image/"+getFileExtension(imageUri)), file);
         MultipartBody.Part profilePic = MultipartBody.Part.createFormData("profilePic", file.getName(), requestBody);
-
+        MultipartBody.Part password =MultipartBody.Part.createFormData("password",passwordComm);
         MultipartBody.Part name = MultipartBody.Part.createFormData("name", nameComm);
         MultipartBody.Part account = MultipartBody.Part.createFormData("account", accountComm);
         MultipartBody.Part upiID = MultipartBody.Part.createFormData("upiID", upiIDComm);
@@ -179,7 +175,7 @@ public class LoginActivity extends AppCompatActivity {
         binding.signUpBtn.setVisibility(View.GONE);
         binding.otpProgressBar.setVisibility(View.VISIBLE);
 
-        transAPI.createUser(profilePic, account, name, upiID)
+        transAPI.createUser(profilePic, account, password, name, upiID)
                 .enqueue(new Callback<RegisterResponse>() {
                     @Override
                     public void onResponse(Call<RegisterResponse> call, Response<RegisterResponse> response) {
@@ -189,6 +185,7 @@ public class LoginActivity extends AppCompatActivity {
                             sharedPreferencesConfig.writeName(nameComm);
                             sharedPreferencesConfig.writeImage(response.body().getUser().getProfilePic());
                             sharedPreferencesConfig.writePublicKey(accountComm);
+                            sharedPreferencesConfig.writePassword(passwordComm);
                             sharedPreferencesConfig.writeUpiID(upiIDComm);
                             sharedPreferencesConfig.writeUID(response.body().getUser().get_id());
 

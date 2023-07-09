@@ -66,6 +66,9 @@ public class RegisterResponse {
         @SerializedName("profilePic")
         private String profilePic;
 
+        @Expose
+        @SerializedName("password")
+        private String password;
         public int get__v() {
             return __v;
         }
@@ -112,6 +115,14 @@ public class RegisterResponse {
 
         public void setName(String name) {
             this.name = name;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public void setPassword(String name) {
+            this.password = password;
         }
 
         public String getAccount() {

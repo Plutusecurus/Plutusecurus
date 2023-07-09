@@ -23,9 +23,21 @@ public class SharedPreferencesConfig {
         editor.remove("PRIVATE_KEY");
         editor.remove("PUBLIC_KEY");
         editor.remove("NAME");
+        editor.remove("PASSWORD");
         editor.remove("IMAGE");
+        editor.remove("TOKEN");
         editor.apply();
     }
+
+    public void writeToken(String key){
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("TOKEN", key);
+        editor.apply();
+    }
+    public String readToken() {
+        return sharedPreferences.getString("TOKEN", "");
+    }
+
 
     public void writePrivateKey(String key) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -57,6 +69,19 @@ public class SharedPreferencesConfig {
         return sharedPreferences.getString("NAME", "");
     }
 
+    public void writePassword(String password) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("PASSWORD", password);
+        editor.apply();
+    }
+
+    public String readPassword() {
+        return sharedPreferences.getString("PASSWORD", "");
+    }
+
+
+
+
     public void writeImage(String image) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("IMAGE", image);
@@ -86,6 +111,8 @@ public class SharedPreferencesConfig {
     public String readUID() {
         return sharedPreferences.getString("UID", "");
     }
+
+
 
 //    public void writeCategories(String category) {
 //        SharedPreferences.Editor editor = sharedPreferences.edit();

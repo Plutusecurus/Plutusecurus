@@ -86,12 +86,13 @@
         android:theme="@style/Theme.Plutusecurus"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.plutusecurus.activities.LoginActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.plutusecurus.activities.AccountLoginActivity"
             android:exported="false"
             android:label="@string/title_activity_account_login"
+            android:theme="@style/Theme.Plutusecurus.NoActionBar" />
+        <activity
+            android:name="com.example.plutusecurus.activities.LoginActivity"
+            android:exported="false"
             android:theme="@style/Theme.Plutusecurus.NoActionBar" />
         <activity
             android:name="com.example.plutusecurus.activities.TransactionSuccessfulActivity"

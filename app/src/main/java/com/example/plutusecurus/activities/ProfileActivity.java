@@ -91,21 +91,21 @@ public class ProfileActivity extends AppCompatActivity {
         setUserDetails();
     }
 
-    private void setUserDetails() {
-        transAPI.getUser(sharedPreferencesConfig.readPublicKey())
-                .enqueue(new Callback<GetUserResponse>() {
-                    @Override
-                    public void onResponse(Call<GetUserResponse> call, Response<GetUserResponse> response) {
-                        Log.d(TAG, "setUserDetails(): onResponse(): "+response);
-                        if (response.isSuccessful()) {
-                            Log.d(TAG, "setUserDetails(): "+response);
-                            if (response.body()!=null) {
-                                int totalSpending = 0;
-                                GetUserResponse.Spending spending = response.body().getUser().getSpending();
+        private void setUserDetails() {
+            transAPI.getUser(sharedPreferencesConfig.readPublicKey())
+                    .enqueue(new Callback<GetUserResponse>() {
+                        @Override
+                        public void onResponse(Call<GetUserResponse> call, Response<GetUserResponse> response) {
+                            Log.d(TAG, "setUserDetails(): onResponse(): "+response);
+                            if (response.isSuccessful()) {
+                                Log.d(TAG, "setUserDetails(): "+response);
+                                if (response.body()!=null) {
+                                    int totalSpending = 0;
+                                    GetUserResponse.Spending spending = response.body().getUser().getSpending();
 
-                                totalSpending+=spending.getFood()+spending.getGifts()+spending.getLuxury()+spending.getMedical()+spending.getMisc()+spending.getTransport()+spending.getEssentials()+spending.getHousing();
-                                /*String balance = String.valueOf(response.body().getUser().getEarning()-totalSpending);
-                                balanceView.setText("Balance: ETH "+balance);*/
+                                    totalSpending+=spending.getFood()+spending.getGifts()+spending.getLuxury()+spending.getMedical()+spending.getMisc()+spending.getTransport()+spending.getEssentials()+spending.getHousing();
+                                    /*String balance = String.valueOf(response.body().getUser().getEarning()-totalSpending);
+                                    balanceView.setText("Balance: ETH "+balance);*/
 
                                 String qrData = response.body().getUser().getName()+","+response.body().getUser().get_id();
                                 try {

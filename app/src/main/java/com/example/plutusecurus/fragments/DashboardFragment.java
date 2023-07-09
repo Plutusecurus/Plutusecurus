@@ -32,6 +32,7 @@ import com.example.plutusecurus.model.AddExpenseBody;
 import com.example.plutusecurus.model.AddExpenseResponse;
 import com.example.plutusecurus.model.AddIncomeBody;
 import com.example.plutusecurus.model.AddIncomeResponse;
+import com.example.plutusecurus.model.LoginBody;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
 
 import java.text.DecimalFormat;

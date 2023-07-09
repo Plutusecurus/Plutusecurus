@@ -11,6 +11,8 @@ import com.example.plutusecurus.model.AddIncomeBody;
 import com.example.plutusecurus.model.AddIncomeResponse;
 import com.example.plutusecurus.model.Amount;
 import com.example.plutusecurus.model.ETHtoINRResponse;
+import com.example.plutusecurus.model.LoginBody;
+import com.example.plutusecurus.model.LoginResponse;
 import com.example.plutusecurus.model.WalletTransactionResponse;
 
 import okhttp3.MultipartBody;
@@ -28,9 +30,15 @@ public interface TransAPI {
     Call<RegisterResponse> createUser(
             @Part MultipartBody.Part profilePic,
             @Part MultipartBody.Part account,
+            @Part MultipartBody.Part password,
             @Part MultipartBody.Part name,
             @Part MultipartBody.Part upiID
     );
+
+    @POST("user/login")
+    Call<LoginResponse> loginUser(@Body LoginBody loginBody);
+
+
 
     @POST("user/add-expense")
     Call<AddExpenseResponse> addExpense(@Body AddExpenseBody addExpenseBody );

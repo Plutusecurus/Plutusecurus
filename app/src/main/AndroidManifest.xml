@@ -24,12 +24,13 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".activities.LoginActivity"
-            android:exported="false" />
-        <activity
             android:name=".activities.AccountLoginActivity"
             android:exported="false"
             android:label="@string/title_activity_account_login"
+            android:theme="@style/Theme.Plutusecurus.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false"
             android:theme="@style/Theme.Plutusecurus.NoActionBar" />
         <activity
             android:name=".activities.TransactionSuccessfulActivity"
