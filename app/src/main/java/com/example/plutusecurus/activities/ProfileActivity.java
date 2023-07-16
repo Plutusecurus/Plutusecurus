@@ -111,7 +111,7 @@ public class ProfileActivity extends AppCompatActivity {
                                     /*String balance = String.valueOf(response.body().getUser().getEarning()-totalSpending);
                                     balanceView.setText("Balance: ETH "+balance);*/
 
-                                String qrData = response.body().getUser().getName()+","+response.body().getUser().get_id();
+                                    String qrData = response.body().getUser().getName()+","+response.body().getUser().getAccount()+","+response.body().getUser().get_id();
                                 try {
                                     Bitmap bitmap = generateQrCodeBitmap(qrData, 512, 512);
                                     myQR.setImageBitmap(bitmap);
