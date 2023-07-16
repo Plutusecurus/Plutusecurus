@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import android.graphics.Bitmap;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.plutusecurus.data.ApiClient;
@@ -58,6 +59,9 @@ public class ProfileActivity extends AppCompatActivity {
 
         transAPI = ApiClient.getApiClient().create(TransAPI.class);
         sharedPreferencesConfig = new SharedPreferencesConfig(this);
+
+        Toast.makeText(this,sharedPreferencesConfig.readPrivateKey() , Toast.LENGTH_SHORT).show();
+
 
         if (!sharedPreferencesConfig.readImage().isEmpty()) {
             Glide.with(this).load(sharedPreferencesConfig.readImage()).into(profilePic);

@@ -121,6 +121,7 @@ class AccountLoginActivity : AppCompatActivity() {
                             Toast.makeText(this@AccountLoginActivity, response.body()!!.message, Toast.LENGTH_SHORT).show()
                             val intent = Intent(applicationContext, MainActivity::class.java)
                             startActivity(intent)
+                            finish();
                         }
                     }
                     binding.logInBtn.visibility = View.VISIBLE

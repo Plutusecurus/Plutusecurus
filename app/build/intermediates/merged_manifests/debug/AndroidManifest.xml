@@ -92,8 +92,7 @@
             android:theme="@style/Theme.Plutusecurus.NoActionBar" />
         <activity
             android:name="com.example.plutusecurus.activities.LoginActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Plutusecurus.NoActionBar" />
+            android:exported="false" />
         <activity
             android:name="com.example.plutusecurus.activities.TransactionSuccessfulActivity"
             android:exported="false" >
@@ -115,11 +114,6 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="io.metamask.intent.action.SIGN_TX" />
-
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity

@@ -3245,9 +3245,7 @@ drawable custom_switch_thumb
 drawable custom_switch_thumb_2
 drawable date_background
 drawable day_background
-drawable demo1
 drawable demo2
-drawable demo3
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3525,6 +3523,10 @@ drawable notify_item
 drawable notify_panel_notification_icon_bg
 drawable otp_background_1
 drawable otp_background_2
+drawable page1
+drawable page2
+drawable page3
+drawable page4
 drawable profileplaceholder
 drawable radio_button_background
 drawable rectangle
@@ -3930,6 +3932,7 @@ id log_in_btn
 id login_btn
 id login_progress_bar
 id logo
+id logo_img
 id logo_only
 id logout
 id logout_btn

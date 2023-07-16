@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageOnboarding"
+        android:src="@drawable/page1"
         android:adjustViewBounds="true" />
     <TextView
         android:layout_width="match_parent"
@@ -15,8 +16,10 @@
         android:id="@+id/textTitle"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textColor="@color/banner_free"
+        android:textSize="23sp"
+        android:text="Heading"
+        android:fontFamily="@font/montserrat_bold"
         android:textStyle="bold" />
     <TextView
         android:layout_width="match_parent"
@@ -26,7 +29,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum"
         android:textColor="@color/dark_grey_button"
-        android:textSize="16sp" />
+        android:textSize="18sp" />
 
 </LinearLayout>

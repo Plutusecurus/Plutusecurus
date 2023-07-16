@@ -31,7 +31,7 @@
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.Plutusecurus.NoActionBar" />
+             />
         <activity
             android:name=".activities.TransactionSuccessfulActivity"
             android:exported="false">
@@ -51,13 +51,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="io.metamask.intent.action.SIGN_TX" />
-
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity

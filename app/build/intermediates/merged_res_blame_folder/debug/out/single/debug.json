@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_microphone2.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_ic_funnel_dollar.xml.flat",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\ic_funnel_dollar.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_nav_share.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_nav_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_ic_funnel_dollar.xml.flat",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\ic_funnel_dollar.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_rice_bowl.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_percent.xml.flat",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_percent.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_toolbar_background.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\toolbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_percent.xml.flat",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_percent.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_minus_with_square.xml.flat",
@@ -104,20 +104,16 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_circle_grey.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_rectangle.xml.flat",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\rectangle.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_baseline_add_circle_outline_24.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_baseline_qr_code_scanner_24.xml.flat",
-        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_baseline_qr_code_scanner_24.xml"
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_rectangle.xml.flat",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\rectangle.xml"
     },
     {
-        "merged": "com.example.plutusecurus.app-merged_res-58:/layout_activity_getting_started.xml.flat",
-        "source": "com.example.plutusecurus.app-main-60:/layout/activity_getting_started.xml"
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_baseline_qr_code_scanner_24.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\layout_fragment_nft.xml.flat",
@@ -150,6 +146,10 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_white_circle.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\white_circle.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-58:/drawable_page4.png.flat",
+        "source": "com.example.plutusecurus.app-main-60:/drawable/page4.png"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_btn_background_18.xml.flat",
@@ -484,6 +484,10 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\day_background.xml"
     },
     {
+        "merged": "com.example.plutusecurus.app-merged_res-58:/layout_onboarding_items_container.xml.flat",
+        "source": "com.example.plutusecurus.app-main-60:/layout/onboarding_items_container.xml"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_left_arrow_red_white.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_left_arrow_red_white.xml"
     },
@@ -744,6 +748,10 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_nav_wallet.xml"
     },
     {
+        "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_page1.png.flat",
+        "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\page1.png"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable_demo3.jpg.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\demo3.jpg"
     },
@@ -972,6 +980,10 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable\\ic_lightbulb.xml"
     },
     {
+        "merged": "com.example.plutusecurus.app-merged_res-58:/drawable_page2.png.flat",
+        "source": "com.example.plutusecurus.app-main-60:/drawable/page2.png"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_half_arrow_right_black.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_half_arrow_right_black.xml"
     },
@@ -1160,6 +1172,10 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\referral_background_2.xml"
     },
     {
+        "merged": "com.example.plutusecurus.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.example.plutusecurus.app-main-60:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_faq.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_faq.xml"
     },
@@ -1198,6 +1214,10 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\drawable-v24_ic_location.xml.flat",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\drawable-v24\\ic_location.xml"
+    },
+    {
+        "merged": "com.example.plutusecurus.app-merged_res-58:/drawable_page3.png.flat",
+        "source": "com.example.plutusecurus.app-main-60:/drawable/page3.png"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-merged_res-58:\\layout_activity_transaction_successful.xml.flat",

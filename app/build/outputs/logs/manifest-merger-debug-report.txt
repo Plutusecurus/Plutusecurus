@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\bc74a57fdb1239e027b423de1b46a472\transformed\jetified-viewbinding-7.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\42c3b14b4a76aee100141766e4f5d4df\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\f52bd18043e58f2fbb2024e41130c83d\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -85,22 +85,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Susw
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\a36f97f0ea6ccb1852d02e894ab91ac0\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\2845889eb8cd3dc7695a0cb1278af712\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\5d160e98357685f46bbfe6cb921cb956\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-87:12
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:2:11-69
@@ -141,7 +141,7 @@ ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:12:5-14:40
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:13:9-65
 application
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:16:5-85:19
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:16:5-79:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\42c3b14b4a76aee100141766e4f5d4df\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\42c3b14b4a76aee100141766e4f5d4df\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Suswan Biswas\.gradle\caches\transforms-3\cd526867b590c7b346f270e96afafeb6\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
@@ -215,11 +215,9 @@ ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:26:9-30:69
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:27:13-60
 activity#com.example.plutusecurus.activities.LoginActivity
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:31:9-34:69
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:31:9-34:16
 	android:exported
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:33:13-37
-	android:theme
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:34:13-66
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:32:13-53
 activity#com.example.plutusecurus.activities.TransactionSuccessfulActivity
@@ -241,73 +239,63 @@ ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:42:9-48:20
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:43:13-61
 activity#com.example.plutusecurus.activities.GettingStartedActivity
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:49:9-62:20
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:49:9-56:20
 	android:exported
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:50:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:52:13-56:29
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:52:13-55:29
 action#android.intent.action.MAIN
 ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:17-69
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:55:17-77
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:55:27-74
-intent-filter#action:name:io.metamask.intent.action.SIGN_TX+category:name:android.intent.category.DEFAULT
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:57:13-61:29
-action#io.metamask.intent.action.SIGN_TX
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:17-76
-	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:25-73
-category#android.intent.category.DEFAULT
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:17-76
-	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:27-73
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:54:27-74
 activity#com.example.plutusecurus.activities.PaymentActivity
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:58:13-55
+activity#com.example.plutusecurus.activities.QrActivity
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:61:13-50
+activity#com.example.plutusecurus.activities.PlannerActivity
 ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:63:9-65:40
 	android:exported
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:64:13-55
-activity#com.example.plutusecurus.activities.QrActivity
+activity#com.example.plutusecurus.activities.ProfileActivity
 ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:66:9-68:40
 	android:exported
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:67:13-50
-activity#com.example.plutusecurus.activities.PlannerActivity
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:67:13-55
+activity#com.example.plutusecurus.activities.MainActivity
 ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:69:9-71:40
 	android:exported
 		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:70:13-55
-activity#com.example.plutusecurus.activities.ProfileActivity
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:72:9-74:40
-	android:exported
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:74:13-37
-	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:73:13-55
-activity#com.example.plutusecurus.activities.MainActivity
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:75:9-77:40
-	android:exported
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:77:13-37
-	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:76:13-52
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:70:13-52
 meta-data#com.razorpay.ApiKey
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:79:9-81:55
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:73:9-75:55
 	android:value
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:81:13-52
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:75:13-52
 	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:80:13-47
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:74:13-47
 meta-data#com.google.gms.wallet.api.enabled
-ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:82:9-84:36
+ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:76:9-78:36
 	android:value
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:84:13-33
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:78:13-33
 	android:name
-		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:83:13-61
+		ADDED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml:77:13-61
 uses-sdk
 INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\proj\Plutusecurus\app\src\main\AndroidManifest.xml

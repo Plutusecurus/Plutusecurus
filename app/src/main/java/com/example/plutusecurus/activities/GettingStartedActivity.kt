@@ -52,24 +52,24 @@ class GettingStartedActivity : AppCompatActivity() {
         onboardingItemAdapter= OnboardingItemAdapter(
             listOf(
                 OnboardingItem(
-                    onboardingImage = R.drawable.demo1,
-                    title = "First",
-                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    onboardingImage = R.drawable.page1,
+                    title = "Sign Up",
+                    description = "Once you are done filling all the fields, hit the SIGN UP button!!"
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.demo2,
-                    title = "Second",
-                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    onboardingImage = R.drawable.page2,
+                    title = "Dashboard",
+                    description = ""
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.demo3,
-                    title = "Third",
-                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    onboardingImage = R.drawable.page3,
+                    title = "Add Your Earnings and Spending",
+                    description = ""
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.demo2,
-                    title = "Fourth",
-                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    onboardingImage = R.drawable.page4,
+                    title = "Get Insights of your Expenses",
+                    description = ""
                 )
             )
         )
