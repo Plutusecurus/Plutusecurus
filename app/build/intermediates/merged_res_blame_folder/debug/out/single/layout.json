@@ -40,10 +40,6 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-57:/layout/activity_main.xml",
-        "source": "com.example.plutusecurus.app-main-60:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\fragment_nft.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\fragment_nft.xml"
     },
@@ -60,6 +56,10 @@
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_qr.xml"
     },
     {
+        "merged": "com.example.plutusecurus.app-mergeDebugResources-57:/layout/fragment_wallet.xml",
+        "source": "com.example.plutusecurus.app-main-60:/layout/fragment_wallet.xml"
+    },
+    {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_login.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_login.xml"
     },
@@ -74,10 +74,6 @@
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_getting_started.xml",
         "source": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-main-60:\\layout\\activity_getting_started.xml"
-    },
-    {
-        "merged": "com.example.plutusecurus.app-mergeDebugResources-57:/layout/onboarding_items_container.xml",
-        "source": "com.example.plutusecurus.app-main-60:/layout/onboarding_items_container.xml"
     },
     {
         "merged": "C:\\Users\\Suswan Biswas\\.gradle\\daemon\\7.5\\com.example.plutusecurus.app-mergeDebugResources-57:\\layout\\activity_account_login.xml",
