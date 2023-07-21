@@ -3170,6 +3170,7 @@ int drawable background_credit_transactions 0x7f08008b
 int drawable baseline_add_circle_outline_24 0x7f08008c
 int drawable baseline_arrow_back_24 0x7f08008d
 int drawable baseline_arrow_back_ios_24 0x7f08008e
+int drawable baseline_help_24 0x7f08021b
 int drawable baseline_keyboard_arrow_right_24 0x7f08008f
 int drawable bin 0x7f080090
 int drawable border_white 0x7f080091
@@ -3526,6 +3527,10 @@ int drawable page1 0x7f0801ef
 int drawable page2 0x7f0801f0
 int drawable page3 0x7f0801f1
 int drawable page4 0x7f0801f2
+int drawable page5 0x7f08021c
+int drawable page6 0x7f08021d
+int drawable page7 0x7f08021e
+int drawable plutusecurusbanner 0x7f08021f
 int drawable profileplaceholder 0x7f0801f3
 int drawable radio_button_background 0x7f0801f4
 int drawable rectangle 0x7f0801f5
@@ -3875,6 +3880,7 @@ int id group_divider 0x7f0a0122
 int id grouping 0x7f0a0123
 int id groups 0x7f0a0124
 int id header_title 0x7f0a0125
+int id help 0x7f0a02e8
 int id hideable 0x7f0a0126
 int id historyRecyclerView 0x7f0a0127
 int id history_txt 0x7f0a0128

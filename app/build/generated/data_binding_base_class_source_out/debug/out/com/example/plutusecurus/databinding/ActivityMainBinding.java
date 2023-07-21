@@ -30,6 +30,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FrameLayout fragmentContainer;
 
   @NonNull
+  public final ImageView help;
+
+  @NonNull
   public final TextView logo;
 
   @NonNull
@@ -46,11 +49,12 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView,
       @NonNull BottomNavigationView bottomNav, @NonNull FrameLayout fragmentContainer,
-      @NonNull TextView logo, @NonNull ImageView logoImg, @NonNull ConstraintLayout navMenu,
-      @NonNull ImageView profile, @NonNull ImageView qr) {
+      @NonNull ImageView help, @NonNull TextView logo, @NonNull ImageView logoImg,
+      @NonNull ConstraintLayout navMenu, @NonNull ImageView profile, @NonNull ImageView qr) {
     this.rootView = rootView;
     this.bottomNav = bottomNav;
     this.fragmentContainer = fragmentContainer;
+    this.help = help;
     this.logo = logo;
     this.logoImg = logoImg;
     this.navMenu = navMenu;
@@ -97,6 +101,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.help;
+      ImageView help = ViewBindings.findChildViewById(rootView, id);
+      if (help == null) {
+        break missingId;
+      }
+
       id = R.id.logo;
       TextView logo = ViewBindings.findChildViewById(rootView, id);
       if (logo == null) {
@@ -127,8 +137,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, bottomNav, fragmentContainer, logo,
-          logoImg, navMenu, profile, qr);
+      return new ActivityMainBinding((RelativeLayout) rootView, bottomNav, fragmentContainer, help,
+          logo, logoImg, navMenu, profile, qr);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

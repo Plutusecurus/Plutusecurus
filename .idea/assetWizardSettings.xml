@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../ANDROID%20SDK/icons/material/materialicons/keyboard_arrow_right/baseline_keyboard_arrow_right_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../ANDROID%20SDK/icons/material/materialicons/help/baseline_help_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,7 +29,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="baseline_keyboard_arrow_right_24" />
+                            <entry key="outputName" value="baseline_help_24" />
                             <entry key="sourceFile" value="C:\Users\shagi\Downloads\profilePlaceHolder.svg" />
                           </map>
                         </option>

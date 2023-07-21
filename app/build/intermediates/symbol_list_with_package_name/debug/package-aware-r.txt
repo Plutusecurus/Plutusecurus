@@ -3171,6 +3171,7 @@ drawable background_credit_transactions
 drawable baseline_add_circle_outline_24
 drawable baseline_arrow_back_24
 drawable baseline_arrow_back_ios_24
+drawable baseline_help_24
 drawable baseline_keyboard_arrow_right_24
 drawable bin
 drawable border_white
@@ -3527,6 +3528,10 @@ drawable page1
 drawable page2
 drawable page3
 drawable page4
+drawable page5
+drawable page6
+drawable page7
+drawable plutusecurusbanner
 drawable profileplaceholder
 drawable radio_button_background
 drawable rectangle
@@ -3876,6 +3881,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id help
 id hideable
 id historyRecyclerView
 id history_txt

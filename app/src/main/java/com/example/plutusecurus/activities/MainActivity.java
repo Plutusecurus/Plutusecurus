@@ -31,7 +31,7 @@ import java.security.NoSuchProviderException;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottom_navigation;
-    ImageView qrScanner,profileButton;
+    ImageView qrScanner,profileButton,helpButton;
     private String metamaskScheme =  "metamask:wallet_getPermissions";
     private int requestCode = 100;
     private String messageToSign = "Please sign this message";
@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         bottom_navigation=findViewById(R.id.bottom_nav);
         qrScanner=findViewById(R.id.qr);
         profileButton=findViewById(R.id.profile);
+        helpButton=findViewById(R.id.help);
 
         /*SessionRequest sessionRequest = new SessionRequest.Builder()
                 .setBridgeUrl("https://bridge.walletconnect.org")
@@ -101,6 +102,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
             }
         });
+
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),GettingStartedActivity.class));
+                finish();
+            }
+        });
+
+
 
     }
 

@@ -56,6 +56,21 @@
             android:focusable="true"
             android:src="@drawable/ic_qrcode"
             app:tint="@color/white" />
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/qr"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/help"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/baseline_help_24"
+            app:tint="@color/white"
+            android:visibility="gone"
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
     <FrameLayout
         android:layout_width="match_parent"

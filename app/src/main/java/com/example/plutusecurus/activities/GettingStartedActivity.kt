@@ -59,18 +59,38 @@ class GettingStartedActivity : AppCompatActivity() {
                 OnboardingItem(
                     onboardingImage = R.drawable.page2,
                     title = "Dashboard",
-                    description = ""
+                    description = "This is your landing page whenever you open the application."
                 ),
                 OnboardingItem(
                     onboardingImage = R.drawable.page3,
                     title = "Add Your Earnings and Spending",
-                    description = ""
+                    description = "You can add all your offline deposits and spending here!!"
                 ),
                 OnboardingItem(
                     onboardingImage = R.drawable.page4,
                     title = "Get Insights of your Expenses",
-                    description = ""
+                    description = "You can keep a track of all your expenses both online and offline using our expense tracker"
+                ),
+                OnboardingItem(
+                    onboardingImage = R.drawable.page5,
+                    title = "Wallet",
+                    description = "In this section you can perform transactions just by clicking the 'Tap to Pay' button and by scanning the QR. You can also keep a track of your previous transactions"
+                ),
+                OnboardingItem(
+                    onboardingImage = R.drawable.page6,
+                    title = "Make Payments",
+                    description = "Select how you want to perform the transaction and fill in the amount."
+                ),
+                OnboardingItem(
+                    onboardingImage = R.drawable.page7,
+                    title = "Payment Successful",
+                    description = "Wait for a few seconds for the transaction to complete."
+                ),OnboardingItem(
+                    onboardingImage = R.drawable.plutusecurusbanner,
+                    title = "Contact Us",
+                    description = "We are currently in our first stage of development, so you might encounter a lot of bugs. Do consider reporting those bugs to us so that we can improve your user experiences. You can come back to this tutorial any time you want!! \n Feel free to contact us @: suswan.biswas@gmail.com"
                 )
+
             )
         )
         val onboardingViewPager=findViewById<ViewPager2>(R.id.onboardingViewPager)
@@ -96,6 +116,7 @@ class GettingStartedActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.skipBtn).setOnClickListener {
             val myIntent = Intent(this@GettingStartedActivity, LoginActivity::class.java)
             this@GettingStartedActivity.startActivity(myIntent)
+            finish()
         }
 
         findViewById<CardView>(R.id.move_forward_btn).setOnClickListener{
@@ -104,6 +125,7 @@ class GettingStartedActivity : AppCompatActivity() {
             }else{
                 val myIntent = Intent(this@GettingStartedActivity, LoginActivity::class.java)
                 this@GettingStartedActivity.startActivity(myIntent)
+                finish()
             }
         }
     }
