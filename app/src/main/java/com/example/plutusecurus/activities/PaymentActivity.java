@@ -17,6 +17,7 @@ import com.example.plutusecurus.data.TransAPI;
 import com.example.plutusecurus.databinding.ActivityPaymentBinding;
 import com.example.plutusecurus.dtos.DepositETH;
 import com.example.plutusecurus.dtos.DepositETHResponse;
+import com.example.plutusecurus.dtos.ETHtoINRPaymentOrder;
 import com.example.plutusecurus.model.Amount;
 import com.example.plutusecurus.model.ETHtoINRResponse;
 import com.example.plutusecurus.utils.SharedPreferencesConfig;
@@ -74,7 +75,7 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
                 binding.loginProgressBar.setVisibility(View.VISIBLE);
 
                 if (paymentType.equals("INR")) {
-                    convertETHtoINR(Double.parseDouble(paymentAmt));
+                    createETHtoINROrder(Double.parseDouble(paymentAmt));
                 } else {
                     Intent paymentStatusIntent = new Intent(PaymentActivity.this, PaymentStatusActivity.class);
                     paymentStatusIntent.putExtra("paymentId", "")
@@ -93,15 +94,15 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
         });
     }
 
-    private void convertETHtoINR(double amountInETH) {
-        transAPI.convertETHtoINR(new Amount(amountInETH))
-                .enqueue(new Callback<ETHtoINRResponse>() {
+    private void createETHtoINROrder(double amountInETH) {
+        transAPI.createETHtoINROrder(new Amount(amountInETH, "INR"))
+                .enqueue(new Callback<ETHtoINRPaymentOrder>() {
                     @Override
-                    public void onResponse(Call<ETHtoINRResponse> call, Response<ETHtoINRResponse> response) {
+                    public void onResponse(Call<ETHtoINRPaymentOrder> call, Response<ETHtoINRPaymentOrder> response) {
                         if (response.isSuccessful() && response.body()!=null) {
-                            double amountInINR = response.body().getAmount();
+                            ETHtoINRPaymentOrder paymentOrder = response.body();
 
-                            startPayment(amountInINR);
+                            startPayment(paymentOrder.getAmount(), paymentOrder.getId());
                         }
 
                         binding.payNowBtn.setVisibility(View.VISIBLE);
@@ -109,7 +110,7 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
                     }
 
                     @Override
-                    public void onFailure(Call<ETHtoINRResponse> call, Throwable t) {
+                    public void onFailure(Call<ETHtoINRPaymentOrder> call, Throwable t) {
                         binding.payNowBtn.setVisibility(View.VISIBLE);
                         binding.loginProgressBar.setVisibility(View.GONE);
                         Toast.makeText(PaymentActivity.this, "Failed to convert ETH to INR! Please retry.", Toast.LENGTH_LONG).show();
@@ -144,7 +145,7 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
         binding.categorySpinner.setAdapter(arrayAdapter);
     }
 
-    private void startPayment(double amount) {
+    private void startPayment(double amount, String orderId) {
         Checkout checkout = new Checkout();
         checkout.setImage(R.drawable.ic_app_logo);
 
@@ -154,6 +155,7 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
             options.put("description", "INR to ETH Transaction");
             options.put("theme.color", R.color.colorPrimary);
             options.put("currency", "INR");
+            options.put("order_id", orderId);
 
             options.put("amount", String.valueOf((int)Math.ceil(amount*100)));
 

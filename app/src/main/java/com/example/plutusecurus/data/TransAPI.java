@@ -2,6 +2,7 @@ package com.example.plutusecurus.data;
 
 import com.example.plutusecurus.dtos.DepositETH;
 import com.example.plutusecurus.dtos.DepositETHResponse;
+import com.example.plutusecurus.dtos.ETHtoINRPaymentOrder;
 import com.example.plutusecurus.dtos.GetUserResponse;
 import com.example.plutusecurus.dtos.RegisterResponse;
 import com.example.plutusecurus.model.Account;
@@ -58,6 +59,6 @@ public interface TransAPI {
     @POST("user/transactions")
     Call<WalletTransactionResponse> getAllWalletTransactions(@Body Account account);
 
-    @POST("user/convertETHtoINR")
-    Call<ETHtoINRResponse> convertETHtoINR(@Body Amount amount);
+    @POST("user/createETHtoINROrder")
+    Call<ETHtoINRPaymentOrder> createETHtoINROrder(@Body Amount amount);
 }
